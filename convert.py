@@ -47,7 +47,6 @@ def merge_lines(cursor: Line, nexts: typing.List[Line]) -> typing.Tuple[Line, ty
 for page in sorted(data.keys()):
     lines = [deepcopy(x) for x in data[page]]
     news = []
-    content += tab+PAGE.format(pb_id=page)
     # As long as I have lines
     while lines:
         # I get the first of the lines from the list
@@ -57,7 +56,6 @@ for page in sorted(data.keys()):
         if " . ." in current.text and current.type != "Poem Line":
             current = Line.change_type(current, "Poem Line")
 
-        print(news)
         news.append(current)
     data[page] = news
 
