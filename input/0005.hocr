@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="ocr-system" content="kraken"/>
+		<meta name="ocr-capabilities" content="ocr_page ocr_line ocrx_word"/>
+	</head>
+	<body>
+		<div class="ocr_page" title="bbox 0 0 1167 1692; image /tmp/tmpuu42djxq" style="writing-mode: horizontal-tb;">
+			<span class="ocr_line" id="line_0" title="bbox 450 25 610 59; x_bboxes 450 25 450 59 456 25 462 59 511 25 511 59 548 25 548 59 567 25 567 59 604 25 604 59 610 25 610 59">
+				<span class="ocrx_word" id="segment_0" title="bbox 450 25 610 59; x_confs 0.999956 0.99988914 0.9998956 0.998638 0.98696345 0.9937143 0.9970542">CARMINA</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_1" title="bbox 161 98 924 131; x_bboxes 161 98 161 131 184 98 189 131 218 98 218 131 235 98 235 131 263 98 263 131 280 98 280 131 303 98 303 131 315 98 320 131 349 98 354 131 383 98 383 131 411 98 411 131 440 98 440 131 457 98 457 131 485 98 485 131 503 98 503 131 508 98 508 131 559 98 559 131 577 98 582 131 588 98 599 131 628 98 628 131 639 98 639 131 685 98 685 131 702 98 702 131 730 98 730 131 736 98 742 131 787 98 787 131 804 98 810 131 816 98 827 131 850 98 850 131 873 98 873 131 890 98 890 131 913 98 913 131 924 98 924 131">
+				<span class="ocrx_word" id="segment_1" title="bbox 161 98 303 131; x_confs 0.9999956 0.99998057 0.99999905 0.99999475 0.9941387 0.9999453 0.99995863">CODICIS</span>
+				<span class="ocrx_word" id="segment_2" title="bbox 315 98 320 131; x_confs 0.99999905"> </span>
+				<span class="ocrx_word" id="segment_3" title="bbox 349 98 582 131; x_confs 0.9999908 0.99897707 0.9999585 0.9999732 0.9999615 0.9744261 0.9999243 0.9999968 0.999496 0.9999987">VERGILIANI</span>
+				<span class="ocrx_word" id="segment_4" title="bbox 588 98 599 131; x_confs 0.9999801"> </span>
+				<span class="ocrx_word" id="segment_5" title="bbox 628 98 810 131; x_confs 0.9998355 0.9999995 0.9920638 0.9964227 0.9996092 0.993608 0.99042434 0.996141">VATICANI</span>
+				<span class="ocrx_word" id="segment_6" title="bbox 816 98 827 131; x_confs 0.9998369"> </span>
+				<span class="ocrx_word" id="segment_7" title="bbox 850 98 924 131; x_confs 0.9774665 0.7503061 0.9842254 0.99920386 0.9861626">3867.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_2" title="bbox 400 303 685 332; x_bboxes 400 303 400 332 425 303 425 332 440 303 440 332 470 303 470 332 485 303 485 332 500 303 500 332 510 303 515 332 545 303 550 332 555 303 560 332 595 303 595 332 620 303 620 332 650 303 650 332 665 303 665 332 685 303 685 332">
+				<span class="ocrx_word" id="segment_8" title="bbox 400 303 500 332; x_confs 0.9999982 0.9999933 0.9997377 0.9747809 0.9999788 0.99999857">OVIDII</span>
+				<span class="ocrx_word" id="segment_9" title="bbox 510 303 515 332; x_confs 0.999895"> </span>
+				<span class="ocrx_word" id="segment_10" title="bbox 545 303 685 332; x_confs 0.9999937 0.99998355 0.99999845 0.9964728 0.8068418 0.9949458 0.98637265">NASONIS</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_3" title="bbox 356 364 756 398; x_bboxes 356 364 360 398 371 364 371 398 429 364 429 398 466 364 470 398 484 364 484 398 514 364 514 398 528 364 528 398 547 364 562 398 609 364 613 398 628 364 628 398 657 364 661 398 679 364 683 398 705 364 708 398 727 364 727 398 745 364 745 398 752 364 756 398">
+				<span class="ocrx_word" id="segment_11" title="bbox 356 364 528 398; x_confs 0.999977 0.9999341 0.95219946 1.0 0.98943895 0.9992913 0.99999905">rgmenta</span>
+				<span class="ocrx_word" id="segment_12" title="bbox 547 364 562 398; x_confs 0.99999833"> </span>
+				<span class="ocrx_word" id="segment_13" title="bbox 609 364 756 398; x_confs 0.9999771 0.9948089 0.9999981 0.9997596 0.9986584 0.99966395 0.9851828 0.9989648">eneidis.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_4" title="bbox 458 435 626 468; x_bboxes 458 435 462 468 481 435 486 468 518 435 523 468 537 435 537 468 547 435 547 468 575 435 575 468 589 435 589 468 607 435 612 468 626 435 626 468">
+				<span class="ocrx_word" id="segment_14" title="bbox 458 435 626 468; x_confs 0.99999905 0.99999547 0.9999994 0.99999714 0.99999857 0.99611366 0.71164554 0.9992974 0.9985563">Prefatio.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_5" title="bbox 82 496 811 536; x_bboxes 82 496 82 536 98 496 101 536 117 496 121 536 128 496 132 536 151 496 151 536 163 496 163 536 170 496 174 536 182 496 186 536 209 496 213 536 220 496 232 536 243 496 243 536 270 496 270 536 286 496 289 536 309 496 309 536 332 496 335 536 343 496 355 536 374 496 378 536 385 496 385 536 404 496 404 536 424 496 424 536 443 496 443 536 454 496 454 536 477 496 477 536 504 496 516 536 531 496 531 536 546 496 550 536 562 496 562 536 585 496 585 536 600 496 604 536 619 496 619 536 635 496 635 536 642 496 646 536 658 496 658 536 669 496 677 536 704 496 704 536 723 496 723 536 734 496 734 536 765 496 769 536 784 496 784 536 803 496 803 536 807 496 811 536">
+				<span class="ocrx_word" id="segment_15" title="bbox 82 496 213 536; x_confs 0.99995923 0.9999999 0.9999994 1.0 0.9999999 0.99999404 0.9999969 0.99999845 0.9999999">Vergilius</span>
+				<span class="ocrx_word" id="segment_16" title="bbox 220 496 232 536; x_confs 0.9999999"> </span>
+				<span class="ocrx_word" id="segment_17" title="bbox 243 496 335 536; x_confs 0.9592572 0.99999964 0.9999999 0.9988851 0.9995939">magno</span>
+				<span class="ocrx_word" id="segment_18" title="bbox 343 496 355 536; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_19" title="bbox 374 496 477 536; x_confs 1.0 0.99860615 0.9999999 1.0 0.9999999 0.99999154 0.99992454">quantum</span>
+				<span class="ocrx_word" id="segment_20" title="bbox 504 496 516 536; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_21" title="bbox 531 496 658 536; x_confs 1.0 0.9999999 0.98943406 0.9999062 0.9999665 0.9922489 0.9795919 0.99048257 0.9996983">concessit</span>
+				<span class="ocrx_word" id="segment_22" title="bbox 669 496 677 536; x_confs 0.9999356"> </span>
+				<span class="ocrx_word" id="segment_23" title="bbox 704 496 811 536; x_confs 0.9996364 0.9990318 0.99995446 0.99978787 0.5977515 0.9999572 0.99995244">Homero,</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_6" title="bbox 134 537 778 576; x_bboxes 134 537 134 576 142 537 147 576 163 537 163 576 184 537 184 576 197 537 197 576 218 537 218 576 243 537 260 576 272 537 272 576 285 537 289 576 310 537 310 576 322 537 331 576 352 537 352 576 368 537 372 576 389 537 389 576 398 537 402 576 418 537 418 576 427 537 427 576 435 537 439 576 456 537 456 576 469 537 477 576 489 537 489 576 515 537 515 576 523 537 523 576 544 537 548 576 561 537 565 576 577 537 586 576 598 537 598 576 623 537 623 576 640 537 640 576 653 537 653 576 661 537 665 576 682 537 690 576 703 537 703 576 736 537 740 576 753 537 757 576 765 537 770 576 778 537 778 576">
+				<span class="ocrx_word" id="segment_24" title="bbox 134 537 218 576; x_confs 0.99998987 0.9999994 0.99842274 1.0 0.9999974 0.9999994">Tantum</span>
+				<span class="ocrx_word" id="segment_25" title="bbox 243 537 260 576; x_confs 0.9999441"> </span>
+				<span class="ocrx_word" id="segment_26" title="bbox 272 537 310 576; x_confs 0.646892 1.0 0.69348425">ego</span>
+				<span class="ocrx_word" id="segment_27" title="bbox 322 537 331 576; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_28" title="bbox 352 537 456 576; x_confs 0.99999917 0.9999939 0.9999995 0.9999999 0.9999776 0.9999999 0.999985 1.0">Vergilio</span>
+				<span class="ocrx_word" id="segment_29" title="bbox 469 537 477 576; x_confs 0.99999344"> </span>
+				<span class="ocrx_word" id="segment_30" title="bbox 489 537 565 576; x_confs 0.9999701 1.0 0.99999845 0.99995255 0.99977714">‘Naso</span>
+				<span class="ocrx_word" id="segment_31" title="bbox 577 537 586 576; x_confs 0.9999337"> </span>
+				<span class="ocrx_word" id="segment_32" title="bbox 598 537 665 576; x_confs 0.9995931 0.995933 0.99704534 0.9998869 0.9999254">poeta</span>
+				<span class="ocrx_word" id="segment_33" title="bbox 682 537 690 576; x_confs 0.89705145"> </span>
+				<span class="ocrx_word" id="segment_34" title="bbox 703 537 778 576; x_confs 0.9999486 0.99994564 0.99998975 0.99997544 0.9996333">meo’.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_7" title="bbox 84 581 783 620; x_bboxes 84 581 88 620 104 581 108 620 124 581 128 620 136 581 148 620 160 581 160 620 197 581 197 620 209 581 217 620 229 581 229 620 253 581 253 620 261 581 265 620 285 581 289 620 297 581 297 620 305 581 309 620 325 581 325 620 337 581 337 620 357 581 357 620 385 581 397 620 413 581 413 620 426 581 426 620 446 581 446 620 466 581 466 620 482 581 486 620 494 581 506 620 514 581 518 620 526 581 530 620 538 581 538 620 558 581 558 620 570 581 578 620 590 581 590 620 606 581 606 620 622 581 622 620 638 581 638 620 654 581 654 620 662 581 666 620 675 581 683 620 695 581 699 620 723 581 723 620 739 581 739 620 751 581 755 620 763 581 763 620 783 581 783 620">
+				<span class="ocrx_word" id="segment_35" title="bbox 84 581 128 620; x_confs 0.99999845 0.9999962 0.9999769">Nec</span>
+				<span class="ocrx_word" id="segment_36" title="bbox 136 581 148 620; x_confs 0.99999964"> </span>
+				<span class="ocrx_word" id="segment_37" title="bbox 160 581 197 620; x_confs 0.99984324 0.9999999">me</span>
+				<span class="ocrx_word" id="segment_38" title="bbox 209 581 217 620; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_39" title="bbox 229 581 357 620; x_confs 0.99804914 0.829945 1.0 0.9999999 0.82661045 1.0 0.9987317 0.9999951 0.9998155">praelatum</span>
+				<span class="ocrx_word" id="segment_40" title="bbox 385 581 397 620; x_confs 0.99999857"> </span>
+				<span class="ocrx_word" id="segment_41" title="bbox 413 581 486 620; x_confs 0.99998605 0.99999976 0.99192643 0.9999995 0.99999964">cupio</span>
+				<span class="ocrx_word" id="segment_42" title="bbox 494 581 506 620; x_confs 0.9999999"> </span>
+				<span class="ocrx_word" id="segment_43" title="bbox 514 581 558 620; x_confs 1.0 0.9999589 0.99960226 0.9999385">tibi</span>
+				<span class="ocrx_word" id="segment_44" title="bbox 570 581 578 620; x_confs 0.99996436"> </span>
+				<span class="ocrx_word" id="segment_45" title="bbox 590 581 666 620; x_confs 0.99996436 0.99980026 0.928417 0.99904174 0.9998399 0.9999074">ferre,</span>
+				<span class="ocrx_word" id="segment_46" title="bbox 675 581 683 620; x_confs 0.99998724"> </span>
+				<span class="ocrx_word" id="segment_47" title="bbox 695 581 783 620; x_confs 0.99989605 0.99931407 0.99966776 0.99991083 0.9999962 0.9993055">poeta:</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_8" title="bbox 120 623 764 662; x_bboxes 120 623 124 662 135 623 135 662 154 623 158 662 177 623 181 662 193 623 193 662 212 623 212 662 227 623 231 662 239 623 250 662 265 623 269 662 277 623 281 662 288 623 300 662 311 623 311 662 327 623 331 662 338 623 350 662 365 623 365 662 377 623 377 662 396 623 396 662 419 623 419 662 434 623 438 662 457 623 457 662 465 623 469 662 492 623 496 662 511 623 511 662 515 623 519 662 530 623 538 662 549 623 549 662 576 623 576 662 591 623 595 662 607 623 614 662 630 623 634 662 641 623 641 662 657 623 660 662 672 623 672 662 687 623 687 662 695 623 706 662 722 623 726 662 737 623 741 662 749 623 752 662 764 623 764 662">
+				<span class="ocrx_word" id="segment_48" title="bbox 120 623 231 662; x_confs 0.9999993 0.9999999 1.0 0.9999999 0.9999207 0.9998454 1.0">Ingenio</span>
+				<span class="ocrx_word" id="segment_49" title="bbox 239 623 250 662; x_confs 0.99999964"> </span>
+				<span class="ocrx_word" id="segment_50" title="bbox 265 623 281 662; x_confs 1.0 0.99999714">si</span>
+				<span class="ocrx_word" id="segment_51" title="bbox 288 623 300 662; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_52" title="bbox 311 623 331 662; x_confs 0.9999484 0.9999999">te</span>
+				<span class="ocrx_word" id="segment_53" title="bbox 338 623 350 662; x_confs 1.0"> </span>
+				<span class="ocrx_word" id="segment_54" title="bbox 365 623 519 662; x_confs 0.9999975 0.999998 1.0 0.99999964 1.0 0.99991477 0.99999976 0.99456906 0.9999713 0.9999597">subsequor,</span>
+				<span class="ocrx_word" id="segment_55" title="bbox 530 623 538 662; x_confs 0.9999678"> </span>
+				<span class="ocrx_word" id="segment_56" title="bbox 549 623 595 662; x_confs 0.99949527 0.9999312 0.99945766">hoc</span>
+				<span class="ocrx_word" id="segment_57" title="bbox 607 623 614 662; x_confs 0.99997926"> </span>
+				<span class="ocrx_word" id="segment_58" title="bbox 630 623 687 662; x_confs 0.9998932 0.9814177 0.99437064 0.6074848 0.995884">satis</span>
+				<span class="ocrx_word" id="segment_59" title="bbox 695 623 706 662; x_confs 0.99988914"> </span>
+				<span class="ocrx_word" id="segment_60" title="bbox 722 623 764 662; x_confs 0.99999225 0.999961 0.99982566 0.9997814">est.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_9" title="bbox 914 462 1043 482; x_bboxes 914 462 917 482 956 462 959 482 962 462 962 482 975 462 975 482 988 462 988 482 991 462 998 482 1007 462 1007 482 1024 462 1024 482 1036 462 1036 482 1043 462 1043 482">
+				<span class="ocrx_word" id="segment_61" title="bbox 914 462 959 482; x_confs 0.999658 0.99092114">A.</span>
+				<span class="ocrx_word" id="segment_62" title="bbox 962 462 962 482; x_confs 0.9961112"> </span>
+				<span class="ocrx_word" id="segment_63" title="bbox 975 462 988 482; x_confs 0.998995 0.9999788">II</span>
+				<span class="ocrx_word" id="segment_64" title="bbox 991 462 998 482; x_confs 0.9999968"> </span>
+				<span class="ocrx_word" id="segment_65" title="bbox 1007 462 1043 482; x_confs 0.998546 0.5396018 0.92633027 0.74155366">192.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_10" title="bbox 928 487 1043 511; x_bboxes 928 487 928 511 943 487 943 511 951 487 951 511 968 487 968 511 980 487 980 511 988 487 988 511 991 487 994 511 1008 487 1008 511 1020 487 1023 511 1034 487 1034 511 1043 487 1043 511">
+				<span class="ocrx_word" id="segment_66" title="bbox 928 487 988 511; x_confs 0.9991061 0.9520871 0.99995565 0.99999774 0.99993384 0.99999833">Moyer.</span>
+				<span class="ocrx_word" id="segment_67" title="bbox 991 487 994 511; x_confs 0.9999999"> </span>
+				<span class="ocrx_word" id="segment_68" title="bbox 1008 487 1043 511; x_confs 0.99402434 0.99782556 0.77220386 0.99980074">862.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_11" title="bbox 905 513 1041 533; x_bboxes 905 513 905 533 930 513 930 533 940 513 940 533 958 513 958 533 971 513 971 533 978 513 981 533 1006 513 1008 533 1011 513 1016 533 1033 513 1033 533 1041 513 1041 533">
+				<span class="ocrx_word" id="segment_69" title="bbox 905 513 1008 533; x_confs 0.999997 0.9999951 0.9998926 0.7126806 0.99999726 0.99932754 0.9709942">Behren.</span>
+				<span class="ocrx_word" id="segment_70" title="bbox 1011 513 1016 533; x_confs 0.99937063"> </span>
+				<span class="ocrx_word" id="segment_71" title="bbox 1033 513 1041 533; x_confs 0.5835357 0.99261206">P.</span>
+			</span>
+			<br/>
+			<span class="ocr_line" id="line_12" title="bbox 903 538 1042 562; x_bboxes 903 538 906 562 910 538 910 562 940 538 940 562 950 538 954 562 971 538 974 562 984 538 984 562 998 538 998 562 1008 538 1008 562 1021 538 1021 562 1032 538 1035 562 1042 538 1042 562">
+				<span class="ocrx_word" id="segment_72" title="bbox 903 538 1042 562; x_confs 0.9995546 0.98943454 0.9948144 0.99798167 0.99994504 0.97685367 0.9986474 0.81559324 0.59358716 0.928787 0.9635637">L..IVp.161.</span>
+			</span>
+			<br/>
+
+		</div>
+	</body>
+</html>
