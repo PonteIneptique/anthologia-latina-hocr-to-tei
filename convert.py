@@ -1,304 +1,144 @@
-import os.path
-import glob
-import lxml.etree as ET
-import re
-import typing
-import pprint
+from analyze_layout import *
+from copy import deepcopy
 
-from collections import namedtuple
-
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-
-sns.set(color_codes=True)
-
-# Constants that changes the directory on which the script is run
-DEV = "input"
-PROD = "../anthologia/tif"
-MODE = PROD
-# Constants to read files
-DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+with open("analysis.pickle", "rb") as f:
+    data = pickle.load(f)
 
 
-_Bbox = namedtuple("Bbox", ["x1", "y1", "x2", "y2"])
-_Size = namedtuple("Size", ["width", "height"])
-_Line = namedtuple("Line", ["text", "type", "bbox", "size", "centered", "small", "color"])
-Regex = namedtuple("Regex", ["regex", "type", "color", "centered"])
+FULL = """<TEI>
+    <teiHeader>
+    </teiHeader>
+    <body>
+        {content}
+        </div>
+    </body>
+</TEI>"""
+PAGE = """<pb type="image" n="{pb_id}" />
+"""
+content = ""
+
+tab = ""
+first_div = True
+last_how_many = 10
+last_types = [None] * last_how_many
+
+number_mistakes = r"[0-9Ol]"
+LINE_NUMBER_IN_TEXT = re.compile(r"^("+number_mistakes+"+) (.*)$|^([A-Za-z].+) ("+number_mistakes+"+)$")
+PAGE_NUMBER_IN_TEXT = re.compile(r"^(p\. [0-9Ol]+) (.*)$|^([A-Za-z].+) (p\. [0-9Ol]+)$")
 
 
-class Size(_Size):
-    def small_width(self, page_size: "Size") -> bool:
-        """ Checks that the current size is very small compared to the page size
-        """
-        return 0.3 > self.width / page_size.width
+def merge_lines(cursor: Line, nexts: typing.List[Line]) -> typing.Tuple[Line, typing.List[int]]:
+    """ Merge lines if they should (baseline + type checking).
 
-    def nearly_same_height_as(self, other_size: "Size") -> bool:
-        """ Checks that two boxes are similar heights """
-        margin = 0.1
-        return (1-margin) < self.height / other_size.height < (1+margin)
-
-
-class Bbox(_Bbox):
-    def contains(self, other_bbox: "Bbox") -> bool:
-        """ Checks that this box contains the other box
-        """
-        return self.x1 <= other_bbox.x1 and self.x2 >= other_bbox.x2 and \
-            self.y1 <= other_bbox.y1 and self.y2 >= other_bbox.y2
-
-    def intersect(self, other_bbox: "Bbox") -> bool:
-        """ Checks that this box and the other box collides
-        """
-        pass
-
-    def centered_within(self, page_box: "Bbox") -> bool:
-        """ Checks that the current box is centered within the page
-        """
-        remaining_left = self.x1
-        remaining_right = page_box.x2 - self.x2
-        # If the left space / right space ratio is nearly equal to one
-        # Then it's centered
-        return 0.85 < remaining_left / remaining_right < 1.15
-
-    @classmethod
-    def merge_bbox(cls, n: "Bbox", m: "Bbox") -> "Bbox":
-        """ Merge two Bbox """
-        return cls(
-            min(n.x1, m.x1),
-            min(n.y1, m.y1),
-            max(n.x2, m.x2),
-            max(n.y2, m.y2)
-        )
-
-
-class Line(_Line):
-    def nearly_same_baseline(self, other: "Line") -> bool:
-        """ Checks that two items are roughly on the same line """
-        # The margin should be equal to a fifth of the size of the line maximum
-        ratio_height = 0.20
-        margin = ratio_height * self.size.height
-        # The baseline or the top line should be in this margin
-        return abs(self.bbox.y2 - other.bbox.y2) < margin or \
-               abs(self.bbox.y1 - other.bbox.y1) < margin
-
-
-BBOX = re.compile(r"^bbox (\d+) (\d+) (\d+) (\d+)")
-SPACE = re.compile(r"\s+")
-TITLE = re.compile(r"^([A-Z0l1 \.]+)( +\d+)?$")  # l = I sometimes...
-POEM_NUMBER = re.compile(r"^[IVXCl0-9\.]+$")
-MANUSCRIPT = re.compile(r"^([A-Z01l]+ )+[0-9]+\.( *\d+)?$")
-LEFT_RIGHT_NOTES = re.compile(r"^(([IVlX0-9]+,?) ?|([A-Za-z0-9]{1,3}[\.]) ?)+\.?$")
-FOLIO = re.compile(r"^f?ol\.? [l\d]+$")
-LINE = re.compile(r"^.*[a-zA-Z]+.*")  # at least one character
-LINE_NUMBER = re.compile(r"^[0-9OIl]+$")
-MISSING_LINE = re.compile(r"^(\. ?)+$")
-PROBABLY_NON_TEXT = re.compile(r"^(\w{1,3}[\. ]{1,2})+$")
-
-
-class Color:
-    """ Color classes for the layout impression """
-    SIDE_DATA = "red"
-    TEXT = "blue"
-    HEADER = "green"
-    TITLES = "grey"
-    UNCLASSED = "black"
-
-# List of Regexes to run in the best order possible.
-REGEXES = [
-    Regex(POEM_NUMBER, "Poem Number", Color.TITLES, centered=True),
-    Regex(LINE_NUMBER, "Number", Color.SIDE_DATA, centered=False),
-    Regex(TITLE, "Poem Title", Color.TITLES, centered=False),
-    Regex(LEFT_RIGHT_NOTES, "Notes", Color.SIDE_DATA, centered=False),
-    Regex(FOLIO, "Folio", Color.SIDE_DATA, centered=False),
-    Regex(MANUSCRIPT, "Mss Number", Color.HEADER, centered=False),
-    Regex(MISSING_LINE, "Missing Line", Color.TEXT, centered=False),
-    Regex(PROBABLY_NON_TEXT, "Prob non text", Color.UNCLASSED, centered=False),
-    Regex(LINE, "Poem Line", Color.TEXT, centered=False)
-]
-DEFAULT = Regex(None, "NOT MATCHED", Color.UNCLASSED, centered=False)
-
-
-# Different constants related to the dataset.
-#   Headers are often in the 0 0 Page_width 70 BBOX
-#   Except for page 0361
-# The DPI is a trick to show the image in the exported layout
-# See notes.md for the sizes
-PageHeaderBboxMaker = lambda page_width: Bbox(0, 0, page_width, 70)
-HeaderExceptions = ["0361"]
-SMALL_BOX_HEIGHT = 20
-DPI = 96
-
-
-def parse_bbox(element: ET.Element) -> typing.Tuple[int, int, int, int]:
-    """ Based on an etree element, get the attribute @title and
-    parses it into 4 different pixel number representing the bbox"""
-    bbox = element.attrib.get("title")
-    return tuple([int(x) for x in BBOX.findall(bbox)[0]])
-
-
-def compute_size_bbox(x1: int, y1: int, x2: int, y2: int) -> typing.Tuple[int, int]:
-    """ Based on a bbox coordinates, computes the size (in pixel) of the bbox"""
-    return x2-x1, y2-y1
-
-
-def get_text(element: ET.Element) -> str:
-    """ Retrieves the text from within an etree element and cleans it.
+    :param cursor: Current line
+    :param nexts: Few next lines to check
+    :return: Merged lines and index to pop (desc)
     """
-    return SPACE.sub(" ", " ".join(element.xpath('.//text()'))).strip()
+    to_pop = []
+    for index_line, line in enumerate(nexts):
+        if cursor.type == line.type and \
+                cursor.nearly_same_baseline(line):
+            cursor = Line.merge(cursor, line)
+            to_pop.append(index_line)
+    return cursor, to_pop[::-1]
 
 
-def run_stats():
-    sizes = []
-    xs = []
-    pages = {}
-    # Change MODE to change direction
-    for file in glob.glob(os.path.join(DIRECTORY, MODE, "*.hocr")):
-        # Parse the XML file
-        with open(file) as io:
-            xml = ET.parse(io)
+# We do some post-correction of typing first
+for page in sorted(data.keys()):
+    lines = [deepcopy(x) for x in data[page]]
+    news = []
+    content += tab+PAGE.format(pb_id=page)
+    # As long as I have lines
+    while lines:
+        # I get the first of the lines from the list
+        current = lines.pop(0)
 
-        # Get a simple string representing the file, basically what's before .hocr in the
-        # filename
-        index = os.path.basename(file).split(".")[0]
-        # Set-up an empty list for this page in the pages dictionary
-        pages[index] = []
+        # First of all, if there is at least " . ." once in there, it is probably a line
+        if " . ." in current.text and current.type != "Poem Line":
+            current = Line.change_type(current, "Poem Line")
 
-        # Compute and store the BBOX of the page
-        page_bbox = Bbox(*parse_bbox(xml.findall("//div[@class='ocr_page']")[0]))
-        # Compute the size of the page
-        page_size = Size(*compute_size_bbox(*page_bbox))
+        print(news)
+        news.append(current)
+    data[page] = news
 
-        # Compute the Bbox of the header for the current page (See PageHeaderBboxMaker up there)
-        header_boundaries = PageHeaderBboxMaker(page_size.width)
+# For each page
+for page in sorted(data.keys()):
+    lines = [] + data[page]
+    content += tab+PAGE.format(pb_id=page)
+    # As long as I have lines
+    while lines:
+        # I get the first of the lines from the list
+        current = lines.pop(0)
 
-        # Retrieve each line
-        for line in xml.findall('//span[@class="ocr_line"]'):
-            # Compute the bbox for the current line
-            bbox = Bbox(*parse_bbox(line))
-            # Compute the size of the Bbox
-            size = Size(*compute_size_bbox(*bbox))
-            # Get the text of the line and clean it
-            text = get_text(line)
-            # If we have a square that is not empty
-            # Store some statistics. Feelin is the ratios based on the page size
-            # are good indicators but not perfect.
-            # Hence using mostly regexes
-            if text and size.width and size.height:
-                sizes.append((size.height/size.width, len(text)))
-                xs.append((bbox.x1/page_size.width, len(text)))
-            # Other wise, skip this element in the loop and go to the next line
+        # If this is a header
+        if current.type == "Header":
+            # And if this is a line number
+            if LINE_NUMBER.match(current.text):
+                # We treat it as a page beginning
+                content += tab+"""<pb type="page" n="{}" />\n""".format(current.text)
             else:
-                continue
+                # Otherwise, it's a fw
+                content += tab+"<fw>{}</fw>\n".format(current.text)
+        # If it's a poem number
+        elif current.type == "Poem Number":
+            # If it is not the first div
+            #   we close it
+            if not first_div:
+                content += "</div>\n"
+            # We create a new div and use the number as @n
+            content += """<div type="textpart" subtype="poem" n="{}">\n""".format(current.text)
+            tab = "\t"
+            first_div = False
+        # Ignore lines numbers
+        # If it is a line number, we defintely ignore it
+        elif current.type == "Number":
+            continue
+        # If this is a title
+        elif current.type == "Poem Title":
+            # If we did not have a title for a long time
+            # We create a div
+            if "Poem Number" not in last_types:
+                if not first_div:
+                    content += "</div>\n"
+                first_div = False
+                content += """<div type="textpart" subtype="poem">\n"""
 
-            # We compute if the line is centered
-            centered = bbox.centered_within(page_bbox)
+            # Whatever happens, we create a <head>
+            content += tab + """<head>{text}</head>\n""".format(text=current.text)
 
-            # If this lines is part of the header
-            # Then class it as Header
-            #   Except if it has been manually marked as a page that has something else in
-            #       this bbox
-            if header_boundaries.contains(bbox) and index not in HeaderExceptions:
-                t = "Header"
-                color = Color.HEADER
-            # If this is really small in height, it ought to be a side note
-            elif size.height <= SMALL_BOX_HEIGHT:
-                t = "Side note"
-                color = Color.SIDE_DATA
-            # Otherwise, let's go use some loops
-            else:
-                for regex in REGEXES:
-                    # If the regex class matches
-                    if regex.regex.match(text):
-                        # If the regex class require the text to be centered
-                        #   but the text is not, then it moves to the next regex class
-                        if regex.centered and not centered:
-                            continue
-                        t = regex.type
-                        color = regex.color
-                        break
-                # if it was not found, we move it to default
+        # If it is not a line, it's probably a note
+        elif current.type != "Poem Line":
+            content += tab+"""<note type="{type}">{text}</note>\n""".format(
+                type=current.type, text=current.text
+            )
+        # If it is a line
+        else:
+            # We first check that the line number or a note did not go inside here
+            nexts = lines[:10]
+            while nexts:
+                current, to_pop = merge_lines(current, nexts)
+                if to_pop:
+                    for index_to_pop in to_pop:
+                        lines.pop(index_to_pop)
+                    nexts = []
                 else:
-                    t = DEFAULT.type
-                    color = DEFAULT.color
+                    nexts = False
+            text = current.text
+            attribs = ""
+            # If we have a page number or so, we separate it
+            if PAGE_NUMBER_IN_TEXT.match(text):
+                page1, text1, text2, page2 = PAGE_NUMBER_IN_TEXT.findall(text)[0]
+                text = text1 + text2
+                content += tab+"""<milestone n="{}" unit="page" />\n""".format(page1+page2)
+            # If we have a line number ending or starting the line, we set it as attribute
+            if LINE_NUMBER_IN_TEXT.match(text):
+                ln1, text1, text2, ln2 = LINE_NUMBER_IN_TEXT.findall(text)[0]
+                text = text1 + text2
+                attribs = """ n="{}" """.format(ln1+ln2)
 
-            # We save the line into the dictionary
-            pages[index].append(
-                Line(text, t, bbox, size, centered=centered,
-                     small=size.small_width(page_size), color=color)
-            )
+            content += tab+"""<l{attribs}>{text}</l>\n""".format(text=text, attribs=attribs)
 
-        # This part is responsible for producing a color layout
-        # based on the classification we just made
+        last_types = [current.type] + last_types[:-1]
 
-        # We create a figure
-        # matplotlib does not accept pixels as figsize, so we divide our pixel by the DPI
-        # of the output we want. Here, our screen is 96 dpi so we did set up the DPI constant to 96
-        # It is important to note that
-        #       Pixels / DPI = Inch
-        fig = plt.figure(figsize=(page_size.width/DPI, page_size.height/DPI), dpi=DPI)
-        # We add an axes from 0 0 to 1 1
-        ax = fig.add_axes([0, 0, 1, 1])
-        # We sort the items first by vertical position and then by horizontal position
-        sorted_items = sorted(pages[index], key=lambda l: (l.bbox.y1, l.bbox.x1))
-        # We keep an index for later purposes
-        for index_item, item in enumerate(sorted_items):
-            # We compute the left bottom coordinate of the bbox
-            #   because this is the starting point for Rectangle in matplotlib
-            # Coordinates needs to be divided by the page width and height
-            #   to fit the [0,1] range of Xs and Ys of the axes
-            # Because matplotlib starts from the left-bottom
-            #   but hocr starts from the left-top, we need to substract to 1 (the max Y)
-            #   the calculated y
-            left_bottom = (item.bbox.x1/page_size.width, 1-item.bbox.y2/page_size.height)
-            # We create a rectangle fitting once more the xs and ys based on the [0,1] ranges
-            # We assign a color based on the line color class
-            p = patches.Rectangle(
-                left_bottom,
-                item.size.width/page_size.width, item.size.height/page_size.height,
-                color=item.color
-            )
-            # We add some text aligned on the left bottom point.
-            # Currently, the text is the index in which it was sorted
-            ax.text(*left_bottom, str(index_item),
-                    horizontalalignment='left',
-                    verticalalignment='bottom',
-                    transform=ax.transAxes)
-            # We add this rectangle to the axes
-            ax.add_patch(p)
-
-            # Check that we should merge with the next line
-            # We check we have a next item
-            if index_item + 1 < len(sorted_items):
-                # We store the next item in a variable for conveniance
-                next_item = sorted_items[index_item + 1]
-
-                # If the items have roughly the same size
-                #   and start or end on the same vertical line, and have
-                #   the same time, they are probably the same line.
-                if item.size.nearly_same_height_as(next_item.size) and \
-                    item.nearly_same_baseline(next_item) and item.type == next_item.type:
-                    # We merge the Bbox-es
-                    new_bbox = Bbox.merge_bbox(item.bbox, next_item.bbox)
-                    # We compute the new size of the Bbox
-                    new_size = Size(*compute_size_bbox(*new_bbox))
-                    # We generated the new left_bottom point for our dear matplotlib
-                    left_bottom = (new_bbox.x1/page_size.width, 1-new_bbox.y2/page_size.height)
-                    # We generated the rectangle but only with a border
-                    p = patches.Rectangle(
-                        left_bottom,
-                        new_size.width / page_size.width, new_size.height / page_size.height,
-                        color=item.color, fill=False
-                    )
-                    ax.add_patch(p)
-
-        # We save the fig
-        plt.savefig("output/layout_{}.png".format(index))
-        # We close the fig
-        plt.close(fig)
-
-    #df = pd.DataFrame(xs, columns=["Partition", "Text Length"])
-    #plot = sns.jointplot(x="Partition", y="Text Length", data=df)
-    #df = pd.DataFrame(sizes, columns=["BBox Ration h/W", "Text Length"])
-    #plot = sns.jointplot(x="BBox Ration h/W", y="Text Length", data=df)
-    #plt.show()
-run_stats()
+with open("output.xml", "w") as f:
+    f.write(FULL.format(content=content.replace("\n", "\n        ")))
