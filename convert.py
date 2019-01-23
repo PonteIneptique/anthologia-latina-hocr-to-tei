@@ -207,8 +207,6 @@ def run_stats():
             # Otherwise, let's go use some loops
             else:
                 for regex in REGEXES:
-                    if text == "226":
-                        print(regex, regex.regex.match(text), centered)
                     # If the regex class matches
                     if regex.regex.match(text):
                         # If the regex class require the text to be centered
@@ -274,17 +272,25 @@ def run_stats():
                 # We store the next item in a variable for conveniance
                 next_item = sorted_items[index_item + 1]
 
+                # If the items have roughly the same size
+                #   and start or end on the same vertical line, and have
+                #   the same time, they are probably the same line.
                 if item.size.nearly_same_height_as(next_item.size) and \
-                    item.nearly_same_baseline(next_item):
+                    item.nearly_same_baseline(next_item) and item.type == next_item.type:
+                    # We merge the Bbox-es
                     new_bbox = Bbox.merge_bbox(item.bbox, next_item.bbox)
+                    # We compute the new size of the Bbox
                     new_size = Size(*compute_size_bbox(*new_bbox))
+                    # We generated the new left_bottom point for our dear matplotlib
                     left_bottom = (new_bbox.x1/page_size.width, 1-new_bbox.y2/page_size.height)
+                    # We generated the rectangle but only with a border
                     p = patches.Rectangle(
                         left_bottom,
                         new_size.width / page_size.width, new_size.height / page_size.height,
                         color=item.color, fill=False
                     )
                     ax.add_patch(p)
+
         # We save the fig
         plt.savefig("output/layout_{}.png".format(index))
         # We close the fig
