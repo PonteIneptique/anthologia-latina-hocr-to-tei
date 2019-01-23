@@ -16,14 +16,14 @@ sns.set(color_codes=True)
 # Constants that changes the directory on which the script is run
 DEV = "input"
 PROD = "../anthologia/tif"
-MODE = DEV
+MODE = PROD
 # Constants to read files
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 
 _Bbox = namedtuple("Bbox", ["x1", "y1", "x2", "y2"])
 _Size = namedtuple("Size", ["width", "height"])
-Line = namedtuple("Line", ["text", "type", "bbox", "size", "centered", "small", "color"])
+_Line = namedtuple("Line", ["text", "type", "bbox", "size", "centered", "small", "color"])
 Regex = namedtuple("Regex", ["regex", "type", "color", "centered"])
 
 
@@ -32,6 +32,11 @@ class Size(_Size):
         """ Checks that the current size is very small compared to the page size
         """
         return 0.3 > self.width / page_size.width
+
+    def nearly_same_height_as(self, other_size: "Size") -> bool:
+        """ Checks that two boxes are similar heights """
+        margin = 0.1
+        return (1-margin) < self.height / other_size.height < (1+margin)
 
 
 class Bbox(_Bbox):
@@ -53,13 +58,34 @@ class Bbox(_Bbox):
         remaining_right = page_box.x2 - self.x2
         # If the left space / right space ratio is nearly equal to one
         # Then it's centered
-        return 0.95 < remaining_left / remaining_right < 1.05
+        return 0.85 < remaining_left / remaining_right < 1.15
+
+    @classmethod
+    def merge_bbox(cls, n: "Bbox", m: "Bbox") -> "Bbox":
+        """ Merge two Bbox """
+        return cls(
+            min(n.x1, m.x1),
+            min(n.y1, m.y1),
+            max(n.x2, m.x2),
+            max(n.y2, m.y2)
+        )
+
+
+class Line(_Line):
+    def nearly_same_baseline(self, other: "Line") -> bool:
+        """ Checks that two items are roughly on the same line """
+        # The margin should be equal to a fifth of the size of the line maximum
+        ratio_height = 0.20
+        margin = ratio_height * self.size.height
+        # The baseline or the top line should be in this margin
+        return abs(self.bbox.y2 - other.bbox.y2) < margin or \
+               abs(self.bbox.y1 - other.bbox.y1) < margin
 
 
 BBOX = re.compile(r"^bbox (\d+) (\d+) (\d+) (\d+)")
 SPACE = re.compile(r"\s+")
 TITLE = re.compile(r"^([A-Z0l1 \.]+)( +\d+)?$")  # l = I sometimes...
-SUBNUMBER = re.compile(r"^[IVXl1\.]+$")
+POEM_NUMBER = re.compile(r"^[IVXCl0-9\.]+$")
 MANUSCRIPT = re.compile(r"^([A-Z01l]+ )+[0-9]+\.( *\d+)?$")
 LEFT_RIGHT_NOTES = re.compile(r"^(([IVlX0-9]+,?) ?|([A-Za-z0-9]{1,3}[\.]) ?)+\.?$")
 FOLIO = re.compile(r"^f?ol\.? [l\d]+$")
@@ -79,7 +105,7 @@ class Color:
 
 # List of Regexes to run in the best order possible.
 REGEXES = [
-    Regex(SUBNUMBER, "Poem Number", Color.TITLES, centered=True),
+    Regex(POEM_NUMBER, "Poem Number", Color.TITLES, centered=True),
     Regex(LINE_NUMBER, "Number", Color.SIDE_DATA, centered=False),
     Regex(TITLE, "Poem Title", Color.TITLES, centered=False),
     Regex(LEFT_RIGHT_NOTES, "Notes", Color.SIDE_DATA, centered=False),
@@ -164,6 +190,9 @@ def run_stats():
             else:
                 continue
 
+            # We compute if the line is centered
+            centered = bbox.centered_within(page_bbox)
+
             # If this lines is part of the header
             # Then class it as Header
             #   Except if it has been manually marked as a page that has something else in
@@ -178,7 +207,14 @@ def run_stats():
             # Otherwise, let's go use some loops
             else:
                 for regex in REGEXES:
+                    if text == "226":
+                        print(regex, regex.regex.match(text), centered)
+                    # If the regex class matches
                     if regex.regex.match(text):
+                        # If the regex class require the text to be centered
+                        #   but the text is not, then it moves to the next regex class
+                        if regex.centered and not centered:
+                            continue
                         t = regex.type
                         color = regex.color
                         break
@@ -189,7 +225,7 @@ def run_stats():
 
             # We save the line into the dictionary
             pages[index].append(
-                Line(text, t, bbox, size, centered=bbox.centered_within(page_bbox),
+                Line(text, t, bbox, size, centered=centered,
                      small=size.small_width(page_size), color=color)
             )
 
@@ -231,6 +267,24 @@ def run_stats():
                     transform=ax.transAxes)
             # We add this rectangle to the axes
             ax.add_patch(p)
+
+            # Check that we should merge with the next line
+            # We check we have a next item
+            if index_item + 1 < len(sorted_items):
+                # We store the next item in a variable for conveniance
+                next_item = sorted_items[index_item + 1]
+
+                if item.size.nearly_same_height_as(next_item.size) and \
+                    item.nearly_same_baseline(next_item):
+                    new_bbox = Bbox.merge_bbox(item.bbox, next_item.bbox)
+                    new_size = Size(*compute_size_bbox(*new_bbox))
+                    left_bottom = (new_bbox.x1/page_size.width, 1-new_bbox.y2/page_size.height)
+                    p = patches.Rectangle(
+                        left_bottom,
+                        new_size.width / page_size.width, new_size.height / page_size.height,
+                        color=item.color, fill=False
+                    )
+                    ax.add_patch(p)
         # We save the fig
         plt.savefig("output/layout_{}.png".format(index))
         # We close the fig
