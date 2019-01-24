@@ -22,9 +22,17 @@ first_div = True
 last_how_many = 10
 last_types = [None] * last_how_many
 
-number_mistakes = r"[0-9Ol]"
-LINE_NUMBER_IN_TEXT = re.compile(r"^("+number_mistakes+"+) (.*)$|^([A-Za-z].+) ("+number_mistakes+"+)$")
-PAGE_NUMBER_IN_TEXT = re.compile(r"^(p\. [0-9Ol]+) (.*)$|^([A-Za-z].+) (p\. [0-9Ol]+)$")
+number_mistakes = r"[0-9][0-9SOlo]*"
+linenumber = r"[0-9]+[0-9SOlo]+|5"
+END_WITH_NUMBER = re.compile("("+number_mistakes+")$")
+LINE_NUMBER_IN_TEXT = re.compile(r"^("+linenumber+")|("+linenumber+")$")
+PAGE_NUMBER_IN_TEXT = re.compile(r"^(p\. ?"+number_mistakes+") (.*)$|^(‘?[A-Za-z].+) (p\. ?"+number_mistakes+")$")
+OLIM = re.compile(r"("+number_mistakes+"[ᵃᵇᶜᵈᵉ]?) \(?[olim]+\.? ("+number_mistakes+"[ᵃᵇᶜᵈᵉ]?)\)?")
+NUMBER_AND_TITLE = re.compile(r"^("+number_mistakes+") ([DE]e [A-Za-z]+.*)$")
+minuscules = re.compile("[a-z]+")
+PROBABLY_TITLE = re.compile(r"^\[?[ED]e [A-Za-z]+.*\]?")
+CAPS = re.compile(r"[A-Z]")
+START_WITH_CAPS = re.compile(r"^[A-Z‘\(\[\.]")
 
 
 def merge_lines(cursor: Line, nexts: typing.List[Line]) -> typing.Tuple[Line, typing.List[int]]:
@@ -43,6 +51,17 @@ def merge_lines(cursor: Line, nexts: typing.List[Line]) -> typing.Tuple[Line, ty
     return cursor, to_pop[::-1]
 
 
+def split_at_note(current:Line, note: str ="B.") -> typing.Tuple[Line,  typing.Optional[Line]]:
+    note_start = current.text.find(note)
+    post_opt = None
+    if minuscules.search(current.text[:note_start]):
+        post_opt = Line.change_type(current, "Poem Line").change_text(current.text[:note_start])
+        current = Line.change_type(current, "Side Note").change_text(current.text[note_start:])
+    else:
+        current = Line.change_type(current, "Side Note").change_text(current.text)
+    return current, post_opt
+
+
 # We do some post-correction of typing first
 for page in sorted(data.keys()):
     lines = [deepcopy(x) for x in data[page]]
@@ -51,12 +70,40 @@ for page in sorted(data.keys()):
     while lines:
         # I get the first of the lines from the list
         current = lines.pop(0)
-
+        post = False
         # First of all, if there is at least " . ." once in there, it is probably a line
         if " . ." in current.text and current.type != "Poem Line":
             current = Line.change_type(current, "Poem Line")
+        # Need to take care of 487ᵈ (olim 769)
+        elif OLIM.search(current.text):
+            canonical, other = OLIM.findall(current.text)[0]
+            post = Line.change_type(current, "PoemMilestone").change_text(other)
+            current = Line.change_type(current, "Poem Number").change_text(canonical)
+        # Need to take care of 6 De caliee
+        elif NUMBER_AND_TITLE.search(current.text):
+            poem_number, title = NUMBER_AND_TITLE.findall(current.text)[0]
+            post = Line.change_type(current, "Poem Title").change_text(title)
+            current = Line.change_type(current, "Poem Number").change_text(poem_number)
+        elif "Auct." in current.text and current.type == "Poem Line":
+            current = Line.change_type(current, "Side Note")
+        elif "B1rt." in current.text and current.type == "Poem Line":
+            current = Line.change_type(current, "Side Note")
+        elif "B." in current.text and current.type == "Poem Line":
+            current, pos = split_at_note(current, "B.")
+        elif "M." in current.text and current.type == "Poem Line":
+            current, pos = split_at_note(current, "M.")
+        elif current.type == "Poem Line" and PROBABLY_TITLE.search(current.text) and current.text.count(" ") <= 5\
+                and "," not in current.text:
+            current = Line.change_type(current, "Poem Title")
+            current.probability = "high"
+        elif current.type == "Poem Line" and len(CAPS.findall(current.text)) / len(current.text) > 0.5:
+            current = Line.change_type(current, "Poem Title")
+            current.non_breaking = True
+            current.probability = "high"
 
         news.append(current)
+        if post:
+            news.append(post)
     data[page] = news
 
 # For each page
@@ -77,6 +124,8 @@ for page in sorted(data.keys()):
             else:
                 # Otherwise, it's a fw
                 content += tab+"<fw>{}</fw>\n".format(current.text)
+        elif current.type == "PoemMilestone":
+                content += tab+"""<milestone n="{}" unit="poem" />\n""".format(current.text)
         # If it's a poem number
         elif current.type == "Poem Number":
             # If it is not the first div
@@ -95,14 +144,17 @@ for page in sorted(data.keys()):
         elif current.type == "Poem Title":
             # If we did not have a title for a long time
             # We create a div
-            if "Poem Number" not in last_types:
+            if "Poem Number" not in last_types and not hasattr(current, "non_breaking"):
                 if not first_div:
                     content += "</div>\n"
                 first_div = False
                 content += """<div type="textpart" subtype="poem">\n"""
 
+            attrs = ""
+            if hasattr(current, "probability"):
+                attrs = ' cert="{}"'.format(current.probability)
             # Whatever happens, we create a <head>
-            content += tab + """<head>{text}</head>\n""".format(text=current.text)
+            content += tab + """<head{attrs}>{text}</head>\n""".format(text=current.text, attrs=attrs)
 
         # If it is not a line, it's probably a note
         elif current.type != "Poem Line":
@@ -129,10 +181,13 @@ for page in sorted(data.keys()):
                 text = text1 + text2
                 content += tab+"""<milestone n="{}" unit="page" />\n""".format(page1+page2)
             # If we have a line number ending or starting the line, we set it as attribute
-            if LINE_NUMBER_IN_TEXT.match(text):
-                ln1, text1, text2, ln2 = LINE_NUMBER_IN_TEXT.findall(text)[0]
-                text = text1 + text2
+            if LINE_NUMBER_IN_TEXT.search(text):
+                ln1, ln2 = LINE_NUMBER_IN_TEXT.findall(text)[0]
+                text = LINE_NUMBER_IN_TEXT.sub("", text).strip()
                 attribs = """ n="{}" """.format(ln1+ln2)
+
+            if not START_WITH_CAPS.search(text):
+                attribs += ' cert="low"'
 
             content += tab+"""<l{attribs}>{text}</l>\n""".format(text=text, attribs=attribs)
 

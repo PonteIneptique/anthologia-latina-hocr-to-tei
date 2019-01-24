@@ -21,6 +21,7 @@ MODE = PROD
 # Constants to read files
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 # Define useful regexes
+OCR_NUMBER = r"[0-9IlS]"
 BBOX = re.compile(r"^bbox (\d+) (\d+) (\d+) (\d+)")
 SPACE = re.compile(r"\s+")
 TITLE = re.compile(r"^([A-Z0l1 \.]+)( +\d+)?$")  # l = I sometimes...
@@ -113,6 +114,11 @@ class Line(_Line):
         attrs = list(line)
         attrs[1] = _type
         return cls(*tuple(attrs))
+
+    def change_text(self, text) -> Bbox:
+        attrs = list(self)
+        attrs[0] = text
+        return self.__class__(*tuple(attrs))
 
 
 class Color:
