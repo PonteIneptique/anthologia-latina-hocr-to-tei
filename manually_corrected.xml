@@ -16,7 +16,7 @@
         <body>
             <pb type="image" n="0001"/>
             <fw>CARMEN</fw>
-            <div type="textpart" subtype="poem" n="pap_herc">
+            <div type="textpart" subtype="poem" n="00">
                 <head>PAPYRI IERCVLANENSIS.</head>
                 <note ana="Side note">m Nr</note>
                 <note ana="Side note">B. M.</note>
@@ -145,7 +145,7 @@
             </div>
             <pb type="image" n="0005"/>
             <fw>CARMINA<lb/>CODICIS VERGILIANI VATICANI 3867.</fw>
-            <div type="textpart" subtype="poem" n="1_1">
+            <div type="textpart" subtype="poem" n="0">
                 <head>OVIDII NASONIS</head>
                 <head>Argmenta Aeneidis.</head>
                 <div n="pr">
