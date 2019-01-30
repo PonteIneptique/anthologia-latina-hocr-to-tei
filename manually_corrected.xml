@@ -7,51 +7,80 @@
             <head>PAPYRI IERCVLANENSIS.</head>
             <note type="Side note">m Nr</note>
             <note type="Side note">B. M.</note>
-            <milestone unit="col" n="I" />
-            <l> <gap reason="lost"/> C  <gap reason="lost"/> un  <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> ael <gap reason="lost"/> tia <gap reason="lost"/> xim <gap reason="lost"/> </l>
-            <l>Caesaris a  <gap reason="lost"/> p  <gap reason="lost"/> hariam  <gap reason="lost"/> </l>
-            <l>.rt <gap reason="lost"/> sille <gap reason="lost"/> natocum <gap reason="lost"/> eiiapor <gap reason="lost"/> </l>
-            <l n="5">Quem iuvenes  <gap reason="lost"/> ra navos erat de  <gap reason="lost"/> uncta</l>
+            <milestone unit="col" n="I"/>
+            <l>
+                <gap reason="lost"/> C <gap reason="lost"/> un <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/> ael <gap reason="lost"/> tia <gap reason="lost"/> xim <gap
+                    reason="lost"/>
+            </l>
+            <l>Caesaris a <gap reason="lost"/> p <gap reason="lost"/> hariam <gap reason="lost"/>
+            </l>
+            <l>.rt <gap reason="lost"/> sille <gap reason="lost"/> natocum <gap reason="lost"/>
+                eiiapor <gap reason="lost"/>
+            </l>
+            <l n="5">Quem iuvenes <gap reason="lost"/> ra navos erat de <gap reason="lost"/>
+                uncta</l>
             <l>Bella, fide dextraque potens rerumque per usum</l>
             <l>Callidus, adsiduos tractando in munere fartis.</l>
             <l>Imminet opsessis Italus iam turribus hostis</l>
             <l>A <gap reason="lost"/> sa nec de fuiti mpetus illis</l>
-            <milestone unit="col" n="II" />
-            <l n="10"> <gap reason="lost"/> s <gap reason="lost"/> q <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> nt ipso  <gap reason="lost"/> re</l>
+            <milestone unit="col" n="II"/>
+            <l n="10">
+                <gap reason="lost"/> s <gap reason="lost"/> q <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/> nt ipso <gap reason="lost"/> re</l>
             <pb type="image" n="0002"/>
             <fw>CARMEN</fw>
-            <l> <gap reason="lost"/> edunt patr <gap reason="lost"/> mia terris <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> a i  <gap reason="lost"/> gis, quam s  <gap reason="lost"/> ngesta laterent</l>
+            <l>
+                <gap reason="lost"/> edunt patr <gap reason="lost"/> mia terris <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/> a i <gap reason="lost"/> gis, quam s <gap reason="lost"/>
+                ngesta laterent</l>
             <l>Cum.uper <gap reason="lost"/> lius Pelusia moenia Caesar</l>
-            <l> <gap reason="lost"/> erat imperiis animos cohibere suorum:</l>
-            <l>‘Quid capitis iam capta? iacent quae  <gap reason="lost"/> </l>
-            <l>Subruitis ferro meca moenia? uondam er  <gap reason="lost"/> ostis</l>
+            <l>
+                <gap reason="lost"/> erat imperiis animos cohibere suorum:</l>
+            <l>‘Quid capitis iam capta? iacent quae <gap reason="lost"/>
+            </l>
+            <l>Subruitis ferro meca moenia? uondam er <gap reason="lost"/> ostis</l>
             <l>Haec mihi cum s <gap reason="lost"/> a plebes quoque <gap reason="lost"/> victrix</l>
-            <l>Vindicat h  <gap reason="lost"/> mulam Romana tot e  <gap reason="lost"/> s . n . m</l>
-            <milestone unit="col" n="III" />
-            <l> <gap reason="lost"/> liu  <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> im <gap reason="lost"/> o <gap reason="lost"/> t <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> t Alexandro thalamos intrare deorum</l>
-            <l>Di  <gap reason="lost"/> etiam potuisse deam vidisse . um  <gap reason="lost"/> s</l>
+            <l>Vindicat h <gap reason="lost"/> mulam Romana tot e <gap reason="lost"/> s . n . m</l>
+            <milestone unit="col" n="III"/>
+            <l>
+                <gap reason="lost"/> liu <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/> im <gap reason="lost"/> o <gap reason="lost"/> t <gap
+                    reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/> t Alexandro thalamos intrare deorum</l>
+            <l>Di <gap reason="lost"/> etiam potuisse deam vidisse . um <gap reason="lost"/> s</l>
             <l>Actiacos, cum causa fores tu marima elli,</l>
             <l n="25">Pars etiam imperii. quae femina tanta? virorum</l>
             <l>Quae series antiqua fuit? ni gloria mendax</l>
             <l>Multa vetustatis nimio concedat honoris</l>
-            <milestone unit="col" n="IV" />
-            <l> <gap reason="lost"/> an  <gap reason="lost"/> </l>
-            <l>Saepe ego, quae vestris curae sermonibus  <gap reason="lost"/> </l>
-            <l n="30">Quas igitur segnis t  <gap reason="lost"/> n nunc quaerere causas</l>
+            <milestone unit="col" n="IV"/>
+            <l>
+                <gap reason="lost"/> an <gap reason="lost"/>
+            </l>
+            <l>Saepe ego, quae vestris curae sermonibus <gap reason="lost"/>
+            </l>
+            <l n="30">Quas igitur segnis t <gap reason="lost"/> n nunc quaerere causas</l>
             <l>Exsnguisque mors vitae libet? Est mihi coniunx</l>
-            <l> <gap reason="lost"/> h  <gap reason="lost"/> i posset Phariis subiungere regnis</l>
+            <l>
+                <gap reason="lost"/> h <gap reason="lost"/> i posset Phariis subiungere regnis</l>
             <pb type="image" n="0003"/>
             <fw>PAPVRI ERCVLANENSIS.</fw>
             <l>Qui statauit nostraeue mori pro nomine gentis.</l>
             <l>Hic igitur partis animum diductus in omnis</l>
             <l n="35">Quid velit, incertum est; terris quibus aut quibus undis</l>
-            <milestone unit="col" n="V" />
-            <l> <gap reason="lost"/> ctumque  <gap reason="lost"/> m quo noxia turba coiret</l>
+            <milestone unit="col" n="V"/>
+            <l>
+                <gap reason="lost"/> ctumque <gap reason="lost"/> m quo noxia turba coiret</l>
             <l>Praeberetque suae spectacula tristia mortis.</l>
             <l>Qualis ad instantis acies cum tela parantur,</l>
             <l>Signa, tubae, classesque simul terrestribus armis,</l>
@@ -59,8 +88,11 @@
             <l>Instrumenta necis, vario congesta paratu:</l>
             <l>Vudique sic illuc campo deforme coactum</l>
             <l>Omne vagabatur leti genus, omne timoris.</l>
-            <milestone unit="col" n="VI" />
-            <l> <gap reason="lost"/> acet <gap reason="lost"/> ferro tu <gap reason="lost"/> is <gap reason="lost"/> le ven <gap reason="lost"/> </l>
+            <milestone unit="col" n="VI"/>
+            <l>
+                <gap reason="lost"/> acet <gap reason="lost"/> ferro tu <gap reason="lost"/> is <gap
+                    reason="lost"/> le ven <gap reason="lost"/>
+            </l>
             <l>Aut pendente suis cervicibus aspide mollem</l>
             <l>.abitur in somnum trahiturque libidine mortis.</l>
             <l>Perclit adflatu breris hunc sine morsibus anguis,</l>
@@ -69,8 +101,9 @@
             <l n="50">Intersaeptam animam pressis effundere venis;</l>
             <l>Inmersisque freto clauserunt guttura fauces.</l>
             <l>Has inter strages solio descendit et inter</l>
-            <milestone unit="col" n="VII" />
-            <l>At <gap reason="lost"/> alia <gap reason="lost"/> nc <gap reason="lost"/> a <gap reason="lost"/> te</l>
+            <milestone unit="col" n="VII"/>
+            <l>At <gap reason="lost"/> alia <gap reason="lost"/> nc <gap reason="lost"/> a <gap
+                    reason="lost"/> te</l>
             <l>Sie illi inter se misero sermone fruuntur.</l>
             <l n="55">Haec regina gerit. procul hanc occulta videbat</l>
             <l>Atropos inridens inter diversa agantem</l>
@@ -79,10 +112,11 @@
             <l>Et patriae comitante suae cum milite Caesar</l>
             <pb type="image" n="0004"/>
             <fw>CARMEN PAPYRI ERCVLANENSIS.</fw>
-            <l>CGentis Alexandri ca  <gap reason="lost"/> en  <gap reason="lost"/> ad moenia venit</l>
+            <l>CGentis Alexandri ca <gap reason="lost"/> en <gap reason="lost"/> ad moenia venit</l>
             <l>Signaque constituit. sic omnes terror in artum</l>
-            <milestone unit="col" n="VIII" />
-            <l> <gap reason="lost"/> rere  <gap reason="lost"/> m portarum claustra nec urbem</l>
+            <milestone unit="col" n="VIII"/>
+            <l>
+                <gap reason="lost"/> rere <gap reason="lost"/> m portarum claustra nec urbem</l>
             <l>Opsidione tamen nec corpora moenibus arcent,</l>
             <l>Castraque pro muris atque arma pedestria ponunt.</l>
             <l>Hos inter coetus talisque ad bella paratus</l>
@@ -90,175 +124,191 @@
             <l>Consiliis nox apta ducum, lux aptior armis.</l>
         </div>
         <pb type="image" n="0005"/>
-        <fw>CARMINA<lb />CODICIS VERGILIANI VATICANI 3867.</fw>
+        <fw>CARMINA<lb/>CODICIS VERGILIANI VATICANI 3867.</fw>
         <div type="textpart" subtype="poem" n="1_1">
             <head>OVIDII NASONIS</head>
             <head>Argmenta Aeneidis.</head>
-            <head>Prefatio.</head>
-            <note type="Side note">A. II 192.</note>
-            <note type="Side note">Moyer. 862.</note>
-            <note type="Side note">Behren. P.</note>
-            <note type="Prob non text">L..IVp.161.</note>
-            <l>Vergilius magno quantum concessit Homero,</l>
-            <l>Tantum ego Vergilio ‘Naso poeta meo’.</l>
-            <l>Nec me praelatum cupio tibi ferre, poeta:</l>
-            <l>Ingenio si te subsequor, hoc satis est.</l>
+            <div n="pr">
+                <head>Prefatio.</head>
+                <note type="Side note">A. II 192.</note>
+                <note type="Side note">Moyer. 862.</note>
+                <note type="Side note">Behren. P.</note>
+                <note type="Prob non text">L..IVp.161.</note>
+                <l>Vergilius magno quantum concessit Homero,</l>
+                <l>Tantum ego Vergilio ‘Naso poeta meo’.</l>
+                <l>Nec me praelatum cupio tibi ferre, poeta:</l>
+                <l>Ingenio si te subsequor, hoc satis est.</l>
+            </div>
             <important>Missing page 0006</important>
             <pb type="image" n="0007"/>
             <fw>CODICIS VERGILIANI VATICANI 3867.</fw>
-            <l>Hospitioque usus Didus per cuncta benignae</l>
-            <l n="10">Excidium Troiae iussus narrare parabat.</l>
-            <l cert="low">ct. at I)</l>
-            <l>Funera Dardaniae narrat fletusque secundo.</l>
-            <l cert="low">4c. I)</l>
-            <l>Conticuere omnes. tum sic fortissimus heros</l>
-            <l>FTata recensebat patriae casusque suorum:</l>
-            <l>FTallaces Graios simulataque dona Minervae,</l>
-            <l>Laucontis poenam et laxantem claustra Sinonem,</l>
-            <l n="5">Somnum, quo monitus acceperit Hectoris atri,</l>
-            <l>Iam flammas caeli, Troum patriaeque ruinas</l>
-            <l>Et regis Priami fatum miserabile semper</l>
-            <l>Impositumque patrem collo dextraque prehensum</l>
-            <l>Ascanium, frustra a tergo comitante Creusa;</l>
-            <l n="10">Ereptam hanc fato, socios in monte receptos.</l>
+
+            <div n="1">
+                <l>Hospitioque usus Didus per cuncta benignae</l>
+                <l n="10">Excidium Troiae iussus narrare parabat.</l>
+            </div>
+            <div n="2">
+                <note cert="low">(cf. ad I)</note>
+                <l>Funera Dardaniae narrat fletusque secundo.</l>
+                <note cert="low">(cf. ad I)</note>
+                <l>Conticuere omnes. tum sic fortissimus heros</l>
+                <l>Fata recensebat patriae casusque suorum:</l>
+                <l>Fallaces Graios simulataque dona Minervae,</l>
+                <l>Laucontis poenam et laxantem claustra Sinonem,</l>
+                <l n="5">Somnum, quo monitus acceperit Hectoris atri,</l>
+                <l>Iam flammas caeli, Troum patriaeque ruinas</l>
+                <l>Et regis Priami fatum miserabile semper</l>
+                <l>Impositumque patrem collo dextraque prehensum</l>
+                <l>Ascanium, frustra a tergo comitante Creusa;</l>
+                <l n="10">Ereptam hanc fato, socios in monte receptos.</l>
+            </div>
         </div>
-        <div type="textpart" subtype="poem" n="II1">
+        <div type="textpart" subtype="poem" n="3">
             <l>Tertius errores pelagi terraeque requirit.</l>
             <l>Post eversa Phrygum regna ut fuga coepta moveri</l>
+            <important>Missing page 0006</important>
             <l>Vtque sit in Thracen primo devectus ibique</l>
             <pb type="image" n="0009"/>
             <fw>CODICIS VERG6ILIANI VATICANI 3867. 11</fw>
-            <l>Quintus habet ludos et classem corripit ignis.</l>
-            <l cert="low">avigat Aeneas. Siculas defertur ad oras.</l>
-            <l cert="low">lic manes celebrat patrios. una hospes Acestes.</l>
-            <l>Ludos ad tumulum faciunt, certamina ponunt.</l>
-            <l>Prodigium est cunctis ardens adlapsa sagitta.</l>
-            <l n="5" cert="low">lris tum Beroen habitu mentita senili</l>
-            <l cert="low">lncendit naves, subitus quas vindicat imber.</l>
-            <l cert="low">ln somnis pater Anchises, quae bella gerenda</l>
-            <l>Quoque duce ad Manes possit descendere, monstrat.</l>
-            <l>ITranscribit matres urbi populumque volentem</l>
-            <l n="10">Et placidum Aeneas Palinurum quaerit in undis.</l>
-            <l>Quaeruntur sexto Manes et Tartara Ditis.</l>
-            <l>Cumas deinde venit. fert hinc responsa Sibyllae.</l>
-            <l>Misenum sepelit; mons servat nomen humati.</l>
-            <l>Ramum etiam divum placato numine portat.</l>
-            <l>At vates longaeva una descendit Avernum.</l>
-            <pb type="image" n="0010"/>
-            <fw>CARMNA</fw>
-            <pb type="page" n="10"/>
-            <l>Agnoscit Palinurum et ibi solatur Elissam</l>
-            <l>Deiphobumque videt lacerum crudeliter ora.</l>
-            <l>Vmbrarum poenas audit narrante Sibylla.</l>
-            <l>Convenit Anchisen penitus convalle virenti</l>
-            <l>Agnoscitque suam prolem monstrante parente.</l>
-            <l>Haec ubi percepit, graditur classemque revisit.</l>
+            <div n="5">
+                <l>Quintus habet ludos et classem corripit ignis.</l>
+                <l cert="low">Navigat Aeneas. Siculas defertur ad oras.</l>
+                <l cert="low">Hic manes celebrat patrios. una hospes Acestes.</l>
+                <l>Ludos ad tumulum faciunt, certamina ponunt.</l>
+                <l>Prodigium est cunctis ardens adlapsa sagitta.</l>
+                <l n="5" cert="low">Iris tum Beroen habitu mentita senili</l>
+                <l cert="low">Incendit naves, subitus quas vindicat imber.</l>
+                <l cert="low">In somnis pater Anchises, quae bella gerenda</l>
+                <l>Quoque duce ad Manes possit descendere, monstrat.</l>
+                <l>Transcribit matres urbi populumque volentem</l>
+                <l n="10">Et placidum Aeneas Palinurum quaerit in undis.</l>
+            </div>
+            <div n="6">
+                <l>Quaeruntur sexto Manes et Tartara Ditis.</l>
+                <l>Cumas deinde venit. fert hinc responsa Sibyllae.</l>
+                <l>Misenum sepelit; mons servat nomen humati.</l>
+                <l>Ramum etiam divum placato numine portat.</l>
+                <l>At vates longaeva una descendit Avernum.</l>
+                <pb type="image" n="0010"/>
+                <fw>CARMNA</fw>
+                <pb type="page" n="10"/>
+                <l>Agnoscit Palinurum et ibi solatur Elissam</l>
+                <l>Deiphobumque videt lacerum crudeliter ora.</l>
+                <l>Vmbrarum poenas audit narrante Sibylla.</l>
+                <l>Convenit Anchisen penitus convalle virenti</l>
+                <l>Agnoscitque suam prolem monstrante parente.</l>
+                <l>Haec ubi percepit, graditur classemque revisit.</l>
+            </div>
+
+            <div type="textpart" subtype="poem" n="7">
+                <l>Septimus Aeneam reddit fatalibus arvis.</l>
+                <l cert="low">Hic quoque Caietam sepelit, tum deinde profectus</l>
+                <l>Laurentum venit hanc verbis cognoscit Iuli</l>
+                <l>Fatalem terram: ‘mensis en vescimur’ inquit.</l>
+                <l>Centum oratores pacem veniamque petentes</l>
+                <l>Ad regem mittit Latii tum forte Latiuum,</l>
+                <l>Qui cum pace etiam natae conubia pactus.</l>
+                <l>Hos furia Allecto Iunonis dissipat ira:</l>
+                <l>Concurrunt dictis, quamvis pia fata repugnent.</l>
+                <l>Belli causa fuit violatus vulnere cervus.</l>
+                <l n="10">Tum gentes sociae arma parant, fremit arma iuventus.</l>
+                <pb type="image" n="0011"/>
+                <fw>CODICIS VERGILIANI VATICANI 3867. 13</fw>
+            </div>
+            <div type="textpart" subtype="poem" n="8">
+                <l>Praeparat octavo bellum [et] quos mittat in hostis.</l>
+                <l>Dat belli signum Laurenti Turnus ab arce,</l>
+                <l>Mititur et magni Venulus Diomedis ad urbem,</l>
+                <l>Qui petat auxilium et doceat, quae causa petendi.</l>
+                <l>Aeneas divum monitu adit Arcada regem,</l>
+                <l n="5">Euandrum Arcadia profugum nova regna tenentem.</l>
+                <l>Accipit auxilium: huic natum et socia agmina iungit</l>
+                <l>Euander. Pallas fatis comes ibat iniquis.</l>
+                <l>Iamque habilis bello et maternis laetus in armis</l>
+                <l>Fataque fortunasque ducum casusque suorum</l>
+                <l n="10">Soctitus clipeo divina intentus in arte est.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="9">
+                <l>Nonus habet pugnas nec adest dux ipse tumultu.</l>
+                <l>Atque ea diversa penitus dum parte geruntur,</l>
+                <l>Iunonis monitu Turnus festinat in hostem.</l>
+                <l>Teucrorum naves Rutulis iaculantibus ignem</l>
+                <l>Nympharum in speciem divino numine versae.</l>
+                <l n="5">Euryali et Nisi coeptis fuit exitus impar.</l>
+                <l>Pugnatur: castra Aeneadae vallumque tuentur.</l>
+                <l>Audacem Remulum dat lcto pulcher lulus.</l>
+                <pb type="image" n="0012"/>
+                <fw>CARMINA</fw>
+                <pb type="page" n="14"/>
+                <l>Fit via vi. Turnus itian et Pandaron altum</l>
+                <l>Deicit et totis victor dat funera castris,</l>
+                <l>Iamque fatigatus recipit se in castra suorum.</l>
+
+            </div>
+            <div n="10">
+                <l>Occidit Aeneae decimo Mezentius ira.</l>
+                <l>Concilium divis hominum de rebus habetur.</l>
+                <l>Interea Rutuli portis circum omnibus instant.</l>
+                <l>Advenit Aeneas multis cum milibus heros.</l>
+                <l>Mars vocat et totis in pugnam viribus itur.</l>
+                <l>Interimit Pallanta potens in proelia Turnus</l>
+                <l>Caedunturque duces, cadit et sine nomine vulgus.</l>
+                <l>Subtrahitur pugnae lunonis numine Turnus.</l>
+                <l cert="low">†Aeneas perstat Mezenti caede piata†</l>
+                <l>Et Lausum invicta perimit per vulnera dextra.</l>
+                <l>Mox ultor nati Mezentius occidit ipse.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="11">
+                <l>Vndecimo victa est non aequo Marte Camilla.</l>
+                <l>Constituit Marti spoliorum ex hoste tropaeum</l>
+                <l>Exanimumque patri natum Pallanta remittit.</l>
+                <pb type="image" n="0013"/>
+                <fw>CODICIS VERGILIANI VATICANI 3867. 15</fw>
+                <l>Iura sepulturae tribuit tempusque Latinis.</l>
+                <l>Euander patrios adfectns edit in urbe.</l>
+                <l n="5">Corpora caesa virum passim digesta cremantur.</l>
+                <l>Legati referunt, Diomeden arma negasse.</l>
+                <l>Drances et Turnus leges aequante Latino</l>
+                <l>Concurrunt dictis. Aeneas imminet urbi.</l>
+                <l>Pugnatur. vincunt Troes. cadit icta Camilla.</l>
+                <l n="10">Deinde duces castris, donec cessere, minantur.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="12">
+                <l>Duodecimo Turnus divinis occidit armis.</l>
+                <l>Turnus iam fractis adverso Marte Latinis</l>
+                <l>Semet in arma parat pacem cupiente Latino.</l>
+                <l>Foedus percutitur, passuros omnia victos.</l>
+                <l>Hoc Turni Iuturna soror confundit et ambos</l>
+                <l n="5">In pugnam populos agit ementita Camertem.</l>
+                <l>Aenean volucri tardatum membra sagitta</l>
+                <l>Anxia pro nato servavit cura parentis.</l>
+                <l>Vrbs capitur. vitam laqueo sibi fnit Amata.</l>
+                <l>Aeneas Turnum campo congressus utrimque</l>
+                <l n="10">Circumfusa acie vita spoliavit et armis.</l>
+                <pb type="image" n="0014"/>
+                <fw>CARMINA</fw>
+                <pb type="page" n="16"/>
+            </div>
         </div>
-        <div type="textpart" subtype="poem" n="VII">
-            <l>Septimus Aeneam reddit fatalibus arvis.</l>
-            <l cert="low">lic quoque Caietam sepelit, tum deinde profectus</l>
-            <l>Laurentum venit hanc verbis cognoscit Iuli</l>
-            <l>Fatalem terram: ‘mensis en vescimur’ inquit.</l>
-            <l>Centum oratores pacem veniamque petentes</l>
-            <l>Ad regem mittit Latii tum forte Latiuum,</l>
-            <l>Qui cum pace etiam natae conubia pactus.</l>
-            <l>Hos furia Allecto Iunonis dissipat ira:</l>
-            <l>Concurrunt dictis, quamvis pia fata repugnent.</l>
-            <l>Belli causa fuit violatus vulnere cervus.</l>
-            <l n="10">Tum gentes sociae arma parant, fremit arma</l>
-            <l cert="low">iuventus.</l>
-            <pb type="image" n="0011"/>
-            <fw>CODICIS VERGILIANI VATICANI 3867. 13</fw>
-        </div>
-        <div type="textpart" subtype="poem" n="VIII">
-            <l>Praeparat octavo bellum [et] quos mittat in hostis.</l>
-            <l>Dat belli signum Laurenti Turnus ab arce,</l>
-            <l>Mititur et magni Venulus Diomedis ad urbem,</l>
-            <l>Qui petat auxilium et doceat, quae causa petendi.</l>
-            <l>Aeneas divum monitu adit Arcada regem,</l>
-            <l n="5">Euandrum Arcadia profugum nova regna tenentem.</l>
-            <l>Accipit auxilium: huic natum et socia agmina iungit</l>
-            <l>Euander. Pallas fatis comes ibat iniquis.</l>
-            <l>Iamque habilis bello et maternis laetus in armis</l>
-            <l>Fataque fortunasque ducum casusque suorum</l>
-            <l n="10">Soctitus clipeo divina intentus in arte est.</l>
-        </div>
-        <div type="textpart" subtype="poem" n="IX">
-            <l>Nonus habet pugnas nec adest dux ipse tumultu.</l>
-            <l>Atque ea diversa penitus dum parte geruntur,</l>
-            <l>Iunonis monitu Turnus festinat in hostem.</l>
-            <l>Teucrorum naves Rutulis iaculantibus ignem</l>
-            <l>Nympharum in speciem divino numine versae.</l>
-            <l n="5">Euryali et Nisi coeptis fuit exitus impar.</l>
-            <l>Pugnatur: castra Aeneadae vallumque tuentur.</l>
-            <l>Audacem Remulum dat lcto pulcher lulus.</l>
-            <pb type="image" n="0012"/>
-            <fw>CARMINA</fw>
-            <pb type="page" n="14"/>
-            <l>Fit via vi. Turnus itian et Pandaron altum</l>
-            <l>Deicit et totis victor dat funera castris,</l>
-            <l>Iamque fatigatus recipit se in castra suorum.</l>
-            <l>Occidit Aeneae decimo Mezentius ira.</l>
-            <l>Concilium divis hominum de rebus habetur.</l>
-            <l>Interea Rutuli portis circum omnibus instant.</l>
-            <l>Advenit Aeneas multis cum milibus heros.</l>
-            <l>Mars vocat et totis in pugnam viribus itur.</l>
-            <l>Interimit Pallanta potens in proelia Turnus</l>
-            <l>Caedunturque duces, cadit et sine nomine vulgus.</l>
-            <l>Subtrahitur pugnae lunonis numine Turnus.</l>
-            <l cert="low">†Aeneas perstat Mezenti caede piata†</l>
-            <l>Et Lausum invicta perimit per vulnera dextra.</l>
-            <l>Mox ultor nati Mezentius occidit ipse.</l>
-        </div>
-        <div type="textpart" subtype="poem" n="XI">
-            <l>Vndecimo victa est non aequo Marte Camilla.</l>
-            <l>Constituit Marti spoliorum ex hoste tropaeum</l>
-            <l>Exanimumque patri natum Pallanta remittit.</l>
-            <pb type="image" n="0013"/>
-            <fw>CODICIS VERGILIANI VATICANI 3867. 15</fw>
-            <l>Iura sepulturae tribuit tempusque Latinis.</l>
-            <l>Euander patrios adfectns edit in urbe.</l>
-            <l n="5">Corpora caesa virum passim digesta cremantur.</l>
-            <l>Legati referunt, Diomeden arma negasse.</l>
-            <l>Drances et Turnus leges aequante Latino</l>
-            <l>Concurrunt dictis. Aeneas imminet urbi.</l>
-            <l>Pugnatur. vincunt Troes. cadit icta Camilla.</l>
-            <l n="10">Deinde duces castris, donec cessere, minantur.</l>
-        </div>
-        <div type="textpart" subtype="poem" n="XII">
-            <l>Duodecimo Turnus divinis occidit armis.</l>
-            <l>Turnus iam fractis adverso Marte Latinis</l>
-            <l>Semet in arma parat pacem cupiente Latino.</l>
-            <l>Foedus percutitur, passuros omnia victos.</l>
-            <l>Hoc Turni Iuturna soror confundit et ambos</l>
-            <l n="5">In pugnam populos agit ementita Camertem.</l>
-            <l>Aenean volucri tardatum membra sagitta</l>
-            <l>Anxia pro nato servavit cura parentis.</l>
-            <l>Vrbs capitur. vitam laqueo sibi fnit Amata.</l>
-            <l>Aeneas Turnum campo congressus utrimque</l>
-            <l n="10">Circumfusa acie vita spoliavit et armis.</l>
-            <pb type="image" n="0014"/>
-            <fw>CARMINA</fw>
-            <pb type="page" n="16"/>
-        </div>
-        <div type="textpart" subtype="poem">
+        <div type="textpart" subtype="poem" n="2">
             <head>OVIDII NAS0NIS</head>
             <note type="Notes">B. II 19, 14.</note>
             <note type="Notes">M. 836, 1 4.</note>
-            <l cert="low">; trme Dcolicon et veorgico.</l>
+            <head>Argumenta Bucolicon et Georgicon</head>
             <l>Qualis bucolicis, quantus tellure domanda,</l>
             <l>Vitibus arboribusque, satis pecorique apibusque</l>
             <l>Aeneadum fuerit vates, tetrasticha dicent.</l>
             <l>Contineat quae quisque liber, lege carmina nostra.</l>
             <note type="Notes">B. II 193,1 4.</note>
             <note type="Notes">M. 863, 1 4.</note>
-            <l>Bueolie.</l>
+            <head>Bucolica.</head>
             <note type="Side note">B. IV 173.</note>
             <l>Tityrus agresti modulatus carmine ruris,</l>
             <l>Formosum per quod Corydon dilexit Alexin,</l>
             <l>Silenumque seuem sertisque meroque ligavit,</l>
             <l>Pastorumque melos facili deduxit avena.</l>
-            <l>[eorgie]</l>
+            <head>[Georgica]</head>
+            <milestone unit="poem" n="1"/>
             <note type="Notes">B. II 189,5 .</note>
             <note type="Notes">M. 836, q.</note>
             <note type="Side note">B. IV 444.</note>
@@ -268,30 +318,31 @@
             <fw>CODCIS VERGILANI VATICANM 3867. 17</fw>
             <l>Semina quae iacienda, modos cultusque locorum,</l>
             <l>Et docuit messes magno cum fenore reddi.</l>
+            <milestone unit="poem" n="2"/>
             <l>Hactenus arvorum cultus et sidera caeli,</l>
             <l>Pampineas canit inde comas collisque virentis</l>
             <l n="15">Descriptasque locis vites et dona Lyaei</l>
             <l>Atque oleae ramos, pomorum et condere fetus.</l>
-        </div>
-        <div type="textpart" subtype="poem" n="II1">
+            <milestone unit="poem" n="3"/>
             <l>Teque Pales et te, pastor memorande per orbem,</l>
             <l>Et pecorum cultus et gramine pascua laeta,</l>
             <l>Quis habitent armenta locis stabulentur et agni,</l>
             <l n="20">Omnia divino monstravit carmine vates.</l>
-        </div>
-        <div type="textpart" subtype="poem" n="IV">
+            <milestone unit="poem" n="4"/>
             <l>Protinus aerii mellis redolentia regna,</l>
-            <l cert="low">lyblaeas et apes, alveorum et cerea texta,</l>
+            <l>Hyblaeas et apes, alveorum et cerea texta,</l>
             <l>Quique apti flores, examina quaeque legenda,</l>
             <l>Indicat humentisque favos, caelestia dona.</l>
+        </div>
+        <div type="textpart" subtype="poem" n="4">
             <pb type="image" n="0016"/>
             <fw>CARMEN</fw>
             <head cert="high">CODICIS VERGILIANI MEDICEI 39, 29.</head>
-            <l>Turcius Rufius Apronianus Asterius uc. et inl. ex</l>
-            <l cert="low">comite domest. protect. ex com. priu. largit. ex praef.</l>
-            <l cert="low">urbi patricius et consu ordi. legi et distincxi codicem</l>
-            <l cert="low">fratris Macharii c. non mei fiducia set eius cuius et</l>
-            <l cert="low">ad omnia sum devotus arbitrio XI lal. Mai. Romac.</l>
+            <note>
+                <lb/>Turcius Rufius Apronianus Asterius uc. et inl. ex <lb/>comite domest. protect.
+                ex com. priu. largit. ex praef. <lb/>urbi patricius et consu ordi. legi et distincxi
+                codicem <lb/>fratris Macharii c. non mei fiducia set eius cuius et <lb/>ad omnia sum
+                devotus arbitrio XI lal. Mai. Romac. </note>
             <note type="Side note">B. II 187. M. 281. B V 110.</note>
             <l>Distincxi emendans gratum mihi munus amici.</l>
             <l>Suscipiens operi sedulus incuui.</l>
@@ -315,7 +366,7 @@
             <fw>CARMEN</fw>
             <note type="Mss Number">CODICIS PARI SINI 8084.</note>
             <note type="Side note">B. M.</note>
-            <l>[Contra paanos]</l>
+            <head>[Contra paganos]</head>
             <note type="Side note">B. III 287.</note>
             <l>Dicite, qui colitis lucos antrumque Sibyllae</l>
             <note type="Notes">fol. 156</note>
@@ -400,11 +451,11 @@
             <l>Saturni cultor, Bellonae semper amicus,</l>
             <l>Qui cunctis Faunosque deos persuaserat esse</l>
             <l n="70">Egeriae Nymplae comites Satyrosque Panasque,</l>
-            <l cert="low">ympharum Bacchique comes Triviaeque sacerdos;</l>
+            <l>Nympharum Bacchique comes Triviaeque sacerdos;</l>
             <l>Quem lustrare choros ac molles sumere thyrsos</l>
             <l>Cymbalaque inbuerat quatere Berecyntia mater,</l>
             <l>Quis Galatea potens iussit Iove prosata summo,</l>
-            <l n="75" cert="low">ludicio Paridis pulcrum sortita decorem.</l>
+            <l n="75">Iudicio Paridis pulcrum sortita decorem.</l>
             <l cert="low">acrato nulli liceat servare pudorem,</l>
             <l>Frangere cum vocem soleant Megalensibus actis.</l>
             <l>Christicolas multos voluit sic perdere demens,</l>
@@ -460,21 +511,20 @@
             <l n="120">Praecipitem inferias miserum sub Tartara misit.</l>
             <l>Desine post hydropem talem deflere maritum,</l>
             <l>De love qui Latio voluit sperare salutem!</l>
+        </div>
+        <div type="textpart" subtype="poem" n="5">
             <pb type="image" n="0024"/>
-            <fw>CARMINA</fw>
-            <pb type="page" n="I2"/>
-            <pb type="page" n="77"/>
-            <note type="Prob non text">C0 D I CI S V 0 S SI A N I 0. 9.</note>
-            <l>Preeatio Perrae Matris.</l>
+            <fw>CARMINA<lb />C0 D I CI S V 0 S SI A N I 0. 9.</fw>
+            <head>Preeatio Perrae Matris.</head>
             <note type="Side note">B. M.</note>
-            <l>Carmen sic dices:</l>
+            <head>Carmen sic dices:</head>
             <note type="Side note">B. I 138.</note>
             <l>Dea sancta Tellus, rerum naturae parens,</l>
             <l>Quae cuucta generas et regeneras in dies,</l>
             <l>Quod sola praestas [tuam] tutelam gentibus,</l>
             <l>Caeli ac maris diva arbitra rerumque omnium,</l>
             <l>Per quam silet natura et somnos capit,</l>
-            <l cert="low">ltemque lucem reparas et noctem fugas;</l>
+            <l cert="low">Itemque lucem reparas et noctem fugas;</l>
             <l>Tu Ditis umbras tegis et inmensum chaos</l>
             <l>Ventosque et imbres tempestive contines</l>
             <pb type="image" n="0025"/>
