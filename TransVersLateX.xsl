@@ -44,9 +44,23 @@
       <xsl:value-of select="my:normalize(@n)"/>
       <xsl:text>}</xsl:text>
       \begin{verse}
-      <xsl:apply-templates select=".//(head|l[not(empty(text()))]|note|pb|fw)"/>
+      <xsl:apply-templates select="head|l[not(empty(text()))]|note|pb|fw|said|child::div|p"/>
       \end{verse}
   </xsl:template>
+    <xsl:template match="p">
+        <xsl:apply-templates />
+    </xsl:template>
+    <xsl:template match="lb" >
+        <xsl:text>\\</xsl:text>
+    </xsl:template>
+    <xsl:template match="lb[not(preceding-sibling::lb) and ../p]" />
+    <xsl:template match="lb[preceding-sibling::lb and ../p]" >
+        <xsl:text>\\</xsl:text>
+    </xsl:template>
+    <xsl:template match="said">
+        <xsl:text>\textbf{</xsl:text><xsl:value-of select="@who"/><xsl:text>} \\</xsl:text>
+        <xsl:apply-templates select="l"/>
+    </xsl:template>
     
     <xsl:template match="head">
         <xsl:text>\poemtitle{</xsl:text><xsl:value-of select="my:normalize(.)"/><xsl:text>}</xsl:text>
@@ -69,7 +83,7 @@
         <xsl:text> \lbrack ... \rbrack </xsl:text> 
     </xsl:template>
     <xsl:template match="note">
-        <xsl:value-of select="my:normalize(.)"/><xsl:text> \\ </xsl:text>
+        <xsl:text>\textit{</xsl:text><xsl:value-of select="my:normalize(.)"/><xsl:text>} \\ </xsl:text>
     </xsl:template>
     
  <xsl:template match="note[@type='Side note']">
