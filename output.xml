@@ -3,55 +3,57 @@
     <body>
         <pb type="image" n="0001"/>
         <fw>CARMEN</fw>
-        <div type="textpart" subtype="poem" n="pap_herc">
+        <div type="textpart" subtype="poem">
             <head>PAPYRI IERCVLANENSIS.</head>
             <note type="Side note">m Nr</note>
+            <l cert="low">colun )</l>
             <note type="Side note">B. M.</note>
-            <milestone unit="col" n="I" />
-            <l> <gap reason="lost"/> C  <gap reason="lost"/> un  <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> ael <gap reason="lost"/> tia <gap reason="lost"/> xim <gap reason="lost"/> </l>
-            <l>Caesaris a  <gap reason="lost"/> p  <gap reason="lost"/> hariam  <gap reason="lost"/> </l>
-            <l>.rt <gap reason="lost"/> sille <gap reason="lost"/> natocum <gap reason="lost"/> eiiapor <gap reason="lost"/> </l>
-            <l n="5">Quem iuvenes  <gap reason="lost"/> ra navos erat de  <gap reason="lost"/> uncta</l>
+            <l>. . C . . . t2t . .</l>
+            <l>..ael..tia....xim..</l>
+            <l>Caesaris a . . . p . . . hariam . . .</l>
+            <l>. . .</l>
+            <l>.rt..sille....natocum......eiiapor..</l>
+            <l n="5">Quem iuvenes . ra navos erat de . . . . uncta</l>
             <l>Bella, fide dextraque potens rerumque per usum</l>
             <l>Callidus, adsiduos tractando in munere fartis.</l>
             <l>Imminet opsessis Italus iam turribus hostis</l>
-            <l>A <gap reason="lost"/> sa nec de fuiti mpetus illis</l>
-            <milestone unit="col" n="II" />
-            <l n="10"> <gap reason="lost"/> s <gap reason="lost"/> q <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> nt ipso  <gap reason="lost"/> re</l>
+            <l>....SanecdefuitimpetusillisA..</l>
+            <l>(col. I)</l>
+            <l n="10">.....s..q..</l>
+            <l>. . . nt ipso . . .</l>
+            <note type="Side note">. . re</note>
             <pb type="image" n="0002"/>
             <fw>CARMEN</fw>
-            <l> <gap reason="lost"/> edunt patr <gap reason="lost"/> mia terris <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> a i  <gap reason="lost"/> gis, quam s  <gap reason="lost"/> ngesta laterent</l>
-            <l>Cum.uper <gap reason="lost"/> lius Pelusia moenia Caesar</l>
-            <l> <gap reason="lost"/> erat imperiis animos cohibere suorum:</l>
-            <l>‘Quid capitis iam capta? iacent quae  <gap reason="lost"/> </l>
-            <l>Subruitis ferro meca moenia? uondam er  <gap reason="lost"/> ostis</l>
-            <l>Haec mihi cum s <gap reason="lost"/> a plebes quoque <gap reason="lost"/> victrix</l>
-            <l>Vindicat h  <gap reason="lost"/> mulam Romana tot e  <gap reason="lost"/> s . n . m</l>
-            <milestone unit="col" n="III" />
-            <l> <gap reason="lost"/> liu  <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> im <gap reason="lost"/> o <gap reason="lost"/> t <gap reason="lost"/> </l>
-            <l> <gap reason="lost"/> t Alexandro thalamos intrare deorum</l>
-            <l>Di  <gap reason="lost"/> etiam potuisse deam vidisse . um  <gap reason="lost"/> s</l>
+            <l>...miaterris...eduntpatr..</l>
+            <l>. . . a i . . . . gis, quam s . . . nesta laterent</l>
+            <l>..fiusPelusiamoeniaCaesarCum.uper..</l>
+            <l>. . . erat imperiis animos cohiere suorum:</l>
+            <l>‘Quid capitis iam capta? iacent quae . . . .</l>
+            <l>Subruitis ferro meca moenia? uondam er . . . ostis</l>
+            <l>...victrixHaecmihicums...aplebesquoque....</l>
+            <l>Vindicat h . . . . . mulam Romana tot e . . . . s . n . m</l>
+            <l>(co. II</l>
+            <l>. . liu . .</l>
+            <l>..im...0....t...</l>
+            <l>. . t Alexandro thalamos intrare deorum</l>
+            <l>Di . etiam potuisse deam vidisse . um . . . . s</l>
             <l>Actiacos, cum causa fores tu marima elli,</l>
             <l n="25">Pars etiam imperii. quae femina tanta? virorum</l>
             <l>Quae series antiqua fuit? ni gloria mendax</l>
             <l>Multa vetustatis nimio concedat honoris</l>
-            <milestone unit="col" n="IV" />
-            <l> <gap reason="lost"/> an  <gap reason="lost"/> </l>
-            <l>Saepe ego, quae vestris curae sermonibus  <gap reason="lost"/> </l>
-            <l n="30">Quas igitur segnis t  <gap reason="lost"/> n nunc quaerere causas</l>
+            <l cert="low">co. I)</l>
+            <l>. . . .</l>
+            <l>Saepe e, quae vestris curae sermonibus . . .</l>
+            <l n="30">Quas igitur segnis t . . n nunc quaerere causas</l>
             <l>Exsnguisque mors vitae libet? Est mihi coniunx</l>
-            <l> <gap reason="lost"/> h  <gap reason="lost"/> i posset Phariis subiungere regnis</l>
+            <l>. . h . . . i posset Phariis subiungere regnis</l>
             <pb type="image" n="0003"/>
             <fw>PAPVRI ERCVLANENSIS.</fw>
             <l>Qui statauit nostraeue mori pro nomine gentis.</l>
             <l>Hic igitur partis animum diductus in omnis</l>
-            <l n="35">Quid velit, incertum est; terris quibus aut quibus undis</l>
-            <milestone unit="col" n="V" />
-            <l> <gap reason="lost"/> ctumque  <gap reason="lost"/> m quo noxia turba coiret</l>
+            <l n="35">(uid velit, incertum est; terris quibus aut quibus undis</l>
+            <l>(col.</l>
+            <l>..mquonoxiaturbacoiret..ctumquc..</l>
             <l>Praeberetque suae spectacula tristia mortis.</l>
             <l>Qualis ad instantis acies cum tela parantur,</l>
             <l>Signa, tubae, classesque simul terrestribus armis,</l>
@@ -59,8 +61,8 @@
             <l>Instrumenta necis, vario congesta paratu:</l>
             <l>Vudique sic illuc campo deforme coactum</l>
             <l>Omne vagabatur leti genus, omne timoris.</l>
-            <milestone unit="col" n="VI" />
-            <l> <gap reason="lost"/> acet <gap reason="lost"/> ferro tu <gap reason="lost"/> is <gap reason="lost"/> le ven <gap reason="lost"/> </l>
+            <l cert="low">co7. VI)</l>
+            <l>..ferrotu..is..leven......acet...</l>
             <l>Aut pendente suis cervicibus aspide mollem</l>
             <l>.abitur in somnum trahiturque libidine mortis.</l>
             <l>Perclit adflatu breris hunc sine morsibus anguis,</l>
@@ -68,9 +70,9 @@
             <l>Ocius interemit; laqueis pars cogitur artis</l>
             <l n="50">Intersaeptam animam pressis effundere venis;</l>
             <l>Inmersisque freto clauserunt guttura fauces.</l>
-            <l>Has inter strages solio descendit et inter</l>
-            <milestone unit="col" n="VII" />
-            <l>At <gap reason="lost"/> alia <gap reason="lost"/> nc <gap reason="lost"/> a <gap reason="lost"/> te</l>
+            <l cert="low">as inter strages solio descendit et inter</l>
+            <l cert="low">ol VII</l>
+            <l>..alia.nc..At......te</l>
             <l>Sie illi inter se misero sermone fruuntur.</l>
             <l n="55">Haec regina gerit. procul hanc occulta videbat</l>
             <l>Atropos inridens inter diversa agantem</l>
@@ -79,31 +81,32 @@
             <l>Et patriae comitante suae cum milite Caesar</l>
             <pb type="image" n="0004"/>
             <fw>CARMEN PAPYRI ERCVLANENSIS.</fw>
-            <l>CGentis Alexandri ca  <gap reason="lost"/> en  <gap reason="lost"/> ad moenia venit</l>
+            <l>CGentis Alexandri ca . . en . ad moenia venit</l>
             <l>Signaque constituit. sic omnes terror in artum</l>
-            <milestone unit="col" n="VIII" />
-            <l> <gap reason="lost"/> rere  <gap reason="lost"/> m portarum claustra nec urbem</l>
+            <l>(col. VIII)</l>
+            <l>. . m portarum claustra nec urbem</l>
+            <l>. . rere . .</l>
             <l>Opsidione tamen nec corpora moenibus arcent,</l>
             <l>Castraque pro muris atque arma pedestria ponunt.</l>
             <l>Hos inter coetus talisque ad bella paratus</l>
             <l>Vtraque sollemnis iterum revocaverat orbes:</l>
             <l>Consiliis nox apta ducum, lux aptior armis.</l>
+            <pb type="image" n="0005"/>
+            <fw>CARMINA</fw>
+            <note type="Mss Number">CODICIS VERGILIANI VATICANI 3867.</note>
         </div>
-        <pb type="image" n="0005"/>
-        <fw>CARMINA<lb />CODICIS VERGILIANI VATICANI 3867.</fw>
-        <div type="textpart" subtype="poem" n="1_1">
+        <div type="textpart" subtype="poem">
             <head>OVIDII NASONIS</head>
-            <head>Argmenta Aeneidis.</head>
-            <head>Prefatio.</head>
+            <l cert="low">rgmenta eneidis.</l>
+            <l>Prefatio.</l>
             <note type="Side note">A. II 192.</note>
-            <note type="Side note">Moyer. 862.</note>
-            <note type="Side note">Behren. P.</note>
-            <note type="Prob non text">L..IVp.161.</note>
+            <l>Moyer. 862.</l>
             <l>Vergilius magno quantum concessit Homero,</l>
+            <note type="Side note">Behren. P.</note>
             <l>Tantum ego Vergilio ‘Naso poeta meo’.</l>
+            <note type="Prob non text">L..IVp.161.</note>
             <l>Nec me praelatum cupio tibi ferre, poeta:</l>
             <l>Ingenio si te subsequor, hoc satis est.</l>
-            <important>Missing page 0006</important>
             <pb type="image" n="0007"/>
             <fw>CODICIS VERGILIANI VATICANI 3867.</fw>
             <l>Hospitioque usus Didus per cuncta benignae</l>
