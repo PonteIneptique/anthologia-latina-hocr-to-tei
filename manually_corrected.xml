@@ -379,8 +379,8 @@
             <l>Etruscus ludit semper quos vanus aruspex:</l>
             <l cert="low">luppiter hic vester, Ledae superatus amore,</l>
             <l>Fingeret ut cycnum, voluit canescere pluma?</l>
-            <l>Perditus ad Danaen flueret subito aureus imber?</l>
-            <l>Per freta Parthenopes taurus mugiret adulter?</l>
+            <l>Perditus ad Danaen flueret subito aureus imber?</l>im <l>Per freta Parthenopes taurus
+                mugiret adulter?</l>
             <l>Haec si monstra placent nulla sacrata †pudica,</l>
             <l>Pellitur arma Iovis fugiens regnator Olympi?</l>
             <l>Et quisquam supplex veneratur templa tyranni,</l>
@@ -514,69 +514,73 @@
         </div>
         <div type="textpart" subtype="poem" n="5">
             <pb type="image" n="0024"/>
-            <fw>CARMINA<lb />C0 D I CI S V 0 S SI A N I 0. 9.</fw>
-            <head>Preeatio Perrae Matris.</head>
+            <fw>CARMINA<lb/>C0 D I CI S V 0 S SI A N I 0. 9.</fw>
+            <head>Precatio Terrae Matris.</head>
             <note type="Side note">B. M.</note>
-            <head>Carmen sic dices:</head>
             <note type="Side note">B. I 138.</note>
+            <head>Carmen sic dices:</head>
             <l>Dea sancta Tellus, rerum naturae parens,</l>
             <l>Quae cuucta generas et regeneras in dies,</l>
             <l>Quod sola praestas [tuam] tutelam gentibus,</l>
             <l>Caeli ac maris diva arbitra rerumque omnium,</l>
             <l>Per quam silet natura et somnos capit,</l>
-            <l cert="low">Itemque lucem reparas et noctem fugas;</l>
+            <l>Itemque lucem reparas et noctem fugas;</l>
             <l>Tu Ditis umbras tegis et inmensum chaos</l>
             <l>Ventosque et imbres tempestive contines</l>
             <pb type="image" n="0025"/>
             <fw>CAIRMINA CODICIS VOSSIANI . 9.</fw>
             <pb type="page" n="27"/>
             <l>.t, cum libet, dimittis et misces freta</l>
-            <l n="10" cert="low">ugasque solem et procellas concitas</l>
-            <l cert="low">ltemque, cum vis, bilarem promittis diem;</l>
+            <l n="10">Fugasque solem et procellas concitas</l>
+            <l>Itemque, cum vis, bilarem promittis diem;</l>
             <l>Alimeuta vitae tribuis perpetua fide</l>
             <l>Et, cum recesserit anima, in te refugiemus:</l>
-            <l cert="low">lta, quidquid tribuis, in te cuncta recidunt.</l>
-            <l n="15" cert="low">lerito vocaris Magna tu Mater deum,</l>
+            <l>Ita, quidquid tribuis, in te cuncta recidunt.</l>
+            <l n="15">Merito vocaris Magna tu Mater deum,</l>
             <l>Pietate quia vicisti divum numina.</l>
             <l>Tu [es] illa vere gentium et divum parens,</l>
             <l>Sine qua nil maturatur nec nasci potest.</l>
             <l>Tu es magna, tuque divum regina [ac] dea.</l>
-            <l cert="low">2 Te, diva, adoro tuumque ego numen invoco,</l>
+            <l n="20">Te, diva, adoro tuumque ego numen invoco,</l>
             <l>Facilisque praestes hoc mihi, quod te roge,</l>
             <l>Referamque, diva, gratias merito tibi.</l>
-            <l>Me] rite exaudi, quaeso, et fave coeptis meis.</l>
-            <l cert="low">lHoc quod peto a te, diva, mihi praesta volens:</l>
-            <l n="25" cert="low">llerbas, quascumque generat maiestas tua,</l>
+            <l>[Me] rite exaudi, quaeso, et fave coeptis meis.</l>
+            <l>Hoc quod peto a te, diva, mihi praesta volens:</l>
+            <l n="25">Herbas, quascumque generat maiestas tua,</l>
             <l>Salutis causa tribuis cunctis gentibus:</l>
             <l>Inc [nunc mihi permittas medicinam tuam.</l>
-            <l>Veniat me . . cum tuis virtutibus.</l>
+            <l>Veniat me <gap reason="lost"/> cum tuis virtutibus.</l>
             <l>Quidquid ex his fecero, habeat eventum bonum;</l>
             <l n="30">Cuique easdem dedero quique easdem a me acceperint,</l>
-            <l cert="low">anos eosdem praestes . .</l>
-            <l>. . nunc, diva, postulo ut hoc mihi</l>
+            <l>Sanos eosdem praestes <gap reason="lost"/></l>
+            <l><gap reason="lost"/> nunc, diva, postulo ut hoc mihi</l>
             <l>Miestas praestet [tua], quod te supplex rogo.</l>
+            <important>Missing page 0026</important>
+            <important>Missing page 0027</important>
             <pb type="image" n="0028"/>
             <fw>CARME</fw>
         </div>
         <div type="textpart" subtype="poem">
             <head>C 0 D I C I S MA I IIN G E N S I S.</head>
         </div>
-        <div type="textpart" subtype="poem" n="6ᵃ">
-            <l>Lux mundi laeta, deus, haec tibi celeri curs,</l>
-            <l>Alme potens, scribsi, soli famulatus et un,</l>
-            <l>Vt te, vita, fruar teque casto inveniam culV’</l>
-            <l>Rectaque per te ad te ducente te gradiar vi.</l>
-            <l>Excelse cernis deus, quae me plurima cingun</l>
+        <div type="textpart" subtype="poem" n="6a">
+            <l>Lux mundi laeta, deus, haec tibi celeri cursV,</l>
+            <l>Alme potens, scribsi, soli famulatus et unI,</l>
+            <l>Vt te, vita, fruar teque casto inveniam cultV</l>
+            <l>Rectaque per te ad te ducente te gradiar viA.</l>
+            <l>Excelse cernis deus, quae me plurima cingunT</l>
             <l>Nota et ignota tuis male nata eania satiS.</l>
             <l>Tu sed mihbi certa salus spesque unica vitaE.</l>
             <l>Inmeritum licet lucis facias adtingere limeN.</l>
             <l>Verba nam tua valida imis me tollunt AvernI;</l>
             <l>Sola haec misero mihi te, vitam, dabunt servul0.</l>
-            <pb type="image" n="0029"/>
         </div>
+        <pb type="image" n="0029"/>
+        <fw>CARMNA<lb/>CODICIS PARISINI 10318</fw>
+        <important>Missing page 0030</important>
+        <important>Missing page 0031</important>
+        <important>Missing page 0032</important>
         <div type="textpart" subtype="poem">
-            <head>CARMNA</head>
-            <head cert="high">C ODI CI S PARISIV I 1031S</head>
             <pb type="image" n="0033"/>
             <fw>CARMINA</fw>
             <pb type="page" n="36"/>
@@ -587,7 +591,7 @@
             <l n="50">Quae loca quive habeant homines, ubi sistere detur.</l>
             <l>In summo collem, qui plurimus; alter ab illo</l>
             <l>Est locus, quem iuxta sequitur, quo deinde sub ipso</l>
-            <l cert="low">lic locus est partis semper sublimis: at illum</l>
+            <l>Hic locus est partis semper sublimis: at illum</l>
             <l>Quinque tenent ebuli bacis minioque rubentem.</l>
             <l>Terna tibi haec primum fundo volvuntur in imo.</l>
             <l>Sunt alii, quos ipse via sibi repperit usus.</l>
@@ -607,11 +611,10 @@
             <pb type="image" n="0034"/>
             <fw>CODICIS SALMASIANI.</fw>
             <pb type="page" n="4"/>
-            <l cert="low">0 ‘Quae nunc deinde mora est? veniam, quocumque</l>
-            <l cert="low">vocaris;</l>
+            <l n="70">‘Quae nunc deinde mora est? veniam, quocumque vocaris;</l>
             <l>Quin age, si qua animo virtus, et consere dextram:</l>
             <l>Efficiam, posthac ne quemquam voce lacessas.’</l>
-            <note type="Notes">p2.</note>
+            <note type="Notes">p.4</note>
             <l>Dixit et e curru magna ter voce vocavit,</l>
             <l>Terque quaterque simul vox ingeminata remugit.</l>
             <l n="75">Tunc variae comitum facies et pallor in ore;</l>
@@ -634,17 +637,15 @@
             <l>Hos aditus, iamque hos aditus, omnemque pererrat</l>
             <l>Vndique circuitum, aditumque per avia quaerit.</l>
             <l>Verum ubi nulla datur dextra exsuperare potestas,</l>
-            <l cert="low">9 Constitit in digitos et toto vertice supra</l>
+            <l n="95"> Constitit in digitos et toto vertice supra</l>
             <pb type="image" n="0035"/>
             <pb type="page" n="38"/>
-            <fw>CARNA</fw>
+            <fw>CARMINA</fw>
             <l>Obnixus latis umeris et †pectore duro</l>
             <l>Et super incumbens, furiis accensus et ira</l>
-            <l>Tlia voce refert:</l>
+            <l>Talia voce refert:</l>
             <l>‘Quo, moriture, ruis? quae te dementia ducit?</l>
-        </div>
-        <div type="textpart" subtype="poem">
-            <head>. 5</head>
+            <note type="Side Note">p. 5</note>
             <l>Non vires alias conversaque numina sentis?</l>
             <l>Cede locis!’</l>
             <l>Talia fatus erat pressoque obmutuit ore.</l>
@@ -660,7 +661,9 @@
             <l>Victus abit guttisque umectat grandibus ora.</l>
             <note type="Side note">B. I. 146.</note>
             <note type="Side note">M. 669.</note>
-            <l cert="low">arcissu</l>
+        </div>
+        <div type="textpart" subtype="poem" n="9">
+            <head>Narcissus</head>
             <note type="Side note">B. IV 197.</note>
             <l>Candida per silvam primaevo flore iuventus</l>
             <l>Adsidue veniebat: ibi haec caelestia dona</l>
@@ -677,17 +680,17 @@
             <l n="10">His amor unus erat, dorso dum pendet iniquo,</l>
             <l>Oblitusve sui est et membra decora iuventae</l>
             <l>Miratur rerumque ignarus imagine gaudet.</l>
-            <l cert="low">licet ignis edax secreti ad fluminis undas</l>
-            <note type="Notes">p.06</note>
-            <l cert="low">psius in vultu vana spe lusit amantem,</l>
+            <l>Ilicet ignis edax secreti ad fluminis undas</l>
+            <note type="Notes">p.6</note>
+            <l>Ipsius in vultu vana spe lusit amantem,</l>
             <l n="15">Et praeceps animi collo dare brachia circum</l>
             <l>Ter conatus erat nec, quid speraret, habebat.</l>
         </div>
         <div type="textpart" subtype="poem" n="10">
-            <head>MAVOTI</head>
+            <head>MAVORTI</head>
+            <head>Iuicium Paridis</head>
             <note type="Side note">B. I 147.</note>
             <note type="Side note">M. 282.</note>
-            <l>Iuieium Paridis</l>
             <note type="Notes">B. IV 198.</note>
             <l>Pictus acu tunicas et barbara tegmina crurum</l>
             <l>Forte recensebat numerum sub tegmine fagi.</l>
@@ -695,9 +698,9 @@
             <l>Aut videt aut vidisse putat. ‘quo tenditis’ inquit</l>
             <l n="5">‘Caelicolae magni? pacemne huc fertis an arma?’</l>
             <l>Ad quem tum luno supplex his vocibus usa est:</l>
-            <l>‘0 lux Dardaniae, Troianae gloria gentis,</l>
+            <l>‘O lux Dardaniae, Troianae gloria gentis,</l>
             <l>Quam dives pecoris, nivei quam lactis abundans,</l>
-            <l cert="low">†Et proprio fuerint distentae lacte capellae</l>
+            <l>†Et proprio fuerint distentae lacte capellae</l>
             <l n="10">Vbera, nec metas rerum nec tempora pono.</l>
             <l>Haec tibi semper erunt, hic inter flumina nota</l>
             <pb type="image" n="0037"/>
@@ -724,7 +727,7 @@
             <l>Formosi pecoris custos, formosior ipse,</l>
             <l n="30">Aspice nos tantum, Lacedaemoniosque hymenaeos</l>
             <l>Coniugio iungam stabili propriamque dicabo</l>
-            <l cert="low">eginam thalamis Phrygio servire marito’</l>
+            <l>Reginam thalamis Phrygio servire marito’</l>
             <l>Ille deae donis ac tanto laetus honore</l>
             <l>Vltro animos tollit dictis ac talia fatur:</l>
             <l n="35">‘Iam iam nulla mora est neque me sententia vertit.</l>
@@ -733,12 +736,13 @@
             <l>Tu modo promissis maneas.’ ea verba locutus</l>
             <l>Vendidit hic auro patriam. dux femina facti.</l>
             <l n="40">Nec mora, continuo penetrat Lacedaemona pastor</l>
+            <important>Missing page 0038</important>
             <pb type="image" n="0039"/>
             <fw>CARMINA</fw>
             <pb type="page" n="42"/>
-            <l>Contenduntpetere,dubiiseuviverecredant</l>
+            <l>Contendunt petere,dubii seu vivere credant</l>
             <l>[Sive extrema pati miseri, quibus ultimus esset]</l>
-            <l cert="low">lle dies, vitamque volunt pro laude pacisci.</l>
+            <l>Ille dies, vitamque volunt pro laude pacisci.</l>
             <l>Post, ubi confecti cursus, circensibus actis</l>
             <l>Supplicia expendunt iuvenes ante ora parentum;</l>
             <l>Linquebant dulces animas et corpora patrum.</l>
@@ -749,7 +753,7 @@
             <l>Quin ipsae obstipuere domus noctesque diesque;</l>
             <l>Vmbrae ibant tenues, odium crudele tyranni</l>
             <l>Saepe queri et longas in fletum ducere voces.</l>
-            <l>O0 virgo infelix, iam fas est parcere genti!</l>
+            <l>O virgo infelix, iam fas est parcere genti!</l>
             <l>Pestis et ira deum crudeli funere virgo,</l>
             <note type="Notes">p.</note>
             <l>Quam cum sanguineo sequiur Bellona flagello.</l>
@@ -770,7 +774,7 @@
             <l>Rex prior adgreditur dictis atque increpat ultro:</l>
             <l>‘Quo, moriture, ruis? quae te dementia cepit?</l>
             <l>Aut quisnam ignarum conubia nostra petentem</l>
-            <l>Iussit adire domos? quidve hinc petis’ inquit .</l>
+            <l>Iussit adire domos? quidve hinc petis’ inquit</l>
             <l n="50">‘Poenarum exhaustum satis est miseretque pudetque:</l>
             <l>Pone animos et pulsus abi; miserere tuorum!</l>
             <l>Non fugis hinc praeceps, dum praecipitare potestas?</l>
@@ -787,24 +791,13 @@
             <l>Talia dicentem iam dudum aversa tuetur</l>
             <l>Causa mali tanti multos servata per annos.</l>
             <l>Qualis gemma micat, fulvum quae dividit aurum,</l>
-            <l n="65" cert="low">lnter utramque viam talem se laeta ferebat,</l>
+            <l n="65">Inter utramque viam talem se laeta ferebat,</l>
             <l>Ac veluti Pariusve lapis circumdatur auro</l>
             <l>Arte nova, talis virgo dabat ore colores</l>
-            <l cert="low">lnsignis facie, oculos deiecta decoros.</l>
+            <l>Insignis facie, oculos deiecta decoros.</l>
             <l>Vritur infelix, subitoque accensa furore</l>
             <l n="70">Stare loco nescit. quis enim modus adsit amori</l>
             <l>Null Venus, nulli quondam flexere hymenaei;</l>
-            <l n="46" cert="low">adq L 48 quisquam , corr. Schrader, c. Alc.</l>
-            <l n="46">III 338 4 domusL, corr. At inquidAt, c veorg</l>
-            <l n="50" cert="low">exaustum Ll putetque A 5t poene pulsos A mi</l>
-            <l cert="low">sere (sic) L[ 52 potestas Lten. I V 565 poetas 54 ne</l>
-            <l cert="low">pede conobiusAt inprpe penst 5 adqA reddeditAt</l>
-            <l n="56" cert="low">minatis t 7 medos A morteL uiam At 9 sen</l>
-            <l cert="low">tentiam A 60 iubnt aceri est Lt 6t morti A traunt</l>
-            <l cert="low">retauntq; A 64 migat L q: L 65 utrumque A tale ,,</l>
-            <l cert="low">corr. Baebrens 66 hac A aurum l, corr. ᵈ 67 tali</l>
-            <l cert="low">sic t 69 acensa forore 71 null (cc la) fexere hy</l>
-            <l cert="low">enei (er hyrmenti) A</l>
             <pb type="image" n="0041"/>
             <fw>CODICIS SALMASIANI.</fw>
             <pb type="page" n="45"/>
@@ -816,7 +809,7 @@
             <l>Et trepidae matres et lamentabile regnum.</l>
             <l>Flent maesti mussantque patres, hic cara sororum</l>
             <l>Pectora maerentum, quibus est fortuna peracta.</l>
-            <l n="110" cert="low">los inter motus stat ductis sortibus urna.</l>
+            <l n="110">Hos inter motus stat ductis sortibus urna.</l>
             <l>Tunc loca sorte legunt. extemplo arrectus uterque</l>
             <l>Stat sonipes ac frena ferox spumantia mandit.</l>
             <l>Nec mora: continuo vasto certamine tendunt</l>
@@ -826,12 +819,12 @@
             <l>Discessere omnes medii, signoque repente,</l>
             <l>Qua data porta, ruunt. sic densis ictibus heros p. 1?</l>
             <l>Stridore ingenti atque oculis vigilantibus exit,</l>
-            <l n="120" cert="low">lncumbens umero; sonitu quatit ungula campum.</l>
+            <l n="120">Incumbens umero; sonitu quatit ungula campum.</l>
             <l>Dant animos plagae, pronique in verbera pendent</l>
             <l>Pro se quisque viri; tunc caeco pulvere campus</l>
             <l>Conditur in tenebras, qua proxima meta viarum,</l>
             <l>Et longum superant flexu caecique furore.</l>
-            <l n="125" cert="low">llli inter sese de vita et sanguine certant.</l>
+            <l n="125">Illi inter sese de vita et sanguine certant.</l>
             <l>Regina e speculis miro properabat amore</l>
             <l>Omnia tuta timens, quoniam fors omnia versat.</l>
             <l>Audit equos, audit strepitus, timet omnia secum</l>
@@ -853,20 +846,21 @@
             <l>En qui nostra sibi tot iam labentibus annis</l>
             <l>Servabat senior, nostrasne evadere demens</l>
             <l>Sperasti te posse manus circensibus actis?</l>
-            <l cert="low">lic tibi mortis erant metae: submitte furorem,</l>
+            <l>Hic tibi mortis erant metae: submitte furorem,</l>
             <l>Qui iuvenum tibi semper erat! speravimus ista</l>
             <l>Et tandem laeti sociorum ulciscimur umbras.’</l>
             <note type="Notes">p. 13</note>
             <l>Dixit et e curru saltum dedit ocius arvis.</l>
             <l>Excipiunt plausu; caelum tonat omne tumultu.</l>
             <l>Ipse etiam eximiae laudis cum virgine victor</l>
-            <l cert="low">bat ovans umeroque Pelops insignis eburno.</l>
+            <l>Ibat ovans umeroque Pelops insignis eburno.</l>
             <l>Tunc vero exarsit iuveni dolor ossibus ingens.</l>
             <l>Olli (sensit enim simulata mente locutam)</l>
             <l>Nec latuere doli, caput horum et causa malorum;</l>
             <l>Tunc quassans caput haec effundit pectore dicta:</l>
             <l n="155">‘Me (adsum qui feci) merui, nec dcprecor’ inquit,</l>
             <l>‘Spargite [me] in fluctus. en haec promissa fides est?</l>
+            <important>Missing page 0043</important>
             <pb type="image" n="0044"/>
             <fw>CARMINA</fw>
             <note type="Side note">B. I 168.</note>
