@@ -863,9 +863,11 @@
             <important>Missing page 0043</important>
             <pb type="image" n="0044"/>
             <fw>CARMINA</fw>
+        </div>
+        <div type="textpart" subtype="poem" n="13">
             <note type="Side note">B. I 168.</note>
             <note type="Side note">M. 689.</note>
-            <l>Prone et Philomel</l>
+            <head>Progne et Philomela</head>
             <note type="Side note">B. IV 206.</note>
             <l>Aspice ut insignis vacua atria lustrat hirundo!</l>
             <l>Vere novo maestis late loca questibus implet;</l>
@@ -885,21 +887,21 @@
             <l>Fertque refertque soror, crimenque [et] facta tyranni</l>
             <l>Sanguis ait. Solidae postquam data copia fandi,</l>
             <l>(Vulnera siccabat circum praecordia) ‘Sanguis,</l>
-            <l>Accipe’ ait] ‘vocem’, ac saevo sic pectore fatur:</l>
+            <l>Accipe’ [ait] ‘vocem’, ac saevo sic pectore fatur:</l>
             <l n="20">‘leu miserande puer, nunc te fata impia tangunt!’</l>
             <l>Roalis inter mensas genitoris et ora</l>
-            <note type="Notes">2. 1</note>
+            <note type="Notes">p.15</note>
             <l>Polluit ore dapes, quidquid solamen humandi est.</l>
             <l>Dum genitor nati morsu depascitur artus,</l>
             <l>Et soror et coniunx petierunt aethera pinnis.</l>
+        </div>
+        <div type="textpart" subtype="poem" n="14">
             <pb type="image" n="0045"/>
             <fw>CODICIS SALMSIANI.</fw>
             <pb type="page" n="49"/>
-        </div>
-        <div type="textpart" subtype="poem" n="14">
             <note type="Side note">B. I 14.</note>
             <note type="Side note">M. 575.</note>
-            <l cert="low">u ropae</l>
+            <head>Europa</head>
             <note type="Side note">B. IV 27.</note>
             <l>Vulneris inpatiens hominum rerumque repertor</l>
             <l>Et faciem tauro propior descendit ad undas.</l>
@@ -930,8 +932,11 @@
             <pb type="page" n="50"/>
             <fw>CARMINA</fw>
             <l>Suspensum et pariter comitique onerique timentem</l>
+            <l>
+                <gap reason="lost"/>
+            </l>
             <l>Egregia interea summa sublimis ab unda</l>
-            <note type="Notes">2. I6</note>
+            <note type="Notes">p. 16</note>
             <l>Prona petit maria et pelago decurrit aperto.</l>
             <l>Tunc laeva taurum cornu tenet inscia culpae</l>
             <l>Obliquatque sinus in ventum auramque patentem:</l>
@@ -943,12 +948,12 @@
         <div type="textpart" subtype="poem" n="15">
             <note type="Side note">B. I 172.</note>
             <note type="Side note">M. 1609.</note>
-            <l>A. e e sta</l>
+            <head>Alcesta</head>
             <note type="Side note">B. IV 208.</note>
             <l>Egregium forma iuvenem pactosque hymenaeos</l>
             <l>Incipiam et prima repetens ab origine pergam,</l>
             <l>Si qua fides, animum si veris inplet Apollo.</l>
-            <l cert="low">lam gravior Pelias multis memoratus in oris</l>
+            <l>Iam gravior Pelias multis memoratus in oris</l>
             <l>Rex erat et tantas servabat filia sedes.</l>
             <l>Illam omnis tectis primaevo flore iuventus</l>
             <l>Ardebat, sed res animos incognita turbat.</l>
@@ -976,24 +981,27 @@
             <l>‘Incipe si quid habes, si tantum pectore robur</l>
             <l>Concipis et si adeo dotalis regia cordi est:</l>
             <l>Mecum erit iste labor, mitte hanc de pectore curam’</l>
-            <l>Pr silvas tum saevus aper cum murmure montis,</l>
-            <l>Tqm demum movet arma leo vastoque sub antro</l>
+            <l>Per silvas tum saevus aper cum murmure montis,</l>
+            <l>Tum demum movet arma leo vastoque sub antro</l>
             <l>Asper acerba tuens vasta se mole ferebat,</l>
             <l>Excutiens cervice toros; ea frena furenti</l>
-            <l>Concntit et stimulos sub pectore vertit Apollo .</l>
+            <l>Concuntit et stimulos sub pectore vertit Apollo .</l>
+            <l>
+                <gap reason="lost"/>
+            </l>
             <l>Dat iuveni et tenuis [fugit] ceu fumus in auras:</l>
             <l>Ille autem inpavidus et munere victor amici</l>
-            <l n="35">Emicat in currnm et manibus molitur habenas.</l>
-            <l>V ventum ad sedes, reddi sibi poscit honorem;</l>
+            <l n="35">Emicat in currum et manibus molitur habenas.</l>
+            <l>Vt ventum ad sedes, reddi sibi poscit honorem;</l>
             <l>Adiungi generum miro properabat amore.</l>
             <l>Tum sic mortalis referebat pectore voces:</l>
-            <l>Non haec humanis o;ibus, non arte magistra</l>
-            <l n="40">Accipio agnoscoque libens) tibi ducitur uxor,</l>
+            <l>Non haec humanis opibus, non arte magistra</l>
+            <l n="40">(Accipio agnoscoque libens) tibi ducitur uxor,</l>
             <l>Omnis ut tecum meritis pro talibus annos</l>
             <pb type="image" n="0048"/>
             <fw>CARMNA</fw>
             <l>Exigat et possit parvos educere natos’</l>
-            <l>IHaec ubi dicta dedit, solio se tollit ab alto</l>
+            <l>Haec ubi dicta dedit, solio se tollit ab alto</l>
             <l>Iam senior mediisque parant convivia tectis.</l>
             <l>Iuterea magnum sol circumvolvitur annum,</l>
             <l>Parcarumque dies et vis inimica propinquat</l>
@@ -1056,6 +1064,8 @@
             <l>Hos mihi praedixit luctus, pro nomine tanto</l>
             <l>Obiectare animam seu certae occumbere morti’</l>
             <l n="100">At regina gravi iamdudum saucia cura,</l>
+            <important>Missing Page 0050</important>
+            <important>Missing Page 0051</important>
             <pb type="image" n="0052"/>
             <fw>CARMNA</fw>
             <pb type="page" n="56"/>
@@ -1066,16 +1076,16 @@
             <l>Dilapsus color atque in ventos vita recessit.</l>
         </div>
         <div type="textpart" subtype="poem" n="16">
-            <head cert="high">MAVOTI)</head>
+            <head cert="high">[MAVORTI]</head>
             <note type="Side note">B. M.</note>
-            <l>D e e c o e s i a</l>
+            <head>De ecclesia</head>
             <note type="Side note">B. IV 214.</note>
             <l>Tectum augustum, ingens, centum snblime columnis,</l>
             <l>Religione patrum laetum et venerabile templum</l>
-            <l>Ioc dedit esse suum superi regnator Olympi.</l>
+            <l>Hoc dedit esse suum superi regnator Olympi.</l>
             <l>Nam deus omnipotens, qui res hominumque deumque</l>
             <l>Aeternis regit imperiis, ‘quo tenditis’? inquit,</l>
-            <l cert="low">lic domus est vobis; haec ara tuebitur omnis.</l>
+            <l>‘Hic domus est vobis; haec ara tuebitur omnis.</l>
             <l>Hic matres puerique simul mixtaeque puellae</l>
             <l>Sacra canunt pariterque oculos ad sidera tollunt.</l>
             <l>Hic exaudiri voces, hic vota precesque;</l>
@@ -1112,7 +1122,7 @@
             <l>Tum magis atque magis magnis furoribus acti</l>
             <l>Clamores simul horrendos ad sidera tollunt</l>
             <l>Et magis atque magis poenas cum sanguine poscunt.</l>
-            <l>HIas inter voces medio in flagrante tumultu</l>
+            <l>Has inter voces medio in flagrante tumultu</l>
             <pb type="image" n="0054"/>
             <fw>CARMINA</fw>
             <pb type="page" n="58"/>
@@ -1136,20 +1146,20 @@
             <l>Sponte sua umbrosae penitus patuere cavernae.</l>
             <l>Ingreditur linquens antrum; tum maxima turba,</l>
             <l>Vt videre deum fulgentiaque ora per umbras,</l>
-            <l cert="low">lngenti trepidare metu. nec plnra moratus</l>
-            <l>IIaec ait et dictis maerentia pectora mulcet:</l>
+            <l>Ingenti trepidare metu. nec plnra moratus</l>
+            <l>Haec ait et dictis maerentia pectora mulcet:</l>
             <l>‘Ne trepidate, meae animaeque umbraeque pateruae;</l>
             <l>Vobis parta quies. genitor mihi talia namque</l>
             <l>Dicta dedit, divosque haec limina teudere adegit.’</l>
             <pb type="image" n="0055"/>
             <fw>CODICIS SALMASIANI.</fw>
             <pb type="page" n="59"/>
-            <l n="65">Haecfatusanimas,quaeperiugalongasedebant,</l>
+            <l n="65">Haec fatus animas,quae per iuga longa sedebant,</l>
             <l>Deturbat, antro miserans submittit aperto,</l>
             <l>Et dicto parens supera ad convexa revexit.</l>
             <l>Interea magnam subito vulgata per urbem</l>
             <l>Fama volat, illum expirantem sedibus imis</l>
-            <l n="70" cert="low">lam1 revocare gradum superasque evadere ad auras.</l>
+            <l n="70">Iam revocare gradum superasque evadere ad auras.</l>
             <l>Obstipuere animis alii; set sanguinis auctor</l>
             <l>Se causam clamat crimenque caputque malorum,</l>
             <l>Et nodum informis leti trabe nectit ab alta</l>
@@ -1158,20 +1168,20 @@
             <l>Ad socios, quibus in mediis sic deinde locntus</l>
             <l>Extulit os sacrum claraque in luce refulsit,</l>
             <l>Omnia longaevo similis, cunctisque repente</l>
-            <l>[lmprovisus ai] ‘. .</l>
-            <l cert="low">lre iterum in lacrimas? coram, que quaeritis, adsum.</l>
+            <l>[Improvisus ait] ‘<gap reason="lost"/></l>
+            <l>Ire iterum in lacrimas? coram, que quaeritis, adsum.</l>
             <l n="50">En perfecta mei cari praecepta parentis.</l>
             <milestone n="p. 25" unit="page"/>
             <l>Quare agite, o socii, tantarum in munera laudum</l>
             <l>Ite’, ait; ‘egregias animas natique patrisque</l>
             <l>Sermonum memores pluviali spargite lympba.</l>
-            <l cert="low">lpse, ubi tempus erit, omnis in fonte lavabo.’</l>
+            <l>Ipse, ubi tempus erit, omnis in fonte lavabo.’</l>
             <l n="85">Dixit et in caelum paribus se sustulit alis</l>
             <l>Conditus in nubem; hinc regia tecta subivit</l>
             <l>Dona ferens victor, cari genitoris et ora.</l>
             <l>Oscula libavit dextramque amplexus inhaesit.</l>
-            <l cert="low">luius in adventum cernes a sedibus imis</l>
-            <l cert="low">2 †Eruere summas arces et moenia verti</l>
+            <l>Huius in adventum cernes a sedibus imis</l>
+            <l>†Eruere summas arces et moenia verti</l>
             <pb type="image" n="0056"/>
             <fw>CARMNA</fw>
             <pb type="page" n="60"/>
@@ -1180,11 +1190,20 @@
             <l>Terrentur visu subito. rex omnibus idem</l>
             <l>Iura dabit populis pariter subigetque fateri,</l>
             <l>Quae quis aput superos furto laetatus inani</l>
+            <l>
+                <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/>
+            </l>
+            <l>
+                <gap reason="lost"/>
+            </l>
             <l>‘Sed vos, o lecti, ferro pro nomine tanto,</l>
             <l>Quod superest, moriamur et in media arma ruamus.</l>
             <l>Sanguine quaerendi reditus animamque litando.’</l>
             <l>Haec ubi pro meritis, finem dedit ore precandi.</l>
-            <l>Succedunt alii L graves aetate ministri.</l>
+            <l>Succedunt alii graves aetate ministri.</l>
             <l>Pars in frusta secant onerantque altaria donis;</l>
             <l>Tum demum pueri et pavidae longo ordine matres</l>
             <l>Stant circum.</l>
@@ -1196,40 +1215,49 @@
             <l>Et pueri rudes; sequitur tunc cetera pubes.</l>
             <l>Protinus ad reditum quisquis ac tecta domorum</l>
             <l n="110">Tendimus, et laetum semper celebramus honorem.</l>
+            <important>Missing Page 0057</important>
+            <important>Missing Page 0058</important>
             <pb type="image" n="0059"/>
             <fw>CODICIS SALMASIANI.</fw>
             <pb type="page" n="63"/>
-            <l>Potuisti linquere solam,</l>
-            <l>Per tot discrimina rerum</l>
-            <l>Nequiquam erepte periclis?</l>
-            <l>Manet aa mente repostum,</l>
-            <note type="Notes">p. 28</note>
-            <l>Quam forti pectore et armis</l>
-            <l>[Medioque ex hoste recepit]</l>
-            <l>Quaesitas sanguine dotes.</l>
-            <l>Felix, heu nimium felix,</l>
-            <l>Dum fata deusque sinebant!</l>
-            <l>Nescis heu perdita necdum,</l>
-            <l>Quae te dementia cepit</l>
-            <l>Caput obiectare periclis.</l>
-            <l>Iaec nos suprema manebant,</l>
-            <l cert="low">†fMoc ignes araeque parabant?</l>
-            <l>Nostram nunc accipe mentem:</l>
-            <l>Vaginaque eripe ferrum</l>
-            <l>Ferroque averte dolorem!</l>
-            <l>Creon. Medea</l>
-            <l cert="low">cr. Femina, quae nostris erras in finibus hostis,</l>
-            <l>Flecte viam velis; neque enim nescimus et urbem</l>
-            <l>Et genus invisum et non innoxia verba;</l>
-            <l>IHostilis facies [ne] occurrat et omina turbet.</l>
-            <l>Nullae hic insidiae nec tanta superbia victis,</l>
-        </div>
-        <div type="textpart" subtype="poem">
-            <head>M.</head>
-            <l>Non ea vis animo, nec sic ad praelia veni.</l>
-            <l cert="low">c. Non ut rere meas effugit nuntius auris,</l>
-            <l>Vnde genus ducis varium et mutabile semper.</l>
-            <l n="60">Tu potes unanimes armare in praelia fratres</l>
+            <said who="Chorus Colchidarum">
+                <l>Potuisti linquere solam,</l>
+                <l>Per tot discrimina rerum</l>
+                <l>Nequiquam erepte periclis?</l>
+                <l>Manet aa mente repostum,</l>
+                <note type="Notes">p. 28</note>
+                <l>Quam forti pectore et armis</l>
+                <l>[Medioque ex hoste recepit]</l>
+                <l>Quaesitas sanguine dotes.</l>
+                <l>Felix, heu nimium felix,</l>
+                <l>Dum fata deusque sinebant!</l>
+                <l>Nescis heu perdita necdum,</l>
+                <l>Quae te dementia cepit</l>
+                <l>Caput obiectare periclis.</l>
+                <l>Iaec nos suprema manebant,</l>
+                <l cert="low">†Hoc ignes araeque parabant?</l>
+                <l>Nostram nunc accipe mentem:</l>
+                <l>Vaginaque eripe ferrum</l>
+                <l>Ferroque averte dolorem!</l>
+                <speaker>Creon</speaker>
+                <speaker>Medea</speaker>
+            </said>
+            <said who="Creon">
+                <l>Femina, quae nostris erras in finibus hostis,</l>
+                <l>Flecte viam velis; neque enim nescimus et urbem</l>
+                <l>Et genus invisum et non innoxia verba;</l>
+                <l>Hostilis facies [ne] occurrat et omina turbet.</l>
+            </said>
+            <said who="Medea">
+                <l>Nullae hic insidiae nec tanta superbia victis,</l>
+                <l>Non ea vis animo, nec sic ad praelia veni.</l>
+            </said>
+            <said who="Creon">
+                <l>Non ut rere meas effugit nuntius auris,</l>
+                <l>Vnde genus ducis varium et mutabile semper.</l>
+                <l n="60">Tu potes unanimes armare in praelia fratres</l>
+            </said>
+            <important>Missing Page 0060</important>
             <pb type="image" n="0061"/>
             <fw>CODICIS SALMASIAN.</fw>
             <pb type="page" n="65"/>
