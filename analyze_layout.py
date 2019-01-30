@@ -16,7 +16,7 @@ sns.set(color_codes=True)
 
 # Constants that changes the directory on which the script is run
 DEV = "input"
-PROD = "../anthologia/tif"
+PROD = "../anthologia/tif/hocr"
 MODE = PROD
 # Constants to read files
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
@@ -178,7 +178,8 @@ def run_stats():
     xs = []
     pages = {}
     # Change MODE to change direction
-    for file in glob.glob(os.path.join(DIRECTORY, MODE, "*.hocr")):
+    for file in sorted(glob.glob(os.path.join(DIRECTORY, MODE, "*.hocr"))):
+        print(file)
         # Parse the XML file
         with open(file) as io:
             xml = ET.parse(io)
