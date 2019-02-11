@@ -4009,7 +4009,7 @@
                 <note ana="Side note">100</note>
                 <note ana="Side note">B. III 45.</note>
                 <note ana="Side note">M. 901.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Side note">B. IV 299.</note>
                 <l>Flammea perspicuis coeunt bic lumina lymphis</l>
                 <l>Dantque novum mixti Phoebnus et unda diem.</l>
@@ -4019,7 +4019,7 @@
             <div type="textpart" subtype="poem" n="123">
                 <note ana="Side note">B. III 46.</note>
                 <note ana="Side note">M. 902.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Notes">B. IV 299.</note>
                 <l>Infundit nostris Titan sua lumina Bais</l>
                 <l>Inclusumque tenet splendida cella iubar.</l>
@@ -4040,24 +4040,24 @@
                 <fw>CARMNA</fw>
             </div>
             <div type="textpart" subtype="poem" n="125">
-                <l>Aliter</l>
-                <l>Deest</l>
+                <head>Aliter</head>
+                <note>Deest</note>
             </div>
             <div type="textpart" subtype="poem" n="126">
                 <note ana="Side note">B. III 40.</note>
                 <note ana="Side note">M. 896.</note>
-                <l>. [De liotheca in ticlinium mutte]</l>
+                <head><add>De Bibliotheca in ticlinium mutte</add></head>
                 <l>Tecta novem Phoebi nuper dicata Camenis</l>
                 <l>Nunc retinet Bacchus et sua tecta vocat.</l>
                 <l>Namque ubi tot veterum manserunt scripta virorum,</l>
                 <l>Hic potat laete dulcia vina Cypris.</l>
-                <head>. 85</head>
+                <note type="page">. 85</note>
                 <l>Cognato semper lustrantur numine sedes: p.uacu ess’</l>
                 <l>Quas coluit Phoebus, has colit et Bromius.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="127">
                 <note ana="Side note">B. III 168.</note>
                 <note ana="Side note">M. 947.</note>
-            </div>
-            <div type="textpart" subtype="poem">
                 <head cert="high">De lenone uxoris suae</head>
                 <note ana="Side note">B. IV 300.</note>
                 <l>Graecule, consueta lenandi callidus arte,</l>
@@ -4066,7 +4066,7 @@
                 <l>Consueras propria praecipitare domo.</l>
                 <l>Sed praetensa catus derisit retia quidam,</l>
                 <l>Conversa statuens sorte manere domo:</l>
-                <l>Nam semel admissus [tenuit mox omnia felix]</l>
+                <l>Nam semel admissus <add>tenuit mox omnia felix</add></l>
                 <l>Teque tuis miserum depulit e laribus.</l>
                 <pb type="image" n="0133"/>
                 <fw>CODICIS SALMASANI.</fw>
@@ -4076,7 +4076,7 @@
             <div type="textpart" subtype="poem" n="128">
                 <note ana="Side note">B. III 169.</note>
                 <note ana="Side note">M. 948.</note>
-                <l>Ad lenonem eomitiacum</l>
+                <head>Ad lenonem comitiacum</head>
                 <note ana="Side note">B. IV 300.</note>
                 <l>Militiae cultus et nigri tegmina panni</l>
                 <l>Cur magis eoptes, dissere, leno, mihi.</l>
@@ -4106,12 +4106,11 @@
                 <fw>CARMINA</fw>
                 <l>Nunc utroque carens, ignoti fabula sexus,</l>
                 <l>Femina cum non sis, vir tamen esse nequis.</l>
-                <note ana="Side note">r</note>
             </div>
             <div type="textpart" subtype="poem" n="130">
                 <note ana="Side note">B. III 171.</note>
                 <note ana="Side note">M. 950.</note>
-                <head cert="high">De Caballina meretriee</head>
+                <head cert="high">De Caballina meretrice</head>
                 <note ana="Side note">B. IV 301.</note>
                 <l>Caballina furens amanda nulli</l>
                 <l>Excussis modo calcibus fremebat;</l>
@@ -4119,17 +4118,16 @@
                 <l>Et vibret Parium nitens colorem,</l>
                 <l>Hirsutis tamen est petenda mulis,</l>
                 <l>Qui possint pariles citare iunctas.</l>
-                <note ana="Side note">0</note>
+            </div>
+            <div type="textpart" subtype="poem" n="131">
                 <note ana="Side note">B. III 167.</note>
                 <note ana="Side note">M. 946.</note>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head cert="high">De Arucitano vate</head>
+                <head cert="high">De Arzucitano vate</head>
                 <note ana="Side note">B. IV 302.</note>
                 <l>Praecisae silicis cautibus edite,</l>
                 <l>Silvestri iuvenis durior arbuto,</l>
                 <l>Trunco cum stupeas horridior, cupis</l>
-                <l>Formare [e propriis carmina versibus</l>
+                <l>Formare <add>e</add> propriis carmina versibus</l>
                 <l>Et metri variis ludere legibus?</l>
                 <l>Sed quis te docilem iudicet artium,</l>
                 <l>Quas natura dedit cordis acutior?</l>
@@ -4140,13 +4138,11 @@
                 <fw>CODICIS SALMASIANI.</fw>
                 <pb type="page" n="139"/>
                 <l>Qui vaccam trabibus lusit adulteris</l>
-                <note ana="Notes">V4</note>
-                <l cert="low">qui struxit ecum fraudis Achaicae.</l>
-                <note ana="Side note">00</note>
+                <l cert="low">Vel qui struxit ecum fraudis Achaicae.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="132">
                 <note ana="Side note">B. V 150.</note>
                 <note ana="Side note">M. 260.</note>
-            </div>
-            <div type="textpart" subtype="poem">
                 <head cert="high">De capone phasianacio</head>
                 <note ana="Side note">B. IV 302.</note>
                 <l>Candida Phoebeo praefulgunt ora rubore,</l>
@@ -4160,7 +4156,7 @@
             <div type="textpart" subtype="poem" n="133">
                 <note ana="Side note">B. III 208.</note>
                 <note ana="Side note">M. 980.</note>
-                <l>Do malis Matiani</l>
+                <head>Do malis Matiani</head>
                 <note ana="Side note">B. IV 303.</note>
                 <l>Haec poterant celeres pretio tardare puellas,</l>
                 <l>Haec fuerant Veneri iudice danda Phryge.</l>
@@ -4170,7 +4166,7 @@
             <div type="textpart" subtype="poem" n="134">
                 <note ana="Side note">B. III 209.</note>
                 <note ana="Side note">M. 981.</note>
-                <l>Aliter. aus.</l>
+                <head>Aliter. Laus.</head>
                 <note ana="Side note">B. IV 303.</note>
                 <l>IHis constat Veneri praclatae gratia formae,</l>
                 <l>Haec moriente sacrum perdidit angue nemus.</l>
@@ -4179,9 +4175,9 @@
                 <pb type="page" n="140"/>
             </div>
             <div type="textpart" subtype="poem" n="135">
-                <note ana="Side note">B. 1I1 210.</note>
+                <note ana="Side note">B. III 210.</note>
                 <note ana="Side note">M. 4982.</note>
-                <l>Aliter. Vituperatio</l>
+                <head>Aliter. Vituperatio</head>
                 <note ana="Side note">B. I1V 03.</note>
                 <l>His contempta deum tenuit Discordia mensam,</l>
                 <l>Prodidit atque urbem his Briseida suam.</l>
@@ -4189,19 +4185,19 @@
             <div type="textpart" subtype="poem" n="136">
                 <note ana="Side note">B. V 130.</note>
                 <note ana="Side note">M. 107.</note>
-                <head cert="high">De glone</head>
+                <head cert="high">De gillone</head>
                 <note ana="Side note">B. 1V 309</note>
-                <l>Cillo vomit gelidum vastis singultibus amnem,</l>
+                <l>Gillo vomit gelidum vastis singultibus amnem,</l>
                 <l>Vis aliena cui frigoris addit opem.</l>
                 <l>Nam tepidum laticem curamus claudere testa,</l>
                 <l>Vt mersa imbrigenis unda nivescat aquis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="137">
+                <head cert="high">De theo</head>
                 <note ana="Side note">IB. V 198.</note>
                 <note ana="Side note">M. 1127.</note>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head cert="high">De theo</head>
                 <note ana="Side note">B. IV 304.</note>
-                <l cert="low">lnguine suspensam gestas [sub ventre] lagoenam,</l>
+                <l>Inguine suspensam gestas <add>sub ventre</add> lagoenam,</l>
                 <l>Quae tibi fit turgens amphora flante Noto.</l>
                 <l>Vectigal poteras figulorum reddere fisco,</l>
                 <l>Quorum tam tereti ramice vincis opus.</l>
@@ -4210,7 +4206,7 @@
             <div type="textpart" subtype="poem" n="138">
                 <note ana="Side note">B. V 199.</note>
                 <note ana="Side note">M. 1128.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Side note">B. IV 304.</note>
                 <l>Moles tanta tibi pendet sub ventre syringis,</l>
                 <l>Vt te non dubitem dicere bicipitem.</l>
@@ -4220,7 +4216,7 @@
                 <l>Nam te si addictum mittat sententia campo,</l>
                 <l>Vispillo ignoret, quod secet ense caput.</l>
             </div>
-            <div type="textpart" subtype="poem" n="1393">
+            <div type="textpart" subtype="poem" n="139">
                 <note ana="Notes">B. I 7.</note>
                 <note ana="Side note">M. 562.</note>
                 <head cert="high">De Iove in pluteo</head>
