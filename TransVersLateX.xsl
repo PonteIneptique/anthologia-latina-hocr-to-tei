@@ -9,6 +9,12 @@
         <xsl:param name="string" />
         <xsl:value-of select="replace(replace(translate($string,'&#7491;&#7495;&#7580;&#7496;','abcd'),'\[',' \\lbrack '), '\]', ' \\rbrack ')"/>
     </xsl:function> 
+    
+    <xsl:template match="add">
+        <xsl:text>\\lbrack</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>\\rbrack</xsl:text>
+    </xsl:template> 
     <xsl:template match="TEI"><xsl:apply-templates select="text/body" /></xsl:template>
     
    <xsl:template match="body"><xsl:text>\documentclass[11pt, a4paper]{report}
