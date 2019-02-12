@@ -4540,7 +4540,7 @@
                 <l>Sed cruor extincti florea rura replet.</l>
             </div>
             <div type="textpart" subtype="poem" n="168">
-                <note type="Side note">B. .</note>
+                <note ana="Side note">B. .</note>
                 <note ana="Side note">M. 676.</note>
                 <head><add>Aliter</add></head>
                 <note ana="Side note">B. ib.</note>
@@ -4863,7 +4863,7 @@
             <div type="textpart" subtype="poem" n="193">
                 <note ana="Side note">B. III .</note>
                 <note ana="Side note">M. 9.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Side note">B. IV 318.</note>
                 <l>In parte alveoli pyrgus velut urna resedit,</l>
                 <l>Qui vomit internis tesserulas gradibus,</l>
@@ -4883,10 +4883,10 @@
             <div type="textpart" subtype="poem" n="194">
                 <note ana="Side note">B. III 78.</note>
                 <note ana="Side note">M. 931.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Side note">B. IV 319.</note>
                 <l>Indica materies blandum certamen amicis</l>
-                <l>Ofert, sed belli fert simulacra tamen.</l>
+                <l>Offert, sed belli fert simulacra tamen.</l>
                 <l>Namque acie aequali concurrit russeus albo,</l>
                 <l>Vt gravibus damnisse domet alteruter.</l>
                 <note ana="Notes">p. 100</note>
@@ -4903,7 +4903,7 @@
                 <note ana="Notes">M. 1081.</note>
                 <head cert="high">De elephanto</head>
                 <note ana="Side note">B. IV 320.</note>
-                <l cert="low">lorrida cornuto procedit belua rostro,</l>
+                <l>Horrida cornuto procedit belua rostro,</l>
                 <l>Quam dives nostris Hndia misit oris.</l>
                 <l>Sed licet inmani pugnet proboscide barrus</l>
                 <l>Spondeat et saevis dentibus interitum,</l>
@@ -4915,7 +4915,7 @@
             <div type="textpart" subtype="poem" n="196">
                 <note ana="Side note">IB V 144.</note>
                 <note ana="Side note">M. 1080.</note>
-                <l>Aliter</l>
+                <head>Aliter</head>
                 <note ana="Side note">B. IV 320.</note>
                 <l>Monstrorum princeps elepbans proboscide saevus</l>
                 <l>Horret mole nigra, dente micat niveo.</l>
@@ -4934,13 +4934,13 @@
             <div type="textpart" subtype="poem" n="197">
                 <note ana="Side note">B. III 15.</note>
                 <note ana="Side note">M. 891.</note>
-                <head cert="high">De eireensibus</head>
+                <head cert="high">De circensibus</head>
                 <note ana="Side note">B. IV 320.</note>
                 <l>Circus imago poli, formam cui docta vetustas</l>
                 <l>Condidit et numeros limitis aetherei.</l>
                 <l>Nam duodenigenas ostendunt ostia menses</l>
                 <l>Quaeque ineat cursim aureus astra iubar.</l>
-                <note ana="Notes">p. 01</note>
+                <note ana="Notes">p. 101</note>
                 <l>Tempora cornipedes referunt, elemeata colores;</l>
                 <l>Auriga, ut Phoebus, quattuor aptat equos.</l>
                 <l>Cardinibus propriis includunt septa quadrigas,</l>
@@ -4960,13 +4960,13 @@
                 <l>Castoribus simpli rite dicantur equi.</l>
                 <l>Divinis constant nostra spectacula rebus,</l>
                 <l>Gratia magna quibus crevit honore deum.</l>
-                <note ana="Notes">198 .</note>
             </div>
-            <div type="textpart" subtype="poem">
-                <head>XV1</head>
-                <l>Verba Aohillis in parthenone, eum</l>
+            <div type="textpart" subtype="poem" n="198">
+                
+                <milestone unit="unknown" n="XV1" />
+                <head>Verba Achillis in parthenone, cum <lb />
+                    tubam Diomedia audisset</head>
                 <note ana="Side note">M. 695.</note>
-                <l cert="low">tubam Diomedis audisset</l>
                 <note ana="Side note">B. IV 322.</note>
                 <l>Vana velut cautae surgens formido parenti</l>
                 <l>Femineos iuvenem iussit me sumere cultus</l>
@@ -4978,7 +4978,7 @@
                 <l>Dum nos bella vocant rauco clangore tubarum,</l>
                 <l>Mens quatitur saevusque movet praecordia Mavors.</l>
                 <l>Rumpe moras omnes, fervens in praelia virtus,</l>
-                <l>Nee fuerit latuisse meum! si classica temno,</l>
+                <l>Nec fuerit latuisse meum! si classica temno,</l>
                 <note ana="Notes">p. 102</note>
                 <l>Dilexi latebras, neque culpa est ulla parentis.</l>
                 <l>Nam cum respicio quo sim de semine cretus</l>
@@ -5011,15 +5011,14 @@
                 <l>Cernere iam videor, quanta mercede cruoris</l>
                 <l>Constabit raptus Paridi crimenque iacenti,</l>
                 <l>Obvia cristatus cum sparserit agmina vertex</l>
-                <l cert="low">0 Et solo aspectu claudentur Pergama nostro;</l>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>. 103</head>
+                <l>Et solo aspectu claudentur Pergama nostro;</l>
+                
+                <note ana="Page">p. 103</note>
                 <l>Cumque novus visos bellator fudero Teucros,</l>
                 <pb type="image" n="0160"/>
                 <fw>CARMINA</fw>
                 <pb type="page" n="164"/>
-                <l>Multa trahet Xanthi Troiana cadavera grges</l>
+                <l>Multa trahet Xanthi Troiana cadavera gurges</l>
                 <l>Maioremque feret cultorum sanguine cursum.</l>
                 <l>Sed mihi quis referat: ‘Tu, quem praesaga creatrix</l>
                 <l>Subducens fatis alieni schemate sexus</l>
@@ -5034,7 +5033,7 @@
                 <l>Nec spondet certam tristis Bellona salutem!’</l>
                 <l n="55">Sed Danais comes esse placet sociumque pericli</l>
                 <l>Pro famae titulis meliori adiungere causae.</l>
-                <l>‘ScilicetutconiunxviduoreddaturA1ridi,</l>
+                <l>‘Scilicet ut coniunx viduo reddatur Atridi,</l>
                 <l>Procumbat vilis Teucrorum victima Achilles?’</l>
                 <l>Aufer, iners monitor, turpis fomenta medellae</l>
                 <l>Meque sine proprio sectari praelia sensu.</l>
@@ -5051,7 +5050,7 @@
                 <l>Solus ego in cunctis infami carcere clausus</l>
                 <l>Subducar pugnae? quanto tolerabo pudore</l>
                 <note ana="Notes">p. 104</note>
-                <l n="7o">Me non ferre pedem, quo fert Thersites, in omni</l>
+                <l n="70">Me non ferre pedem, quo fert Thersites, in omni</l>
                 <l>Parte miser, forma brevior menteque fugaci?</l>
                 <l>Absit ab ingenio ac viribus Aeacidarum,</l>
                 <l>Vt dubitem pro laude mori metuamque supremum</l>
@@ -5074,13 +5073,14 @@
                 <pb type="image" n="0162"/>
                 <pb type="page" n="166"/>
                 <fw>CARMINA</fw>
-                <head cert="high">XVI)</head>
+                
             </div>
             <div type="textpart" subtype="poem" n="199">
-                <head cert="high">VES2AE</head>
+                <milestone unit="unknown" n="XVI"/>
+                <head cert="high">VESPAE</head>
                 <note ana="Side note">B. M.</note>
                 <note ana="Side note">B. IV 326.</note>
-                <l>Iudieium cocei et pistoris iudiee Vulcano</l>
+                <head>Iudicium coci et pistoris iudice Vulcano</head>
                 <l>Ter ternae, varias docte quae traditis artes,</l>
                 <l>Linquite Pierios colles et scribite mecum.</l>
                 <l>Ille ego Vespa precor, cui divae saepe dedistis</l>
@@ -5095,9 +5095,9 @@
                 <l>‘Numina per Cereris iuro, per Apollinis arcus!</l>
                 <l>Miror enim (fateor), et iam vix credere possum,</l>
                 <l>Quod cocus iste mihi sit respondere paratus,</l>
-                <l>Quisve sit utilior, audet contendere mecum,</l>
-                <l>De cuius manibus semper fit pane satullus.</l>
-                <l>Sunt testes anni faustae lanique lxalendae,</l>
+                <l n="15">Quisve sit utilior, audet contendere mecum,</l>
+                <l n="14">De cuius manibus semper fit pane satullus.</l>
+                <l n="16">Sunt testes anni faustae lanique kalendae,</l>
                 <l>Quique meum studium per Saturnalia norunt;</l>
                 <l>Quorum epulas semper rerum commendo paratu.</l>
                 <l>Sis memor, o Saturne, tuis quod praesto diebus,</l>
@@ -5130,7 +5130,7 @@
                 <l>Pistor ego macto flavas sine sanguine messes.</l>
                 <l>Tympana habet Cybele: sunt et mihi tympana cribri;</l>
                 <l>Thyrsitenens Satyros: facio et saturos ego plures;</l>
-                <l n="45">Hllumr praecedunt Panes: facio mihi panes.</l>
+                <l n="45">Illum praecedunt Panes: facio mihi panes.</l>
                 <pb type="image" n="0164"/>
                 <fw>CARMINA</fw>
                 <pb type="page" n="168"/>
@@ -5148,12 +5148,12 @@
                 <l>Ordine primus ero, dignus quem palma sequatur’</l>
                 <l>Conticuit pistor. coepit cocus ordine fari,</l>
                 <l>Ora niger studio, faciem mutante favilla:</l>
-                <l>‘Si verbis pistor damnavit iura cocorum,</l>
-                <l cert="low">lli ne credas aliquid, quia fingere novit,</l>
-                <l>Qui semper multis dicit se vendere fuhum,</l>
-                <l>Stat qui sub saxo quasi Sisyphus atque laborat,</l>
+                <l n="60">‘Si verbis pistor damnavit iura cocorum,</l>
+                <l n="62">Illi ne credas aliquid, quia fingere novit,</l>
+                <l n="61">Qui semper multis dicit se vendere fuhum,</l>
+                <l n="63">Stat qui sub saxo quasi Sisyphus atque laborat,</l>
                 <l>Denique qui tantum de melle et polline fingit</l>
-                <milestone n="p. 10" unit="page"/>
+                <milestone n="p. 107" unit="page"/>
                 <l>Has quas iactat opes. nobis quae copia, dicam.</l>
                 <l n="66">Silva feras tribuit, pisces mare et aura volucres,</l>
                 <l>Dat vinum Bromius, Pallas mihi praestat olivam,</l>
@@ -5182,26 +5182,28 @@
                 <l>Cervinam Actaeon tollit, Meleager aprinam,</l>
                 <l>Agninam Pelias, taurinam lingulus Aiax.</l>
                 <l>Orpheu, tu tollis chordas; Leaudre, lacertos;</l>
-                <l n="00o">Me sterilem Niobe, linguam Philomela rogant me.</l>
+                <l n="90">Me sterilem Niobe, linguam Philomela rogant me.</l>
                 <pb type="image" n="0166"/>
                 <fw>CARMINA</fw>
                 <pb type="page" n="170"/>
-                <l>Pluma Pbiloctetae servit, rogat Icarus alas;</l>
+                <l>Pluma Philoctetae servit, rogat Icarus alas;</l>
                 <l>Bubula Passiphae, Europe bubula poscit.</l>
                 <l>Auratam Danaae, cygnum bene condio Ledae.</l>
                 <l>Iam finem pugnae faciat sententia nobis.’</l>
-                <note ana="Notes">p. 10</note>
+                <note ana="Notes">p. 103</note>
                 <l n="95">Vtque cocus pressit vocem, sic Mulciber infit:</l>
                 <l>‘Es, coce, suavis homo; dulcis sed tu queque, pistor.</l>
                 <l>Aequales dimitto deus, qui vos bene novi.</l>
                 <l>Consentite (probis sine rixa vivere dulce est),</l>
                 <l>Ne frigus faciam, si me subduxero vobis’</l>
-                <head cert="high">[XVII</head>
-                <l>P erv i giiu m V en eri</l>
+            </div>
+            <div type="textpart" subtype="poem" n="200">
+                <milestone unit="unknown" n="XVII" />
+                <head>Pervigilium Veneris</head>
                 <note ana="Side note">B. M.</note>
-                <l>Snt vero versus XI</l>
+                <head>Sunt vero versus XXII</head>
                 <note ana="Side note">B. I V 292.</note>
-                <l>Crasametquinumquamamavitquiqueamavitcras amet!</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
                 <l>Ver novum, ver iam canorum; vere natus orbis est,</l>
                 <pb type="image" n="0167"/>
                 <fw>CODICIS SALMASIANI.</fw>
@@ -5209,15 +5211,15 @@
                 <l>Et nemus comam resolvit de maritis imbribus.</l>
                 <l n="5">Cras amorum copulatrix inter umbras arborum</l>
                 <l>Inplicat casas virentis de flagello myrteo,</l>
-                <l>Cras Dione iura dicit fulta sublimi throno.</l>
-                <l cert="low">8 Crasametquinumquamamavitquiqueamavit crasamet!</l>
-                <l n="13" cert="low">psa gemmis purpurantem pingit annum floridis,</l>
-                <l cert="low">psa surgentes papillas de Favoni spiritn</l>
+                <l n="7">Cras Dione iura dicit fulta sublimi throno.</l>
+                <l n="8"> Crasametquinumquamamavitquiqueamavit crasamet!</l>
+                <l n="13">Ipsa gemmis purpurantem pingit annum floridis,</l>
+                <l n="14">Ipsa surgentes papillas de Favoni spiritn</l>
                 <l n="15">Vrget in nodos patentes; ipsa roris lucidi,</l>
-                <l>Noctis aura quem relinquit, spargit umentis aquas.</l>
+                <l n="16">Noctis aura quem relinquit, spargit umentis aquas.</l>
                 <l n="18">Gutta praeceps orbe parvo sustinet casus suos</l>
-                <l cert="low">1 Et micant lacrimae trementes de caduco pondere.</l>
-                <l>En pudorem florulentae prodiderunt purpurae!</l>
+                <l n="17">Et micant lacrimae trementes de caduco pondere.</l>
+                <l n="19">En pudorem florulentae prodiderunt purpurae!</l>
                 <l n="20">Vmor ille, quem serenis astra rorant noctibus,</l>
                 <l>Mane virgineas papillas solvit †umenti peplo.</l>
                 <l>Ipsa iussit, mane totae virgines nubant rosae:</l>
@@ -5228,22 +5230,23 @@
                 <pb type="page" n="172"/>
                 <fw>CARMINA</fw>
                 <l>Vnico marita voto non pudebit solvere.</l>
-                <l>Crasametqui numquam amavitquiqueamavitcrasamet!</l>
-                <l>Ipsa Nymphas diva luco iussit ire myrteo:</l>
-                <l>‘Ite, Nymphae, posuit arma, feriatus est Amor.’</l>
-                <l cert="low">lt puer comes puellis; nec tamen credi potest,</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
+                <l n="31">Ipsa Nymphas diva luco iussit ire myrteo:</l>
+                <l n="29">‘Ite, Nymphae, posuit arma, feriatus est Amor.’</l>
+                <l n="30">lt puer comes puellis; nec tamen credi potest,</l>
                 <l>Esse Amorem feriatum, si sagittas exuit.</l>
                 <l>‘Iussus est inermis ire, nudus ire iussus est,</l>
                 <l>Neu quid arcu neu sagitta neu quid igne laederet.’</l>
                 <l>Sed tamen, Nymphae, cavete, quod Cupido pulcher est:</l>
                 <l n="35">Totus est in armis idem quando nudus est Amor.</l>
-                <l>Cras ametquinumquamamavitquiqueamavitcrasamet!</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
+                <l><gap reason="lost" /></l>
                 <l>Conpari Venus pudore mittit ad te virgines:</l>
                 <note ana="Notes">p. 10</note>
                 <l>‘Vna res est quam rogamus: cede, virgo Delia,</l>
                 <l>Vt nemus sit incruentum de ferinis stragibus.</l>
                 <l>Ipsa vellet te rogare, si pudicam flecteret,</l>
-                <l cert="low">lpsa vellet ut venires, si deceret virginem.</l>
+                <l>Ipsa vellet ut venires, si deceret virginem.</l>
                 <l>Iam tribus choros videres feriantis noctibus</l>
                 <l>Congreges inter catervas ire per saltus tuos</l>
                 <l>Floreas inter coronas, myrteas inter casas.</l>
@@ -5253,32 +5256,29 @@
                 <pb type="page" n="173"/>
                 <l>Detinenda tota nox est, perviglanda canticis.</l>
                 <l>Regnet in silvis Dione; tu recede, Delia’</l>
-                <l>Cras amet qui numquamamavitquiqueamavitcrasamet!</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
                 <l>Iussit Hyblaeis tribunal stare diva floribus:</l>
                 <l n="50">Praeses ipsa iura dicet, adsidebunt Gratiae.</l>
                 <l>Hybla, totos funde flores, quidquid annus adtulit!</l>
-                <l>Iybla, florum subde vestem, quantus Ennae campus est,</l>
+                <l>Hybla, florum subde vestem, quantus Ennae campus est,</l>
                 <l n="58">Vt recentibus virentes ducat umbras floribus!</l>
                 <l n="53">Ruris hic erunt puellae vel puellae montium</l>
                 <l>Quaeque silvas quaeque lucos quaeque fontes incolunt.</l>
                 <l n="55">Iussit omnes adsidere pueri mater alitis,</l>
                 <l>Iussit et nudo puellas nil Amori credere.</l>
-                <l n="57">Cras amet qui numquamamavitquiqueamavitcrasamet!</l>
+                <l n="57">Cras amet qui numquam amavit quique amavit cras amet!</l>
                 <l n="59">Cras erit, cum primus Aether copulavit nuptias.</l>
                 <l n="60">Vt pater totum crearet vernis annum nubibus,</l>
                 <l>In sinum maritus imber fluxit almae coniugis,</l>
                 <l>Vnde fetus mixtus omnis aleret magno corpore.</l>
-                <l>Tunc cruore de superno spumeo pontus globo</l>
+                <l n="9">Tunc cruore de superno spumeo pontus globo</l>
                 <l n="10">Caerulas inter catervas inter et bipedes equos</l>
                 <milestone n="p. 109" unit="page"/>
                 <l>Fecit undantem Dionen †de maritis imbribus.</l>
                 <pb type="image" n="0170"/>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>CARMNA</head>
-                <l n="12">Crasamet qui numquamamavitquiqueamavitcrasamet!</l>
-                <l>Ipsa venas atque mentem permeanti spiritu</l>
-                <note ana="Side note">63</note>
+                <fw>CARMNA</fw>
+                <l n="12">Crasamet qui numquam amavit quique amavit cras amet!</l>
+                <l n="63">Ipsa venas atque mentem permeanti spiritu</l>
                 <l>Intus occultis gubernat procreatrix viribus,</l>
                 <note ana="Notes">n. 177</note>
                 <l n="65">Perque caelum perque terras perque pontum subditum</l>
@@ -5288,21 +5288,22 @@
                 <l>Ipsa Troianos penates in Latinos transtulit,</l>
                 <l>Ipsa Laurentem puellam coniugem nato dedit,</l>
                 <l>Moxque Marti de sacello dat pudicam virginem;</l>
-                <l cert="low">omuleas ipsa fecit cum Sabinis nuptias,</l>
+                <l>Romuleas ipsa fecit cum Sabinis nuptias,</l>
                 <l>Vnde Ramnes et Quirites, unde prolem posterum,</l>
                 <l>Romuli gentem, crearet et nepotem Caesarem.</l>
-                <l n="75">Cras amet qui numquam amavitquiqueamavitcrasamet!</l>
+                <l n="75">Cras amet qui numquam amavit quique amavit cras amet!</l>
                 <l>Rura fecundat voluptas, rura Venerem sentiunt;</l>
                 <l>Ipse Amor puer Dionae rure natus dicitur.</l>
                 <l>Iunc ager cum parturiret, ipsa suscepit sinu,</l>
-                <l cert="low">psa florum delicatis educavit osculis.</l>
-                <l>Crasametqui numquamamavitquiqueamavitcrasamet! s0</l>
+                <l>Ipsa florum delicatis educavit osculis.</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
                 <l>Ecce iam subter genestas explicant tauri latus,</l>
                 <l>Quisque tutus quo tenetur coniugali foedere.</l>
                 <l>Subter umbras cum maritis ecce balantum greges</l>
                 <pb type="image" n="0171"/>
                 <fw>CODICIS SALMASIANI.</fw>
                 <pb type="page" n="175"/>
+                <l><gap reason="lost" /></l>
                 <l>Et canoras non tacere diva iussit alites.</l>
                 <l n="85">Iam loquaces ore rauco stagna cgni perstrepunt,</l>
                 <l>Adsonat Terei puella subter umbram populi,</l>
@@ -5312,7 +5313,7 @@
                 <l n="90">Quando faciam †uti cbhelidon, ut tacere desinam? p.</l>
                 <l>Perdidi Musam tacendo nec me Phoebus respicit.</l>
                 <l>Sic Amyclas cum tacerent perdidit silentium.</l>
-                <l>Crasametquinumquamamavitquiqueamavitcrasamet!</l>
+                <l>Cras amet qui numquam amavit quique amavit cras amet!</l>
             </div>
             <div type="textpart" subtype="poem" n="201">
                 <head cert="high">III)</head>
