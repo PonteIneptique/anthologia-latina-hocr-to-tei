@@ -18,7 +18,6 @@
             <fw>CARMEN</fw>
             <div type="textpart" subtype="poem" n="00">
                 <head>PAPYRI IERCVLANENSIS.</head>
-                <note ana="Side note">m Nr</note>
                 <note ana="Side note">B. M.</note>
                 <milestone unit="col" n="I"/>
                 <l>
@@ -6683,18 +6682,16 @@
                 <note ana="Side note">. 200.</note>
                 <head>EIVSDEM</head>
                 <note ana="Side note">B. IV 117.</note>
-                <l>Apud</l>
-                <l>Nec volo me summis ortuna neque adplicet imis, nial</l>
-                <l>Sed medium vitae temperet illa gradum. non ertat</l>
+                <l>Nec volo me summis ortuna neque adplicet imis</l>
+                <l>Sed medium vitae temperet illa gradum.</l>
                 <l>Invidia excelsos, inopes iniuria vexat:</l>
                 <note ana="Notes">p. 140</note>
                 <l>Quam felix vivit, quisquis utraque caret!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="277">
                 <note ana="Side note">7 4 4</note>
                 <note ana="Side note">B. III 281.</note>
                 <note ana="Side note">M. 545.</note>
-                <note ana="Side note">ru</note>
-            </div>
-            <div type="textpart" subtype="poem">
                 <head>TVCCIANI</head>
                 <note ana="Side note">B. IV 360.</note>
                 <l>Cantica gignit amor et amorem cantica gignunt.</l>
@@ -6706,13 +6703,13 @@
                 <head>EIVSDEM</head>
                 <note ana="Side note">B. IV 361.</note>
                 <l>Pallas tota Iovis patrio de vertice nata</l>
-                <l>In caelum cecidit .</l>
+                <l>In caelum cecidit. <gap reason="lost" /></l>
             </div>
             <div type="textpart" subtype="poem" n="279">
                 <head>VINCENTI</head>
                 <note ana="Side note">B. I 154.</note>
                 <note ana="Side note">M. 548.</note>
-                <l>Phaedra</l>
+                <head>Phaedra</head>
                 <note ana="Side note">B. IV 361.</note>
                 <l>Victe pudor, conpone preces! secreta duorum</l>
                 <l>Tertius ignoret; sit tantum littera testis</l>
@@ -6733,7 +6730,7 @@
                 <l>Et fastus tolerare tuos. sequar ora superbi,</l>
                 <l n="15">Oscula suspensis defigam singula plantis.</l>
                 <l>Me cruciet captivus amor, nemus omne resultet</l>
-                <l>HIippolytum, secumque ferat vox ultima nomen.</l>
+                <l>Hippolytum, secumque ferat vox ultima nomen.</l>
                 <l>Testor amoris onus Venerisque insignia nostrae:</l>
                 <l>Dum volo, dum nolo, dum vincor scribo repugno,</l>
                 <l n="20">Suspensos collo laqueos rogatura resolvi.</l>
@@ -6741,8 +6738,7 @@
             </div>
             <div type="textpart" subtype="poem" n="280">
                 <head>BONOSI</head>
-                <l>B . .</l>
-                <l>Vnde supra</l>
+                <head>Vnde supra</head>
                 <note ana="Side note">B. IV 362.</note>
                 <l>Incestum si promiseris, petii;</l>
                 <l>Si negaveris, tu petisti.</l>
@@ -6753,25 +6749,27 @@
             <div type="textpart" subtype="poem" n="281">
                 <note ana="Side note">B. III 156.</note>
                 <note ana="Side note">M. 921.</note>
-                <head cert="high">De unambulo</head>
+                <head cert="high">De funambulo</head>
                 <note ana="Side note">B. IV 362.</note>
                 <l>Vidi hominem pendere cum via,</l>
                 <l>Cui latior era planta quam semita.</l>
             </div>
             <div type="textpart" subtype="poem" n="282">
-                <l cert="low">, v 7s. De ursa aenea, ln qua serpens uit,</l>
+                <head>De ursa aenea, in qua serpens uit,
+                        <lb />ubi inscius puer manum misit</head>
                 <note ana="Side note">M. 1196.</note>
-                <l>FS. ubi inscius puer manum misit</l>
                 <l>Aere cavo falsam serpens impleverat ursam,</l>
                 <l>Addidit et morsum et iubet esse feram</l>
-                <l cert="low">lnplevit serpens quod minus artis erat.</l>
+                <l><gap reason="lost" /></l>
+                <l>Inplevit serpens quod minus artis erat.</l>
             </div>
             <div type="textpart" subtype="poem" n="283">
                 <note ana="Side note">B. V 183.</note>
                 <head cert="high">De pectine</head>
                 <note ana="Side note">B. IV 362.</note>
                 <l>Crinibus ambrosiis Veneris decus addidit, ut se</l>
-                <l>Pulchras iactarent Pallas vel pronuba Iuno. . .</l>
+                <l>Pulchras iactarent Pallas vel pronuba Iuno 
+                    <gap reason="lost" /></l>
             </div>
             <div type="textpart" subtype="poem" n="284">
                 <note ana="Side note">B V 181.</note>
@@ -6791,22 +6789,22 @@
                 <note ana="Side note">M. 1092.</note>
                 <head cert="high">De convlviis barbaris</head>
                 <note ana="Side note">B. IV 364.</note>
-                <l>Inter ‘eils’ goticum ‘scapia matia ia drincan’</l>
+                <l>Inter ‘eils’ goticum ‘scapia matzia ia drincan’</l>
                 <l>Non audet quisquam dignos edicere versus.</l>
             </div>
             <div type="textpart" subtype="poem" n="285ᵃ">
-                <l>[Item]</l>
+                <head><add>Item</add></head>
                 <l>Calliope madido trepidat se iungere Baccho,</l>
                 <l>Ne pedibus non stet ebria Musa suis.</l>
             </div>
             <div type="textpart" subtype="poem" n="286">
                 <head>SYMPIOSII</head>
-                <l cert="low">scholastici</l>
-                <note ana="Side note">. M</note>
-                <l>A e n i g m a t a</l>
+                <head>scholastici</head>
+                <head>Aenigmata</head>
                 <note ana="Notes">B. IV 365 385.</note>
-                <l>Praefatio</l>
-                <l>[XXII) llaec quoque Symphosius de carmine lusit inepto</l>
+                <head>Praefatio</head>
+                <milestone unit="unknown" n="XXIII"/>
+                <l>Haec quoque Symphosius de carmine lusit inepto</l>
                 <l>(Sic tu, Sexte, doces; sic te deliro magistro),</l>
                 <pb type="image" n="0218"/>
                 <fw>CARMINA</fw>
@@ -6816,9 +6814,6 @@
                 <l>Post epulas laetas, post dulcia pocula mensae</l>
                 <l>Deliras inter vetulas puerosque loquaces,</l>
                 <l>Cum streperet late madidae facundiai linguae,</l>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>. 142</head>
                 <l>Tum verbosa cohors studio sermonis inepti</l>
                 <pb type="image" n="0219"/>
                 <fw>CODICIS SALMASIANI.</fw>
@@ -6832,521 +6827,704 @@
                 <l n="15">Hos versus feci subito †de carmine vocis.</l>
                 <l>Insanos inter sanum non esse necesse est.</l>
                 <l>Da veniam, lector, quod non sapit ebria Musa.</l>
-                <l>I Graphium</l>
-                <l>De summo planus, sed non ego planus in imo</l>
-                <l>Versor utrimque manu. diverso munere fungor.</l>
-                <l n="20">Altera pars revocat, quidquid pars altera fecit.</l>
-                <l>II Harundo</l>
-                <l>Dulcis amica dei, ripae vicina profundae,</l>
-                <l>Suave canens Musis, nigro perfusa colore,</l>
-                <l>Nuntia sum linguae digitis signata magistris.</l>
+                <div>
+                    <head>I Graphium</head>
+                    <l>De summo planus, sed non ego planus in imo</l>
+                    <l>Versor utrimque manu. diverso munere fungor.</l>
+                    <l n="20">Altera pars revocat, quidquid pars altera fecit.</l>
+                </div>
+                <div>
+                    <head>II Harundo</head>
+                    <l>Dulcis amica dei, ripae vicina profundae,</l>
+                    <l>Suave canens Musis, nigro perfusa colore,</l>
+                    <l>Nuntia sum linguae digitis signata magistris.</l>
+                </div>
                 <pb type="image" n="0220"/>
                 <fw>CARMINA</fw>
                 <pb type="page" n="004"/>
-                <l>III Anulus cum gemma</l>
-                <l>Corporis extremi non magnum pondus adhaesi.</l>
-                <l>Igenitum dicas; ita pondere nemo gravatur.</l>
-                <l>Vna tamen facies plures habet ore figuras.</l>
-                <l>IIII Clavis</l>
-                <l>Virtutes magnas de viribus affero parvis.</l>
-                <l>Pando domos clausas, iterum sed claudo patentes.</l>
-                <milestone n="p. 143" unit="page"/>
-                <l>Servo domum domino, sed rursus servor ab ipso.</l>
-                <l>V Catena</l>
-                <l>Nexa ligor ferro, multos habitura ligatos.</l>
-                <l>Vincior ipsa prius, sed vincio vincta vicissim.</l>
-                <l>Et solvi multos, nec sum tamen ipsa soluta.</l>
-                <l>VI Tegula</l>
-                <l>Terra mihi corpus, vires mihi praestitit ignis;</l>
-                <l>De terra nascor; sedes est semper in alto;</l>
-                <l>Et me perfundit, qui me cito deserit, umor.</l>
-                <pb type="image" n="0221"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="225"/>
-                <l>VII Fumus</l>
-                <l>Sunt mihi, sunt lacrimae, sed non est causa doloris.</l>
-                <l>Est iter ad caelum, sed me gravis inpedit aer,</l>
-                <l>Et qui me genuit, sine me non nascitur ipse.</l>
-                <l>VIII Neula</l>
-                <l>Nox ego sum facie, sed non snm nigra colore</l>
-                <l n="40">Inque die media tenebras tamen affero mecum.</l>
-                <l>Nec mihi dant stellae lucem nec Cynthia lumen.</l>
-                <l>VIIII Pluvia</l>
-                <l>Ex alto venio, longa delapsa ruina.</l>
-                <l>De caelo cecidi medias transmissa per auras:</l>
-                <l>Sed sinus excepit, qui me simul ipse recepit.</l>
-                <l>X Glacies</l>
-                <l n="45">Vnda fui quondam, quod me cito credo futuram.</l>
-                <l>Nunc rigidi caeli duris conexa catenis</l>
-                <l>Nec calcata pati possum nec nuda teneri.</l>
-                <l>XI Nix</l>
-                <l>Pulvis aquae tenuis modico cum pondere lapsus,</l>
-                <l>Sole madens, aestate fluens, in frigore siccus,</l>
-                <l n="50">Flumina facturus totas prius occupo terras.</l>
-                <pb type="image" n="0222"/>
-                <pb type="page" n="226"/>
-                <fw>CARMINA</fw>
-                <l>XII Tlumen et piscis</l>
-                <note ana="Notes">p. 144</note>
-                <l>Est domus in terris, clara quae voce resultat.</l>
-                <l cert="low">lpsa domus resonat, tacitus sed non sonat hospes.</l>
-                <l>Ambo tamen currunt, hospes simul et domus una.</l>
-                <l>XII Navis</l>
-                <note ana="Side note">Vrr</note>
-                <l>Longa feror velox formosae filia silvae,</l>
-                <l n="55">Innumeris pariter comitum stipata catervis.</l>
-                <l>Curro vias multas, vestigia nulla relinquens.</l>
-                <l>XIIII Pullus in ovo</l>
-                <l>Mira tibi referam nostrae primordia vitae.</l>
-                <l>Nondum natus eram nec eram iam matris in alvo.</l>
-                <l>Iam posito partu natum me nemo videbat.</l>
-                <l>XV Vipera</l>
-                <l>Non possum nasci, si non occidero matrem.</l>
-                <l>Occidi matrem, sed me manet exitus idem.</l>
-                <l>Id mea mors patitur, quod iam mea fecit origo.</l>
-                <l n="5">XVI Tine</l>
-                <l>Littera me pavit, nec quid sit littera novi.</l>
-                <l>In libris vixi nec sum studiosior inde.</l>
-                <l>Exedi Musas nec adhuc tamen ipsa profeci.</l>
-                <pb type="image" n="0223"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="227"/>
-                <l>XVII Arane</l>
-                <l>Pallas me docuit texendi nosse laborem.</l>
-                <l>Nec pepli radios poscunt nec licia telae.</l>
-                <l>Nulla mihi manus est, pedibus tamen omnia fiunt.</l>
-                <l>XVIII Coclea</l>
-                <l>Porto domum mecum, semper migrare parata,</l>
-                <l n="70">Mutatoque solo non sum miserabilis exul,</l>
-                <l>Sed mihi concilium de caelo nascitur ipso.</l>
-                <head cert="high">XVIII Rana</head>
-                <milestone n="p. 145" unit="page"/>
-                <l cert="low">aucisonans ego sum media vocalis in unda,</l>
-                <l>Sed vox laude sonat, †quasi se quoque laudet et ipsa.</l>
-                <l>Cumque canam semper, nullus mea carmina laudat.</l>
-                <l>XX Testudo</l>
-                <l n="75">Tarda, gradu lento, specioso praedita dorso;</l>
-                <l>Docta quidem studio, sed saevo prodita fato</l>
-                <l>Viva nihil dixi; quae sic modo mortua canto.</l>
-                <head cert="high">XXI Tpa</head>
-                <l>Caeca mibi facies atris obscura tenebris.</l>
-                <l>Nox est ipse dies nec sol mihi cernitur ullus.</l>
-                <l n="80">Malo tegi terra: sic me quoque nemo videbit.</l>
-                <pb type="image" n="0224"/>
-                <pb type="page" n="228"/>
-                <fw>CARMINA</fw>
-                <l>XXII Formica</l>
-                <l>Providasumvitae,durononpigralabori,</l>
-                <l cert="low">psa ferens umeris securae praemia brumae.</l>
-                <l>Nec gero magna simul, sed congero multa vicissim.</l>
-                <head cert="high">XXIII Musca</head>
-                <note ana="Side note">V</note>
-                <l cert="low">lnproba sum, fateor. quid enim gula turpe veretur?</l>
-                <l>Frigora vitabam, quae nunc aestate revertor;</l>
-                <l>Sed cito submoveor falso conterrita vento.</l>
-                <head cert="high">XXIIII Crclio</head>
-                <l>Nou bonus agricolis, non frugibus utilis hospes,</l>
-                <l>Non magnus forma, non recto nomine dictus,</l>
-                <l>Non gratus Cereri non parvam sumo saginam.</l>
-                <note ana="Side note">r</note>
-                <head cert="high">XXV Mus</head>
-                <l n="90">Parva mihi domus est, sed ianua semper aperta.</l>
-                <l>Exiguo sumptu furtiva vivo sagina.</l>
-                <l>Quod mihi nomen inest, omae quoque consul habebat.</l>
-                <l>XXVI 6rus</l>
-                <l>Littera sum caeli pinna perscripta volanti,</l>
-                <milestone n="p. 146" unit="page"/>
-                <l>Bella cruenta gerens volucri discrimine Martis.</l>
-                <l>Nec vereor pugnas, dum non sit longior hostis.</l>
-                <pb type="image" n="0225"/>
-                <pb type="page" n="229"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <head cert="high">XXVII Corix</head>
-                <note ana="Side note">V c r</note>
-                <l>Vivo novem vitas, si me non Graecia fallit,</l>
-                <l>Atraque sum semper nullo conpulsa dolore,</l>
-                <l>Et non irascens ultro convitia dico.</l>
-                <l>XXVIII Vespertilio</l>
-                <note ana="Side note">V</note>
-                <l>Nox mihi dat nomen primo de tempore noctis.</l>
-                <l n="100">Pluma mihi non est, cum sit mibi pinna volantis;</l>
-                <l>Sed redeo in tenebris nec me committo diebus.</l>
-                <head cert="high">XXVIIII Eicius</head>
-                <note ana="Side note">rr</note>
-                <l>Plena domus spinis; parvi sed corporis hospes</l>
-                <l>Incolumi dorso telis conpletus acutis</l>
-                <l>Sustinet armatas sedes, habitator inermis.</l>
-                <l>XXX Peduculus</l>
-                <l n="105">Est nova nostrarum cunctis captura ferarum,</l>
-                <l>Vt si quid capias, id tu tibi ferre recuses,</l>
-                <l>Et quod non capias, tecum tamen ipse reportes.</l>
-                <pb type="image" n="0226"/>
-                <pb type="page" n="230"/>
-                <fw>CARMNA</fw>
-                <l>XXXI Pboenix</l>
-                <l>Vita mihi mors est; morior si coepero nasci.</l>
-                <l>Sed prius est fatum leti, quam lucis origo.</l>
-                <l>Sic solus Manes ipsos mihi dico parentes.</l>
-                <head cert="high">XXXII Taus</head>
-                <l>Moechus eram regis, sed lignea membra sequebar.</l>
-                <l>Et Cilicum mons sum, sed mons sum nomine solo.</l>
-                <l cert="low">vehor in caelis et in ipsis ambulo terris.</l>
-                <head cert="high">XXXIII Lpus</head>
-                <l>Dentibus insanis ego sum, qui vinco bidentes,</l>
-                <milestone n="p. 14" unit="page"/>
-                <l>Sanguineas praedas quaerens victusque cruentos.</l>
-                <l n="116">Multa cum rabie vocem quoque tollere possum.</l>
-                <head cert="high">XXIIII Vulpes</head>
-                <l>Exiguum corpus, sed cor mihi corpore maius.</l>
-                <l>Sum versuta dolis, arguto callida sensu,</l>
-                <l>Et fera sum sapiens, sapiens fera si qua vocatur.</l>
-                <head cert="high">XXXV Cpra</head>
-                <l>Alma Iovis nutrix, longo vestita capillo,</l>
-                <l>Culmina difficili peragrans super ardua gressu,</l>
-                <l>Custodi pecoris tremula respondeo lingua.</l>
-                <pb type="image" n="0227"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="0221"/>
-                <head cert="high">XXXVI Porcs</head>
-                <l>Setigerae matris fecunda natus in alvo</l>
-                <l>Desuper ex alto virides expecto saginas,</l>
-                <l n="125">Nomine numen habens, si littera prima periret.</l>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>XXXVII Ml</head>
-                <l>Dissimilis patri, matri diversa figura</l>
-                <l>Confusi generis; generi non apta propago.</l>
-                <l>Ex aliis nascor nec quisquam nascitur ex me.</l>
-                <head cert="high">XXXVIII ris</head>
-                <l>A fluvio dicor, fluvius vel dicitur ex me.</l>
-                <l n="130">Iunctaque sum vento, quae sum velocior ipso.</l>
-                <l>Et mihi dat ventus natos nec quaero maritum.</l>
-                <l>XXXVIIII Centaurus</l>
-                <l>Quattuor insignis pedibus manibusque duabus</l>
-                <l>Dissimilis mihi sum, quia sum non unus et unus.</l>
-                <l>Et vehor et gradior, qua me mea corpora portant.</l>
-                <l>XL Papaver</l>
-                <l n="135">Grande mihi caput est, intus sunt membra minuta.</l>
-                <l>Pes unus solus, sed pes longissimus unus.</l>
-                <milestone n="p. 148" unit="page"/>
-                <l>Et me somnus amat, proprio nec dormio somno.</l>
-                <pb type="image" n="0228"/>
-                <pb type="page" n="232"/>
-                <fw>CARMINA</fw>
-                <l>XLI Matva</l>
-                <l>Anseris esse pedes similes mihi, nolo negare.</l>
-                <l>Nec duo sunt tantum, sed plures ordine cernis;</l>
-                <l>Et tamen hos ipsos omnes ego porto supinos.</l>
-                <l>XLII 3et</l>
-                <l>Tota vocor graece, sed non sum tota latine.</l>
-                <l>A nte tamen mediam cauponis scripta tabernam</l>
-                <l>In terra nascor, lympha lavor, unguor olivo.</l>
-                <l>XLHII Cucurbita</l>
-                <l>Pendeo, dum nascor; rursus, dum pendeo, †nascor.</l>
-                <l>Pendens commoveor ventis et nutrior undis.</l>
-                <l>Pendula si non sim, non sum iam iamque futura.</l>
-                <head cert="high">XLIIII Cepa</head>
-                <l>Mordeo mordentes, ultro non mordeo quemquam;</l>
-                <l>Sed sunt mordentem multi mordere parati.</l>
-                <l>Nemo timet morsum, dentes quia non habet ullos.</l>
-                <l>XLV Rosa</l>
-                <l>Purpura sum terrae, pulcro perfusa rubore,</l>
-                <l>Saeptaque, ne violer, telis defendor acutis.</l>
-                <l cert="low">0 felix,longo si possim vivere fato!</l>
-                <pb type="image" n="0229"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="233"/>
-                <head cert="high">XLVI Vo</head>
-                <l>Magna quidem non sum, sed inest mihi maxima virtus.</l>
-                <l>Spiritus est magnus, quamvis sim corpore parvo.</l>
-                <l n="155">Nec mihi germen habet noxam nec culpa ruborem.</l>
-                <note ana="Side note">cr r</note>
-                <head cert="high">XVII Tu</head>
-                <l>Dulcis odor nemoris flamma fumoque fatiger,</l>
-                <l>Et placet hoc superis, medios quod mittor in ignes:</l>
-                <l>Nec mihi poena datur, sed habetur gratia</l>
-                <l cert="low">dandi.</l>
-                <note ana="Notes">p. 19</note>
-                <l>XLVIII Suecinum</l>
-                <l>De lacrimis et pro lacrimis mea coepit origo.</l>
-                <l n="160">Ex oculis fluxi, sed nunc ex arbore nascor.</l>
-                <l>Laetus honor frondis, tristis sed imago doloris.</l>
-                <note ana="Side note">r r rrr</note>
-                <head cert="high">XLVIIII Ebur</head>
-                <l>Dens ego sum magnus populis cognatus Eois.</l>
-                <l>Nunc ego per partes in corpora multa recessi.</l>
-                <l>Nec remanent vires, sed formae gratia mansit.</l>
-                <pb type="image" n="0230"/>
-                <fw>CARMINA</fw>
-                <pb type="page" n="234"/>
-                <pb type="page" n="02"/>
-                <l>Fenum</l>
-                <l>Herba fui quondam viridi de gramine terrae;</l>
-                <l>Sed chalybis duro mollis praecisa metallo</l>
-                <l>Mole premor propria, tecto conclusa sub alto.</l>
-                <l>LI Mol</l>
-                <l>Ambo sumus lapides, una sumus, ambo iacemus.</l>
-                <l>Quam piger est unus, tantum non est piger alter:</l>
-                <l>Hic manet inmotus, non desinit ille moveri.</l>
-                <l>LII Farina</l>
-                <l>Inter saxa fui, quae me contrita premebant;</l>
-                <l>Vix tamen effugi totis conlisa medullis.</l>
-                <l>Et iam forma mihi minor est, sed copia maior.</l>
-                <l>III Viis</l>
-                <l>Nolo toro iungi, quamvis placet esse maritam.</l>
-                <l n="175">Nolo virum thalamo: per me mea nata propago est.</l>
-                <l>Nolo sepulcra pati; scio me submergere terrae.</l>
-                <head cert="high">LIIII Amus</head>
-                <l>Exiguum munus flexu mucronis adunci</l>
-                <l>Fallaces escas medio circumfero fluctu.</l>
-                <l>Blandior, ut noceam; morti praemitto saginam.</l>
-                <pb type="image" n="0231"/>
-                <fw>CODICS SALMASIANI.</fw>
-                <fw>0.</fw>
-                <l>LV Acula</l>
-                <note ana="Notes">p. 750</note>
-                <l n="180">Longa, sed exilis, tenui producta metallo,</l>
-                <l>Mollia duco levi comitantia vincula ferro,</l>
-                <l>Et faciem laesis et nexum reddo solutis.</l>
-                <head cert="high">LVI Cli</head>
-                <l>Maior eram longe quondam, dum vita manebat;</l>
-                <l>Sed nunc exanimis lacerata ligata revulsa</l>
-                <l n="185">Dedita sum terrae, tumulo sed condita non sum.</l>
-                <l>LVII Clavus caligaris</l>
-                <l>In caput ingredior, quia de pede pendeo solo.</l>
-                <l>Vertice tango solum, capitis vestigia signo;</l>
-                <l>Sed multi comites casum patiuntur eundem.</l>
-                <l>LVIII Capillus</l>
-                <l>Findere me nulli possunt, praecidere multi.</l>
-                <l n="190">Sed sum versicolor, albus quandoque futurus.</l>
-                <l>Malo manere niger: minus ultima fata verebor.</l>
-                <pb type="image" n="0232"/>
-                <pb type="page" n="236"/>
-                <fw>CARMNA</fw>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>LVIIII P</head>
-                <note ana="Side note">rr</note>
-                <l>Non sum cincta comis et non sum compta capillis.</l>
-                <l>Intus enim crines mihi sunt, quos non videt ullus.</l>
-                <l>Meque manus mittunt manibusque remittor in auras.</l>
-                <l>LX Serra</l>
-                <l>Dentibus innumeris sum toto corpore plena.</l>
-                <l>Frondicomam subolem morsu depascor acuto.</l>
-                <l>Mando tamen frustra, quia respuo praemia dentis.</l>
-                <l>LXI Ancora</l>
-                <l>Mucro mihi geminus ferro coniungitur uno.</l>
-                <l>Cum vento luctor, cum gurgite pugno profundo.</l>
-                <l n="200">Scrutor aquas medias, ipsas quoque mordeo terras.</l>
-                <l>XII Pons</l>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>. 7151</head>
-                <l>Stat nemus in lympbis, stat in alto gurgite silva,</l>
-                <l>Et manet in mediis undis inmobile robur.</l>
-                <l>Terra tamen mittit, quod terrae munera praestat.</l>
-                <pb type="image" n="0233"/>
-                <fw>CODICIS SALMASIAN1.</fw>
+                <div>
+                   <head>Anulus cum gemma</head>
+                   <l>Corporis extremi non magnum pondus adhaesi.</l>
+                   <l>Igenitum dicas; ita pondere nemo gravatur.</l>
+                   <l>Vna tamen facies plures habet ore figuras.</l>
+                </div>
+                <div>
+                    <head>IIIII Clavis</head>
+                    <l>Virtutes magnas de viribus affero parvis.</l>
+                    <l>Pando domos clausas, iterum sed claudo patentes.</l>
+                    <milestone n="p. 143" unit="page"/>
+                    <l>Servo domum domino, sed rursus servor ab ipso.</l>
+                </div>
+                <div>
+                    <head>V Catena</head>
+                   <l>Nexa ligor ferro, multos habitura ligatos.</l>
+                   <l>Vincior ipsa prius, sed vincio vincta vicissim.</l>
+                   <l>Et solvi multos, nec sum tamen ipsa soluta.</l>
+                </div>
+                <div>
+                   <head>VI Tegula</head>
+                   <l>Terra mihi corpus, vires mihi praestitit ignis;</l>
+                   <l>De terra nascor; sedes est semper in alto;</l>
+                   <l>Et me perfundit, qui me cito deserit, umor.</l>
+                   <pb type="image" n="0221"/>
+                   <fw>CODICIS SALMASIANI.</fw>
+                   <pb type="page" n="225"/>
+                </div>
+                <div>
+                    <head>VII Fumus</head>
+                  <l>Sunt mihi, sunt lacrimae, sed non est causa doloris.</l>
+                  <l>Est iter ad caelum, sed me gravis inpedit aer,</l>
+                  <l>Et qui me genuit, sine me non nascitur ipse.</l>
+                </div>
+                <div>
+                    <head>VIII Neula</head>
+                    <l>Nox ego sum facie, sed non snm nigra colore</l>
+                    <l n="40">Inque die media tenebras tamen affero mecum.</l>
+                    <l>Nec mihi dant stellae lucem nec Cynthia lumen.</l>
+                </div>
+                <div>
+                   <head>VIIII Pluvia</head>
+                   <l>Ex alto venio, longa delapsa ruina.</l>
+                   <l>De caelo cecidi medias transmissa per auras:</l>
+                   <l>Sed sinus excepit, qui me simul ipse recepit.</l>
+                </div>
+                <div>
+                    <head>X Glacies</head>
+                    <l n="45">Vnda fui quondam, quod me cito credo futuram.</l>
+                    <l>Nunc rigidi caeli duris conexa catenis</l>
+                    <l>Nec calcata pati possum nec nuda teneri.</l>
+                </div>
+                <div>
+                    <head>XI Nix</head>
+                    <l>Pulvis aquae tenuis modico cum pondere lapsus,</l>
+                    <l>Sole madens, aestate fluens, in frigore siccus,</l>
+                    <l n="50">Flumina facturus totas prius occupo terras.</l>
+                    <pb type="image" n="0222"/>
+                    <pb type="page" n="226"/>
+                    <fw>CARMINA</fw>
+                </div>
+                <div>
+                    <head>XII Flumen et piscis</head>
+                   <note ana="Notes">p. 144</note>
+                   <l>Est domus in terris, clara quae voce resultat.</l>
+                   <l>Ipsa domus resonat, tacitus sed non sonat hospes.</l>
+                   <l>Ambo tamen currunt, hospes simul et domus una.</l>
+                </div>
+                <div>
+                   <head>XIII Navis</head>
+                   <l>Longa feror velox formosae filia silvae,</l>
+                   <l n="55">Innumeris pariter comitum stipata catervis.</l>
+                    <l>Curro vias multas, vestigia nulla relinquens.</l>                
+                </div>
+                <div>
+                    <head>XIIII Pullus in ovo</head>
+                    <l>Mira tibi referam nostrae primordia vitae.</l>
+                    <l>Nondum natus eram nec eram iam matris in alvo.</l>
+                    <l>Iam posito partu natum me nemo videbat.</l>
+                </div>
+                <div>
+                    <head>XV Vipera</head>
+                    <l>Non possum nasci, si non occidero matrem.</l>
+                    <l>Occidi matrem, sed me manet exitus idem.</l>
+                    <l>Id mea mors patitur, quod iam mea fecit origo.</l>
+                </div>
+                <div>
+                    <head>XVI Tinea</head>
+                    <l>Littera me pavit, nec quid sit littera novi.</l>
+                    <l>In libris vixi nec sum studiosior inde.</l>
+                    <l>Exedi Musas nec adhuc tamen ipsa profeci.</l>
+                    <pb type="image" n="0223"/>
+                    <fw>CODICIS SALMASIANI.</fw>
+                    <pb type="page" n="227"/>
+                </div>
+                <div>
+                    <head>XVII Aranea</head>
+                    <l>Pallas me docuit texendi nosse laborem.</l>
+                    <l>Nec pepli radios poscunt nec licia telae.</l>
+                    <l>Nulla mihi manus est, pedibus tamen omnia fiunt.</l>
+                </div>
+                <div>
+                    <head>XVIII Coclea</head>
+                    <l>Porto domum mecum, semper migrare parata,</l>
+                    <l n="70">Mutatoque solo non sum miserabilis exul,</l>
+                    <l>Sed mihi concilium de caelo nascitur ipso.</l>
+                </div>
+                <div>
+                    <head cert="high">XVIIII Rana</head>
+                    <milestone n="p. 145" unit="page"/>
+                    <l cert="low">aucisonans ego sum media vocalis in unda,</l>
+                    <l>Sed vox laude sonat, †quasi se quoque laudet et ipsa.</l>
+                    <l>Cumque canam semper, nullus mea carmina laudat.</l>
+                </div>
+                <div>
+                    <head>XX Testudo</head>
+                    <l n="75">Tarda, gradu lento, specioso praedita dorso;</l>
+                    <l>Docta quidem studio, sed saevo prodita fato</l>
+                    <l>Viva nihil dixi; quae sic modo mortua canto.</l>
+                </div>
+                <div>
+                    <head cert="high">XXI Talpa</head>
+                    <l>Caeca mibi facies atris obscura tenebris.</l>
+                    <l>Nox est ipse dies nec sol mihi cernitur ullus.</l>
+                    <l n="80">Malo tegi terra: sic me quoque nemo videbit.</l>
+                    <pb type="image" n="0224"/>
+                    <pb type="page" n="228"/>
+                    <fw>CARMINA</fw>
+                </div>
+                <div>
+                    <head>XXII Formica</head>
+                    <l>Provida sum vitae, duro non pigra labori,</l>
+                    <l>Ipsa ferens umeris securae praemia brumae.</l>
+                    <l>Nec gero magna simul, sed congero multa vicissim.</l>
+                </div>
+                <div>
+                    <head cert="high">XXIII Musca</head>
+                    <note ana="Side note">V</note>
+                    <l>Inproba sum, fateor. quid enim gula turpe veretur?</l>
+                    <l>Frigora vitabam, quae nunc aestate revertor;</l>
+                    <l>Sed cito submoveor falso conterrita vento.</l>
+                </div>
+                <div>
+                    <head cert="high">XXIIII Curculio</head>
+                    <l>Nou bonus agricolis, non frugibus utilis hospes,</l>
+                    <l>Non magnus forma, non recto nomine dictus,</l>
+                    <l>Non gratus Cereri non parvam sumo saginam.</l>
+                    <note ana="Side note">r</note>
+                </div>
+                <div>
+                    <head cert="high">XXV Mus</head>
+                    <l n="90">Parva mihi domus est, sed ianua semper aperta.</l>
+                    <l>Exiguo sumptu furtiva vivo sagina.</l>
+                    <l>Quod mihi nomen inest, omae quoque consul habebat.</l>
+                </div>
+                <div>
+                    <head>XXVI Grus</head>
+                    <l>Littera sum caeli pinna perscripta volanti,</l>
+                    <milestone n="p. 146" unit="page"/>
+                    <l>Bella cruenta gerens volucri discrimine Martis.</l>
+                    <l>Nec vereor pugnas, dum non sit longior hostis.</l>
+                    <pb type="image" n="0225"/>
+                    <pb type="page" n="229"/>
+                    <fw>CODICIS SALMASIANI.</fw>
+                </div>
+                <div>
+                    <head cert="high">XXVII Cornix</head>
+                    <l>Vivo novem vitas, si me non Graecia fallit,</l>
+                    <l>Atraque sum semper nullo conpulsa dolore,</l>
+                    <l>Et non irascens ultro convitia dico.</l>
+                </div>
+                <div>
+                    <head>XXVIII Vespertilio</head>
+                    <l>Nox mihi dat nomen primo de tempore noctis.</l>
+                    <l n="100">Pluma mihi non est, cum sit mibi pinna volantis;</l>
+                    <l>Sed redeo in tenebris nec me committo diebus.</l>
+                </div>
+                <div>
+                    <head cert="high">XXVIIII Ericius</head>
+                    <l>Plena domus spinis; parvi sed corporis hospes</l>
+                    <l>Incolumi dorso telis conpletus acutis</l>
+                    <l>Sustinet armatas sedes, habitator inermis.</l>
+                </div>
+                <div>
+                    <head>XXX Peduculus</head>
+                    <l n="105">Est nova nostrarum cunctis captura ferarum,</l>
+                    <l>Vt si quid capias, id tu tibi ferre recuses,</l>
+                    <l>Et quod non capias, tecum tamen ipse reportes.</l>
+                    <pb type="image" n="0226"/>
+                    <pb type="page" n="230"/>
+                    <fw>CARMNA</fw>
+                </div>
+                <div>
+                    <head>XXXI Phoenix</head>
+                    <l>Vita mihi mors est; morior si coepero nasci.</l>
+                    <l>Sed prius est fatum leti, quam lucis origo.</l>
+                    <l>Sic solus Manes ipsos mihi dico parentes.</l>
+                </div>
+                <div>
+                    <head cert="high">XXXII Taurus</head>
+                    <l>Moechus eram regis, sed lignea membra sequebar.</l>
+                    <l>Et Cilicum mons sum, sed mons sum nomine solo.</l>
+                    <l>Et vehor in caelis et in ipsis ambulo terris.</l>
+                </div>
+                <div>
+                    <head cert="high">XXXIII Lupus</head>
+                    <l>Dentibus insanis ego sum, qui vinco bidentes,</l>
+                    <milestone n="p. 14" unit="page"/>
+                    <l>Sanguineas praedas quaerens victusque cruentos.</l>
+                    <l n="116">Multa cum rabie vocem quoque tollere possum.</l>
+                </div>
+                <div>
+                    <head cert="high">XXIIII Vulpes</head>
+                    <l>Exiguum corpus, sed cor mihi corpore maius.</l>
+                    <l>Sum versuta dolis, arguto callida sensu,</l>
+                    <l>Et fera sum sapiens, sapiens fera si qua vocatur.</l>
+                </div>
+                <div>
+                    <head cert="high">XXXV Capra</head>
+                    <l>Alma Iovis nutrix, longo vestita capillo,</l>
+                    <l>Culmina difficili peragrans super ardua gressu,</l>
+                    <l>Custodi pecoris tremula respondeo lingua.</l>
+                    <pb type="image" n="0227"/>
+                    <fw>CODICIS SALMASIANI.</fw>
+                    <pb type="page" n="0221"/>
+                </div>
+                <div>
+                    <head cert="high">XXXVI Porcus</head>
+                    <l>Setigerae matris fecunda natus in alvo</l>
+                    <l>Desuper ex alto virides expecto saginas,</l>
+                    <l n="125">Nomine numen habens, si littera prima periret.</l>
+                </div>
+                <div>
+                    <head>XXXVII Mula</head>
+                    <l>Dissimilis patri, matri diversa figura</l>
+                    <l>Confusi generis; generi non apta propago.</l>
+                    <l>Ex aliis nascor nec quisquam nascitur ex me.</l>
+                </div>
+                <div>
+                     <head cert="high">XXXVIII Tigris</head>
+                     <l>A fluvio dicor, fluvius vel dicitur ex me.</l>
+                     <l n="130">Iunctaque sum vento, quae sum velocior ipso.</l>
+                     <l>Et mihi dat ventus natos nec quaero maritum.</l>
+                </div>
+                <div>
+                     <head>XXXVIIII Centaurus</head>
+                     <l>Quattuor insignis pedibus manibusque duabus</l>
+                     <l>Dissimilis mihi sum, quia sum non unus et unus.</l>
+                     <l>Et vehor et gradior, qua me mea corpora portant.</l>
+                </div>
+                <div>
+                    <head>XL Papaver</head>
+                    <l n="135">Grande mihi caput est, intus sunt membra minuta.</l>
+                    <l>Pes unus solus, sed pes longissimus unus.</l>
+                    <milestone n="p. 148" unit="page"/>
+                    <l>Et me somnus amat, proprio nec dormio somno.</l>
+                    <pb type="image" n="0228"/>
+                    <pb type="page" n="232"/>
+                    <fw>CARMINA</fw>
+                </div>
+                <div>
+                      <head>XLI Malva</head>
+                      <l>Anseris esse pedes similes mihi, nolo negare.</l>
+                      <l>Nec duo sunt tantum, sed plures ordine cernis;</l>
+                      <l>Et tamen hos ipsos omnes ego porto supinos.</l>
+                </div>
+                <div>
+                     <head>XLII Beta</head>
+                     <l>Tota vocor graece, sed non sum tota latine.</l>
+                     <l>A nte tamen mediam cauponis scripta tabernam</l>
+                     <l>In terra nascor, lympha lavor, unguor olivo.</l>
+                </div>
+                <div>
+                     <head>XLIII Cucurbita</head>
+                     <l>Pendeo, dum nascor; rursus, dum pendeo, †nascor.</l>
+                     <l>Pendens commoveor ventis et nutrior undis.</l>
+                     <l>Pendula si non sim, non sum iam iamque futura.</l>
+                </div>
+                <div>
+                    <head cert="high">XLIIII Cepa</head>
+                    <l>Mordeo mordentes, ultro non mordeo quemquam;</l>
+                    <l>Sed sunt mordentem multi mordere parati.</l>
+                    <l>Nemo timet morsum, dentes quia non habet ullos.</l>
+                </div>
+                <div>
+                      <head>XLV Rosa</head>
+                      <l>Purpura sum terrae, pulcro perfusa rubore,</l>
+                      <l>Saeptaque, ne violer, telis defendor acutis.</l>
+                      <l>O felix, longo si possim vivere fato!</l>
+                      <pb type="image" n="0229"/>
+                      <fw>CODICIS SALMASIANI.</fw>
+                      <pb type="page" n="233"/>
+                </div>
+                <div>
+                    <head cert="high">XLVI Viola</head>
+                    <l>Magna quidem non sum, sed inest mihi maxima virtus.</l>
+                    <l>Spiritus est magnus, quamvis sim corpore parvo.</l>
+                    <l n="155">Nec mihi germen habet noxam nec culpa ruborem.</l>
+                </div>
+                <div>
+                    <head cert="high">XVII Tus</head>
+                    <l>Dulcis odor nemoris flamma fumoque fatiger,</l>
+                    <l>Et placet hoc superis, medios quod mittor in ignes:</l>
+                    <l>Nec mihi poena datur, sed habetur gratia</l>
+                    <l cert="low">dandi.</l>
+                    <note ana="Notes">p. 19</note>
+                </div>
+                <div>
+                    <head>XLVIII Sucinum</head>
+                    <l>De lacrimis et pro lacrimis mea coepit origo.</l>
+                    <l n="160">Ex oculis fluxi, sed nunc ex arbore nascor.</l>
+                    <l>Laetus honor frondis, tristis sed imago doloris.</l>
+                    <note ana="Side note">r r rrr</note>
+                </div>
+                <div>
+                     <head cert="high">XLVIIII Ebur</head>
+                     <l>Dens ego sum magnus populis cognatus Eois.</l>
+                     <l>Nunc ego per partes in corpora multa recessi.</l>
+                     <l>Nec remanent vires, sed formae gratia mansit.</l>
+                     <pb type="image" n="0230"/>
+                     <fw>CARMINA</fw>
+                     <pb type="page" n="234"/>
+                     <pb type="page" n="02"/>
+                </div>
+                <div>
+                      <head>L Fenum</head>
+                      <l>Herba fui quondam viridi de gramine terrae;</l>
+                      <l>Sed chalybis duro mollis praecisa metallo</l>
+                      <l>Mole premor propria, tecto conclusa sub alto.</l>
+                </div>
+                <div>
+                      <head>LI Mola</head>
+                      <l>Ambo sumus lapides, una sumus, ambo iacemus.</l>
+                      <l>Quam piger est unus, tantum non est piger alter:</l>
+                      <l>Hic manet inmotus, non desinit ille moveri.</l>
+                </div>
+                <div>
+                    <head>LII Farina</head>
+                    <l>Inter saxa fui, quae me contrita premebant;</l>
+                    <l>Vix tamen effugi totis conlisa medullis.</l>
+                    <l>Et iam forma mihi minor est, sed copia maior.</l>
+                </div>
+                <div>
+                     <head>LIII Viis</head>
+                     <l>Nolo toro iungi, quamvis placet esse maritam.</l>
+                     <l n="175">Nolo virum thalamo: per me mea nata propago est.</l>
+                     <l>Nolo sepulcra pati; scio me submergere terrae.</l>
+                </div>
+                <div>
+                      <head cert="high">LIIII Amus</head>
+                      <l>Exiguum munus flexu mucronis adunci</l>
+                      <l>Fallaces escas medio circumfero fluctu.</l>
+                      <l>Blandior, ut noceam; morti praemitto saginam.</l>
+                      <pb type="image" n="0231"/>
+                      <fw>CODICS SALMASIANI.</fw>
+                      <fw>0.</fw>
+                </div>
+                <div>
+                      <head>LV Acula</head>
+                      <note ana="Notes">p. 750</note>
+                      <l n="180">Longa, sed exilis, tenui producta metallo,</l>
+                      <l>Mollia duco levi comitantia vincula ferro,</l>
+                      <l>Et faciem laesis et nexum reddo solutis.</l>
+                </div>
+                <div>
+                     <head cert="high">LVI Caliga</head>
+                     <l>Maior eram longe quondam, dum vita manebat;</l>
+                     <l>Sed nunc exanimis lacerata ligata revulsa</l>
+                     <l n="185">Dedita sum terrae, tumulo sed condita non sum.</l>
+                </div>
+                <div>
+                    <head>LVII Clavus caligaris</head>
+                    <l>In caput ingredior, quia de pede pendeo solo.</l>
+                    <l>Vertice tango solum, capitis vestigia signo;</l>
+                    <l>Sed multi comites casum patiuntur eundem.</l>
+                </div>
+                <div>
+                   <head>LVIII Capillus</head>
+                   <l>Findere me nulli possunt, praecidere multi.</l>
+                   <l n="190">Sed sum versicolor, albus quandoque futurus.</l>
+                   <l>Malo manere niger: minus ultima fata verebor.</l>
+                   <pb type="image" n="0232"/>
+                   <pb type="page" n="236"/>
+                   <fw>CARMNA</fw>
+                </div>
+                <div>
+                    <head>LVIIII Pila</head>
+                    <note ana="Side note">rr</note>
+                    <l>Non sum cincta comis et non sum compta capillis.</l>
+                    <l>Intus enim crines mihi sunt, quos non videt ullus.</l>
+                    <l>Meque manus mittunt manibusque remittor in auras.</l>
+                </div>
+                <div>
+                    <head>LX Serra</head>
+                    <l>Dentibus innumeris sum toto corpore plena.</l>
+                    <l>Frondicomam subolem morsu depascor acuto.</l>
+                    <l>Mando tamen frustra, quia respuo praemia dentis.</l>
+                </div>
+                <div>
+                    <head>LXI Ancora</head>
+                    <l>Mucro mihi geminus ferro coniungitur uno.</l>
+                    <l>Cum vento luctor, cum gurgite pugno profundo.</l>
+                    <l n="200">Scrutor aquas medias, ipsas quoque mordeo terras.</l>
+                </div>
+                <div>
+                     <head>LXII Pons</head>
+                     <l>Stat nemus in lympbis, stat in alto gurgite silva,</l>
+                     <l>Et manet in mediis undis inmobile robur.</l>
+                     <l>Terra tamen mittit, quod terrae munera praestat.</l>
+                     <pb type="image" n="0233"/>
+                     <fw>CODICIS SALMASIAN1.</fw>
                 <pb type="page" n="237"/>
-                <l>LXII Spoogi</l>
-                <l>Ipsa gravis non sum, sed aquae mihi pondus inhaeret.</l>
-                <l n="205">Viscera tota tument patulis diffusa cavernis.</l>
-                <l>Intus lymphba latet, sed non se sponte profundit.</l>
-                <head cert="high">LXIIII Trides</head>
-                <l>Tres mihi sunt dentes, unus quos continet ordo.</l>
-                <l>Vnus praeterea dens est et solus in imo.</l>
-                <l>Meque tenet numen, ventus timet, aequora curant.</l>
-                <l>LXV Sitt</l>
-                <l n="210">Saepta gravi ferro, levibus circumdata pinnis</l>
-                <l>Aera per medium volucri contendo meatu,</l>
-                <l>Missaque discedens nullo mittente revertor.</l>
-                <l>LXVI Tlagellum</l>
-                <l>De pecudis dorso pecndes ego terreo cunctas,</l>
-                <l>Obsequio cogens moderati lege doloris.</l>
-                <l n="215">Nec volo contemni, sed contra nolo nocere.</l>
-                <l>LXVII Lantera</l>
-                <l>Cornibus apta cavis, tereti perlucida gyro,</l>
-                <l>Lumen habens intus, divini sideris instar,</l>
-                <l>Noctibus in mediis faciem non perdo dierum.</l>
-                <pb type="image" n="0234"/>
-                <fw>CARMINA</fw>
-                <pb type="page" n="238"/>
-                <l>LXVIII Speculr</l>
-                <l>Perspicior penitus nec luminis arceo visus,</l>
-                <l n="220">Transmittens oculos intra mea membra meantes.</l>
-                <milestone n="p. 152" unit="page"/>
-                <l>Nec me transit hiems, sed sol tamen emicat in me.</l>
-                <head cert="high">LXVIIII Speelm</head>
-                <l>Nulla mihi certa est, nulla est peregrina figura.</l>
-                <l>Fulgor inest intus radianti luce coruscus,</l>
-                <l>Qui nihil ostendit, nisi [si] quid viderit ante.</l>
-                <l>LXX Clepsydr</l>
-                <l n="225">Lex bona dicendi, lex sum quoque dura tacendi,</l>
-                <l>Ius avidae linguae, finis sine fine loquendi,</l>
-                <l>Ipsa fluens, dum verba fluunt, ut lingua quiescat.</l>
-                <l>LXXI Puteus</l>
-                <l>Mersa procul terris in cespite lympha profundo</l>
-                <l>Non nisi perfossis possum procedere rimis,</l>
-                <l>Et trahor ad superos alieno ducta labore.</l>
-                <pb type="image" n="0235"/>
-                <fw>CODCIS SALMASIANI.</fw>
-                <pb type="page" n="239"/>
-                <note ana="Side note">r r</note>
-                <head cert="high">LXXII Tbus</head>
-                <l>Truncum terra tegit, latitant in caespite lymphae.</l>
-                <l>Alveus est modicus, qui ripas non habet ullas.</l>
-                <l>In ligno vehitur medio, quod ligna vebebat.</l>
-                <head cert="high">LXXIII V6e:</head>
-                <l>Non ego continuo morior, dum spiritus exit:</l>
-                <l n="235">Nam redit adsidue, quamvis et saepe recedit.</l>
-                <l>Nunc[que] mihi magna est animae, nunc nulla facultas.</l>
-                <head cert="high">LXXIIII Lopie</head>
-                <l>Deucalionea proveni sospes ab unda,</l>
-                <l>Afinis terrae, sed longe durior illa.</l>
-                <l>Littera decedat: volucrum quoque nomen habebo.</l>
-                <note ana="Side note">r r</note>
-                <head cert="high">LXXV Cx</head>
-                <l n="240">Evasi flammas, ignis tormenta profugi.</l>
-                <l>Ipsa medella meo pugnat contraria fato:</l>
-                <l>Ardeo de lymphis; mediis incendor ab undis.</l>
-                <pb type="image" n="0236"/>
-                <fw>CARMINA</fw>
-                <pb type="page" n="20"/>
-                <head cert="high">LXXVI Siex</head>
-                <l>Semper inest intus, sed raro cernitur ignis.</l>
-                <l>Intus enim latitat, sed solos prodit ad ictus.</l>
-                <l n="245">Nec lignis ut vivat eget, nec ut occidat undis.</l>
-                <head cert="high">XXVII Rotae</head>
-                <note ana="Notes">p. 153</note>
-                <l>Quattuor aequalcs currunt ex arte sorores</l>
-                <l>Sic quasi certantes, cum sit labor omnibus unus.</l>
-                <l>Et prope sunt pariter nec se contingere possunt.</l>
-                <note ana="Side note">r1</note>
-                <head cert="high">XXVIII Scale</head>
-                <l>Nos sumus, ad caelum quae tendimus, alta petentes,</l>
-                <l>Concordi fabrica quas unus continet ordo,</l>
-                <l>Vt simul haerentes per nos nitantur ad auras.</l>
-                <head cert="high">LXXVIIII Seop</head>
-                <l>Mundi magna parens, laqueo conexa tenaci,</l>
-                <l>Vincta solo plano, manibus conpressa duabus</l>
-                <l>Ducor ubique sequens et me quoque cuncta sequuntur.</l>
-                <pb type="image" n="0237"/>
-                <fw>CODICIS SALMASIAN.</fw>
-                <pb type="page" n="241"/>
-                <note ana="Side note">rr r</note>
-                <l>LXXX Tntinnbulum</l>
-                <l>Aere rigens curvo patulum conponor in orbem.</l>
-                <l>Mobilis est intus lingnae crepitantis imago.</l>
-                <l>Non resono positus, sed motus saepe resulto.</l>
-                <note ana="Side note">x</note>
-                <head cert="high">LXXXI Laee</head>
-                <l>Mater erat Tellus, genitor est ipse Prometheus,</l>
-                <l>Auriculae[que] regunt redimito ventre cavato.</l>
-                <l>Dum cecidi, subito mater mea me laniavit.</l>
-                <l>LXXXII Coditum</l>
-                <l>Tres olim fuimus, qui nomine iungimur uno.</l>
-                <l>Ex tribus est unus, et tres miscentur in uno.</l>
-                <l>Quisque bonus per se; melior, qui continet omnes.</l>
-                <l>LXXXIII Vinum in acetum covesum</l>
-                <milestone n="p. 17" unit="page"/>
-                <l>Sublatum nihil est, nibil est extrinsecus auctum;</l>
-                <l n="266">Nec tamen inveni, quicquid prius ipse reliqui.</l>
-                <l n="265">Quod fuerat, non est; coepit, quod non erat,</l>
-                <note ana="Side note">eSs5e.</note>
-                <pb type="image" n="0238"/>
-                <fw>CARMINA</fw>
-                <fw>0 0</fw>
-                <note ana="Side note">cc</note>
-                <head cert="high">LXXIIII Mlum</head>
-                <l>Nomen ovis graece, contentio magna dearum,</l>
-                <l>Fraus iuvenis Phrygii, multarum cura sororum.</l>
-                <l>Hoc volo, ne breviter mihi syllaba prima</l>
-                <l cert="low">legatur.</l>
-                <head cert="high">LXXXV Pera</head>
-                <l>Nobile duco genus magni de gente Catonis.</l>
-                <l>Vna mihi soror est, plures licet esse putentur.</l>
-                <l>De fumo facies, sapientia de sale nata est.</l>
-                <head cert="high">LXXXVI Mates</head>
-                <l>Non ego de toto mihi corpore vindico vires,</l>
-                <l>Sed capitis pugna nulli certare recuso.</l>
-                <l n="275">CGrande tamen caput est, totum quoque pondus in illo.</l>
-                <head cert="high">LXXXVII Psiiu</head>
-                <l>Contero cuncta simul virtutis robore magno.</l>
-                <l>Vna mihi cervix, capitum sed forma duorum.</l>
-                <l>Pro pedibus caput est: nam cetera corpore non sunt.</l>
-                <pb type="image" n="0239"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="01"/>
-                <l>LXXXVIII Strigilis aenea.</l>
-                <l cert="low">†Rubida curva capa, alienis humida guttis,</l>
-                <l n="280">Luminibus falsis auri mentita colorem,</l>
-                <l>Dedita sudori, modico subcumbo labori.</l>
-                <head cert="high">LXXXVIIII 3alneum</head>
-                <l>Per totas aedes innoxius introit ignis.</l>
-                <l>Est calor in medio magnus, quem nemo veretur.</l>
-                <l>Non est nuda domus, sed nudus convenit hospes.</l>
-                <l>XXXX Tessemr</l>
-                <note ana="Notes">p. 157</note>
-                <l>E85 Dedita sum semper voto, non certa futuri.</l>
-                <l>Iactor in ancipites varia vertigine casus</l>
-                <l>N on ego maesta malis, non rebus laeta secundis.</l>
-                <head cert="high">LXXXXI Peeuia</head>
-                <l>Terra fui primo, latebris abscondita terrae;</l>
-                <l>Nunc aliud pretium flammae nomenque dederunt,</l>
-                <l n="290">Nec iam terra vocor, licet ex me terra paretur.</l>
-                <pb type="image" n="0240"/>
-                <fw>CARMNA</fw>
-                <pb type="page" n="244"/>
-                <note ana="Side note">V V</note>
-                <l>XXXXlI Mulier quae geminos pariebat</l>
-                <l>Plus ego sustinui, quam corpus debuit unum.</l>
-                <l>Tres animas habui, quas omnes intus habebam:</l>
-                <l>Discessere duae, sed tertia paene secuta est.</l>
-                <note ana="Side note">r V 1</note>
-                <l>LXXXXI1I Miles podaricus</l>
-                <l>Bellipotens olim, saevis metuendus in armis,</l>
-                <l>Quinque pedes habui, quod numquam nemo negavit. 295s</l>
-                <l>Nunc mihi vix duo sunt; inopem me copia fecit.</l>
-                <note ana="Side note">V V c 1</note>
-                <l>LXXXXIII Luscus alium tenens</l>
-                <l>Cernere iam fas est, quod vix tibi credere fas est.</l>
-                <l>Vnus inest oculus, capitum sed milia multa.</l>
-                <l>Qui quod habet vendit, quod non habet unde parabit?</l>
-                <note ana="Side note">r</note>
-                <l>LXXXXV Funambulus</l>
-                <l>Inter luciferum caelum terrasque iacentes</l>
-                <l>Ara per medium docta meat arte viator.</l>
-                <l>Semita sed brevis est, pedibus nec sufficit ipsis.</l>
-                <pb type="image" n="0241"/>
-                <fw>CODICIS SALMASIANI.</fw>
-                <pb type="page" n="245"/>
+                </div>
+                <div>
+                    <head>LXIII Spongia</head>
+                    <l>Ipsa gravis non sum, sed aquae mihi pondus inhaeret.</l>
+                    <l n="205">Viscera tota tument patulis diffusa cavernis.</l>
+                    <l>Intus lymphba latet, sed non se sponte profundit.</l>
+                </div>
+                <div>
+                    <head cert="high">LXIIII Tridens</head>
+                   <l>Tres mihi sunt dentes, unus quos continet ordo.</l>
+                   <l>Vnus praeterea dens est et solus in imo.</l>
+                   <l>Meque tenet numen, ventus timet, aequora curant.</l>
+                </div>
+                <div>
+                    <head>LXV Sagitta</head>
+                    <l n="210">Saepta gravi ferro, levibus circumdata pinnis</l>
+                    <l>Aera per medium volucri contendo meatu,</l>
+                    <l>Missaque discedens nullo mittente revertor.</l>
+                </div>
+                <div>
+                    <head>LXVI Flagellum</head>
+                    <l>De pecudis dorso pecndes ego terreo cunctas,</l>
+                    <l>Obsequio cogens moderati lege doloris.</l>
+                    <l n="215">Nec volo contemni, sed contra nolo nocere.</l>
+                </div>
+                <div>
+                     <head>LXVII Lanterna</head>
+                     <l>Cornibus apta cavis, tereti perlucida gyro,</l>
+                     <l>Lumen habens intus, divini sideris instar,</l>
+                     <l>Noctibus in mediis faciem non perdo dierum.</l>
+                     <pb type="image" n="0234"/>
+                     <fw>CARMINA</fw>
+                     <pb type="page" n="238"/>
+                </div>
+                <div>
+                    <head>LXVIII Specular</head>
+                    <l>Perspicior penitus nec luminis arceo visus,</l>
+                    <l n="220">Transmittens oculos intra mea membra meantes.</l>
+                    <milestone n="p. 152" unit="page"/>
+                    <l>Nec me transit hiems, sed sol tamen emicat in me.</l>
+                </div>
+                <div>
+                    <head cert="high">LXVIIII Speculum</head>
+                    <l>Nulla mihi certa est, nulla est peregrina figura.</l>
+                    <l>Fulgor inest intus radianti luce coruscus,</l>
+                    <l>Qui nihil ostendit, nisi [si] quid viderit ante.</l>
+                </div>
+                <div>
+                    <head>LXX Clepsydra</head>
+                    <l n="225">Lex bona dicendi, lex sum quoque dura tacendi,</l>
+                    <l>Ius avidae linguae, finis sine fine loquendi,</l>
+                    <l>Ipsa fluens, dum verba fluunt, ut lingua quiescat.</l>
+                </div>
+                <div>
+                     <head>LXXI Puteus</head>
+                     <l>Mersa procul terris in cespite lympha profundo</l>
+                     <l>Non nisi perfossis possum procedere rimis,</l>
+                     <l>Et trahor ad superos alieno ducta labore.</l>
+                     <pb type="image" n="0235"/>
+                     <fw>CODCIS SALMASIANI.</fw>
+                     <pb type="page" n="239"/>
+                     <note ana="Side note">r r</note>
+                </div>
+                <div>
+                    <head cert="high">LXXII Tubus</head>
+                    <l>Truncum terra tegit, latitant in caespite lymphae.</l>
+                    <l>Alveus est modicus, qui ripas non habet ullas.</l>
+                    <l>In ligno vehitur medio, quod ligna vebebat.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXIII Vter</head>
+                    <l>Non ego continuo morior, dum spiritus exit:</l>
+                    <l n="235">Nam redit adsidue, quamvis et saepe recedit.</l>
+                    <l>Nunc[que] mihi magna est animae, nunc nulla facultas.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXIIII Lapis</head>
+                    <l>Deucalionea proveni sospes ab unda,</l>
+                    <l>Afinis terrae, sed longe durior illa.</l>
+                    <l>Littera decedat: volucrum quoque nomen habebo.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXV Calx</head>
+                    <l n="240">Evasi flammas, ignis tormenta profugi.</l>
+                    <l>Ipsa medella meo pugnat contraria fato:</l>
+                    <l>Ardeo de lymphis; mediis incendor ab undis.</l>
+                    <pb type="image" n="0236"/>
+                    <fw>CARMINA</fw>
+                    <pb type="page" n="20"/>
+                </div>
+                <div>
+                    <head cert="high">LXXVI Silex</head>
+                    <l>Semper inest intus, sed raro cernitur ignis.</l>
+                    <l>Intus enim latitat, sed solos prodit ad ictus.</l>
+                    <l n="245">Nec lignis ut vivat eget, nec ut occidat undis.</l>
+                </div>
+                <div>
+                    <head cert="high">XXVII Rotae</head>
+                    <note ana="Notes">p. 153</note>
+                    <l>Quattuor aequalcs currunt ex arte sorores</l>
+                    <l>Sic quasi certantes, cum sit labor omnibus unus.</l>
+                    <l>Et prope sunt pariter nec se contingere possunt.</l>
+                    <note ana="Side note">r1</note>
+                </div>
+                <div>
+                    <head cert="high">XXVIII Scalae</head>
+                    <l>Nos sumus, ad caelum quae tendimus, alta petentes,</l>
+                    <l>Concordi fabrica quas unus continet ordo,</l>
+                    <l>Vt simul haerentes per nos nitantur ad auras.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXVIIII Scopa</head>
+                    <l>Mundi magna parens, laqueo conexa tenaci,</l>
+                    <l>Vincta solo plano, manibus conpressa duabus</l>
+                    <l>Ducor ubique sequens et me quoque cuncta sequuntur.</l>
+                    <pb type="image" n="0237"/>
+                    <fw>CODICIS SALMASIAN.</fw>
+                    <pb type="page" n="241"/>
+                </div>
+                <div>
+                    <head>LXXX Tintinnabulum</head>
+                    <l>Aere rigens curvo patulum conponor in orbem.</l>
+                    <l>Mobilis est intus lingnae crepitantis imago.</l>
+                    <l>Non resono positus, sed motus saepe resulto.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXI Lagena</head>
+                    <l>Mater erat Tellus, genitor est ipse Prometheus,</l>
+                    <l>Auriculae<add>que</add> regunt redimito ventre cavato.</l>
+                    <l>Dum cecidi, subito mater mea me laniavit.</l>
+                </div>
+                <div>
+                    <head>LXXXII Coditum</head>
+                    <l>Tres olim fuimus, qui nomine iungimur uno.</l>
+                    <l>Ex tribus est unus, et tres miscentur in uno.</l>
+                    <l>Quisque bonus per se; melior, qui continet omnes.</l>
+                </div>
+                <div>
+                    <head>LXXXIII Vinum in acetum covesum</head>
+                    <milestone n="p. 17" unit="page"/>
+                    <l>Sublatum nihil est, nibil est extrinsecus auctum;</l>
+                    <l n="266">Nec tamen inveni, quicquid prius ipse reliqui.</l>
+                    <l n="265">Quod fuerat, non est; coepit, quod non erat, esse.</l>
+                    <pb type="image" n="0238"/>
+                    <fw>CARMINA</fw>
+                    <fw>0 0</fw>
+                </div>
+                <div>
+                    <head cert="high">LXXIIII Malum</head>
+                    <l n="267">Nomen ovis graece, contentio magna dearum,</l>
+                    <l>Fraus iuvenis Phrygii, multarum cura sororum.</l>
+                    <l>Hoc volo, ne breviter mihi syllaba prima legatur.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXV Perna</head>
+                    <l>Nobile duco genus magni de gente Catonis.</l>
+                    <l>Vna mihi soror est, plures licet esse putentur.</l>
+                    <l>De fumo facies, sapientia de sale nata est.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXVI Malleus</head>
+                    <l>Non ego de toto mihi corpore vindico vires,</l>
+                    <l>Sed capitis pugna nulli certare recuso.</l>
+                    <l n="275">CGrande tamen caput est, totum quoque pondus in illo.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXVII Pistillus</head>
+                    <l>Contero cuncta simul virtutis robore magno.</l>
+                    <l>Vna mihi cervix, capitum sed forma duorum.</l>
+                    <l>Pro pedibus caput est: nam cetera corpore non sunt.</l>
+                    <pb type="image" n="0239"/>
+                    <fw>CODICIS SALMASIANI.</fw>
+                    <pb type="page" n="01"/>
+                </div>
+                <div>
+                    <head>LXXXVIII Strigilis aenea.</head>
+                    <l>†Rubida curva capa, alienis humida guttis,</l>
+                    <l n="280">Luminibus falsis auri mentita colorem,</l>
+                    <l>Dedita sudori, modico subcumbo labori.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXVIIII Balneum</head>
+                    <l>Per totas aedes innoxius introit ignis.</l>
+                    <l>Est calor in medio magnus, quem nemo veretur.</l>
+                    <l>Non est nuda domus, sed nudus convenit hospes.</l>
+                </div>
+                <div>
+                    <head>XXXX Tessera</head>
+                    <note ana="Notes">p. 157</note>
+                    <l>Dedita sum semper voto, non certa futuri.</l>
+                    <l>Iactor in ancipites varia vertigine casus</l>
+                    <l>Non ego maesta malis, non rebus laeta secundis.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXXI Pecunia</head>
+                    <l>Terra fui primo, latebris abscondita terrae;</l>
+                    <l>Nunc aliud pretium flammae nomenque dederunt,</l>
+                    <l n="290">Nec iam terra vocor, licet ex me terra paretur.</l>
+                    <pb type="image" n="0240"/>
+                    <fw>CARMNA</fw>
+                    <pb type="page" n="244"/>
+                    <note ana="Side note">V V</note>
+                </div>
+                <div>
+                    <head>XXXXII Mulier quae geminos pariebat</head>
+                    <l>Plus ego sustinui, quam corpus debuit unum.</l>
+                    <l>Tres animas habui, quas omnes intus habebam:</l>
+                    <l>Discessere duae, sed tertia paene secuta est.</l>
+                </div>
+                <div>
+                    <head>LXXXXI1I Miles podagricus</head>
+                    <l>Bellipotens olim, saevis metuendus in armis,</l>
+                    <l>Quinque pedes habui, quod numquam nemo negavit. 295s</l>
+                    <l>Nunc mihi vix duo sunt; inopem me copia fecit.</l>
+                    <note ana="Side note">V V c 1</note>
+                </div>
+                <div>
+                    <head>LXXXXIII Luscus alium tenens</head>
+                    <l>Cernere iam fas est, quod vix tibi credere fas est.</l>
+                    <l>Vnus inest oculus, capitum sed milia multa.</l>
+                    <l>Qui quod habet vendit, quod non habet unde parabit?</l>
+                    <note ana="Side note">r</note>
+                </div>
+                <div>
+                    <head>LXXXXV Funambulus</head>
+                    <l>Inter luciferum caelum terrasque iacentes</l>
+                    <l>Ara per medium docta meat arte viator.</l>
+                    <l>Semita sed brevis est, pedibus nec sufficit ipsis.</l>
+                    <pb type="image" n="0241"/>
+                    <fw>CODICIS SALMASIANI.</fw>
+                    <pb type="page" n="245"/>
+                </div>     
+                <div>
+                    <head>LXXXXVI</head>
+                    <l>[Nunc mihi iam credas, fieri quod posse negatur.</l>
+                    <l>Octo tenes manibus, sed me monstrante magistro</l>
+                    <l n="305">Sublatis septem reliqui tibi quinque manebunt]</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXVII Vmbra</head>
+                    <l>Insidias nullas vereor de fraude latenti;</l>
+                    <l>Nam deus attribuit nobis haec munera formae,</l>
+                    <l>Quod me nemo movet, nisi qui prius ipse movetur.</l>
+                </div>
+                <div>
+                    <head cert="high">LXXXXVIII Echo</head>
+                    <milestone n="p. 156" unit="page"/>
+                    <l>Virgo modesta nimis legem bene servo pudoris.</l>
+                    <l n="310">Ore procax non sum nec sum temeraria linguae.</l>
+                    <l cert="low">ltro nolo loqui, sed do responsa loquenti.</l>
+                </div>
+                <div>
+                    <head cert="high">XXXXVIIII Somnus</head>
+                    <l>Sponte mea veniens varias ostendo figuras.</l>
+                    <l>Fingo metus vanos nullo discrimine veri.</l>
+                    <l>Sed me nemo videt, nisi qui sua lumina claudit.</l>
+                    <pb type="image" n="0242"/>
+                    <fw>CARMINA</fw>
+                    <pb type="page" n="246"/>
+                </div>
+                <div>
+                    <head>C Monumentum</head>
+                    <l n="315">Nomen habens hominis post ultima fata relinquor.</l>
+                    <l>Nomen inane manet, sed dulcis vita profugit.</l>
+                    <l>Vita tamen superest morti post tempora vitae.</l>
+                </div>
+                <div>
+                    <l>Mater me genuit, eadem mox gignitur ex me.</l>
+                </div>
             </div>
-            <div type="textpart" subtype="poem">
-                <head>LXXXXVI</head>
-                <l>[Nunc mihi iam credas, fieri quod posse negatur.</l>
-                <l>Octo tenes manibus, sed me monstrante magistro</l>
-                <l n="305">Sublatis septem reliqui tibi quinque manebunt]</l>
-                <head cert="high">LXXXVII Vmb</head>
-                <l>Insidias nullas vereor de fraude latenti;</l>
-                <l>Nam deus attribuit nobis haec munera formae,</l>
-                <l>Quod me nemo movet, nisi qui prius ipse movetur.</l>
-                <head cert="high">LXXXXVIII Eio</head>
-                <milestone n="p. 156" unit="page"/>
-                <l>Virgo modesta nimis legem bene servo pudoris.</l>
-                <l n="310">Ore procax non sum nec sum temeraria linguae.</l>
-                <l cert="low">ltro nolo loqui, sed do responsa loquenti.</l>
-                <head cert="high">XXXXVIIII Somnus</head>
-                <l>Sponte mea veniens varias ostendo figuras.</l>
-                <l>Fingo metus vanos nullo discrimine veri.</l>
-                <l>Sed me nemo videt, nisi qui sua lumina claudit.</l>
-                <pb type="image" n="0242"/>
-                <fw>CARMINA</fw>
-                <pb type="page" n="246"/>
-                <l>C Monumentum</l>
-                <l n="315">Nomen habens hominis post ultima fata relinquor.</l>
-                <l>Nomen inane manet, sed dulcis vita profugit.</l>
-                <l>Vita tamen superest morti post tempora vitae.</l>
-                <l>Mater me genuit, eadem mox gignitur ex me.</l>
+            <div>
                 <pb type="image" n="0243"/>
                 <fw>B. V I 1 83.</fw>
                 <fw>LVXORII</fw>
