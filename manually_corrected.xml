@@ -8879,16 +8879,16 @@
             <div type="textpart" subtype="poem" n="380">
                 <note ana="Side note">B. d Lux. 88.</note>
                 <note ana="Side note">M. 555.</note>
-                <head cert="high">v e. DOMNI PETRI REERENDARII</head>
+                <head cert="high">DOMNI PETRI REFERENDARII</head>
                 <note ana="Side note">IV I m</note>
                 <note ana="Notes">p. 92</note>
-                <l>Versus in basiliea palatii sanctae Mariae</l>
+                <head>Versus in basiliea palatii sanctae Mariae</head>
                 <l>Qualiter intacta processit Virgine partus</l>
                 <l>Vtque pati voluit Natus, perquirere noli.</l>
                 <l>Haec nulli tractare licet, sed credere tantum.</l>
             </div>
             <div type="textpart" subtype="poem" n="381">
-                <l>[A ulcem]</l>
+                <head><add>Ad Dulcem</add></head>
                 <note ana="Side note">B M. B. 1.</note>
                 <l>Felices illos qui te genuere parentes,</l>
                 <l>Felicem solem qui te videt omnibus horis,</l>
@@ -8901,7 +8901,7 @@
                 <l>Totus in igne fui: non sum consumptus et arsi.</l>
             </div>
             <div type="textpart" subtype="poem" n="382">
-                <l>[Ad meretricem]</l>
+                <head><add>Ad meretricem</add></head>
                 <note ana="Side note">B. M. B. i.</note>
                 <l>Post mille amplexus, post dulcia savia penem</l>
                 <note ana="Notes">p. 93</note>
@@ -8916,13 +8916,14 @@
                 <l>Vt tu victorem superes. noctisque futurae</l>
                 <l>Incipiant tenebrae, numerum qua spondeo ternum!</l>
                 <pb type="image" n="0290"/>
-                <fw>DE SIN 6v.IS CAVSIS</fw>
-                <fw>r r</fw>
+            </div>
+            <div>
+                <head>DE SINGVLVS CAUSIS</head>
+                <head><add>QVAE SVPERSUNT</add></head>
                 <pb type="page" n="7"/>
                 <pb type="page" n="I"/>
                 <fw>p.2 3</fw>
-                <head cert="high">[VAE SVPERSsvNr)</head>
-                <l>Sunt uersus LXX</l>
+                <p>Sunt uersus LXX</p>
             </div>
             <div type="textpart" subtype="poem" n="383">
                 <note ana="Side note">B. V 172.</note>
@@ -8953,7 +8954,7 @@
             <div type="textpart" subtype="poem" n="385">
                 <note ana="Side note">B. V 1783.</note>
                 <note ana="Side note">M. 1108.</note>
-                <l>Item de apro</l>
+                <head>Item de apro</head>
                 <note ana="Notes">B. IV 33.</note>
                 <l>Invadunt post terga suem. stat torvus in ira:</l>
                 <l>Creticus excutitur lunato dente rebellis,</l>
@@ -8966,6 +8967,8 @@
                 <l>Mandris notus olim felix fur, cautus et audax,</l>
                 <l>Quattuor in medio dicit peccasse colonas.</l>
                 <l>‘Sive ego sive lupus’, dixit, ‘tollatur et anser’.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="387">
                 <note ana="Side note">0</note>
                 <note ana="Side note">B M.</note>
                 <head>CAT0NIS</head>
@@ -8974,7 +8977,7 @@
                 <l cert="low">lnclitat, hominibus spargit memorabile factum,</l>
                 <l>Quod verbo divisit aquas molemque profundi</l>
                 <l>Discidit iussis, semel [ut] nudata natantum</l>
-                <l n="5" cert="low">lugera calcet homo. pelagus fodisse ligones</l>
+                <l n="5">Iugera calcet homo. pelagus fodisse ligones</l>
                 <l>Expavit natura maris: subducitur unda,</l>
                 <l>Tortilis anfractu liquidus converritur imber,</l>
                 <l>Oceanumque movent manibus; mare coclea sorbet.</l>
@@ -8985,24 +8988,26 @@
             <div type="textpart" subtype="poem" n="388">
                 <note ana="Side note">B. I 124.</note>
                 <note ana="Side note">M. 692.</note>
-                <head cert="high">De Pegaso ellerephonte et Chimaera</head>
+                <head cert="high">De Pegaso Bellerephonte et Chimaera</head>
                 <note ana="Side note">B. IV 433.</note>
                 <l>Vectum Pegaseo volucri pendente caballo</l>
                 <l>Conpita senserunt Bellerephonta denm.</l>
                 <l>Cuius iter vacuos et calcans ungula ventos</l>
-                <l>Rlia est.</l>
+                <l><gap reason="lost" /></l>
+                <note>Reliqua desunt.</note>
+            </div>
+            <div>
                 <pb type="image" n="0293"/>
                 <head>CARMNA</head>
                 <head>CODICVM SAECVLI IX</head>
                 <pb type="image" n="0294"/>
                 <fw>M I</fw>
                 <fw>CAREN</fw>
-                <head cert="high">CODICIS BEROLINENSIS DIE. 3 66</head>
-                <note ana="Side note">r</note>
+                <fw cert="high">CODICIS BEROLINENSIS DIE. 3 66</fw>
             </div>
             <div type="textpart" subtype="poem" n="388ᵃ">
                 <note ana="Side note">B. M.</note>
-                <l>[Celeuma]</l>
+                <head><add>Celeuma</add></head>
                 <note ana="Side note">B. III 167.</note>
                 <l>Heia, viri, nostrum reboans echo sonet heia!</l>
                 <l>Arbiter effusi late maris ore sereno</l>
