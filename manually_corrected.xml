@@ -9026,19 +9026,16 @@
                 <l>Convulsum remis spumet mare; os tamen: heia.</l>
                 <l>Vocibus adsiduis litus re[duci] sonet heia!</l>
                 <pb type="image" n="0295"/>
+            </div>
+            <div type="textpart" subtype="codex">
                 <fw>CARMINA</fw>
-                <fw>VI</fw>
-            </div>
-            <div type="textpart" subtype="poem">
                 <head>CODICIS PARISINI 8071</head>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>OIM TIVANEI</head>
+                <head>OLIM THVANEI</head>
             </div>
             <div type="textpart" subtype="poem" n="389">
                 <note ana="Side note">B. V 1.</note>
                 <note ana="Side note">M. 1021 q.</note>
-                <l>In laudem solis</l>
+                <head>In laudem solis</head>
                 <note ana="Side note">B. IV 43.</note>
                 <l>Dum mundum Natura potens terramque dicaret,</l>
                 <l>Sol dedit ipse diem. horrentia nubila caelo</l>
@@ -9056,10 +9053,10 @@
                 <fw>CODICIS PARISNI 8071.</fw>
                 <fw>q</fw>
                 <l>Quod caelum, quod terra tenuet, quod sustinet aequor.</l>
-                <l cert="low">linc calor infusus, totum qui continet orbem,</l>
-                <l>Dulcia mellifluae dum pandit munera vitae.</l>
+                <l >Hinc calor infusus, totum qui continet orbem,</l>
+                <l n="15">Dulcia mellifluae dum pandit munera vitae.</l>
                 <l>Ast ubi iam Titau croceum conscendit in orbem</l>
-                <l cert="low">2 Fluctibus ac nitidum tollit caput aethera in altum,</l>
+                <l n="22">Fluctibus ac nitidum tollit caput aethera in altum,</l>
                 <l n="17">Cuncta patent, quaccunque tacens nox clauserat atra,</l>
                 <l>Et silvae campique virent et florea rura.</l>
                 <l>Tunc placidum iacet omne mare et vernantibus undis</l>
@@ -9067,23 +9064,24 @@
                 <l n="21">Sic regit imperium mundi, sic tempora sancit.</l>
                 <l n="23">Mox tamen alipedum gemmautia lora rigescunt. . .</l>
                 <l>Aureus axis inest, currus ardescit ab auro,</l>
-                <l>Du pretio fulgens imitatur lumina Phoebi.</l>
-                <l cert="low">llc solus viget orbe dens, qtem cernere nobis</l>
-                <l cert="low">as nims es, cc iurat per florea rura.</l>
-                <l>O rm irtutis opus, quod flamma gubernat!</l>
-                <l cert="low">cc non igne suo praestat cum lumine sensus,</l>
-                <l n="30">Iinc cops, hinc vita redit, hinc cuncta resurguut.</l>
+                <l>Dum pretio fulgens imitatur lumina Phoebi.</l>
+                <l>Hic solus viget orbe dens, qtem cernere nobis</l>
+                <l>Fas nims es, cc iurat per florea rura.</l>
+                <l>O mirum virtutis opus, quod flamma gubernat!</l>
+                <l>Nec non igne suo praestat cum lumine sensus,</l>
+                <l n="30">Hnc cops, hinc vita redit, hinc cuncta resurguut.</l>
                 <l>Namque docet Phoenix, ustis reparata favillis</l>
                 <l>Omnia Phoebeo vivesccre corpora tactu.</l>
-                <l>Iaec vitam de morte petit, post fata vigorem,</l>
-                <l>Vascitur ut pcreat, perit ut nascatur ab igni,</l>
+                <l>Haec vitam de morte petit, post fata vigorem,</l>
+                <l>Nascitur ut pcreat, perit ut nascatur ab igni,</l>
                 <pb type="image" n="0297"/>
                 <pb type="page" n="302"/>
                 <fw>CARMINA</fw>
                 <l>Vna cadit totiens surgitque ac deficit una:</l>
                 <l>Rupe sedet, capitur radiis, et lumine Phoebi</l>
-                <l>Suscipit inmissum recidiva morte calorem..</l>
+                <l>Suscipit inmissum recidiva morte calorem.</l>
                 <l>Sol qui purpureo diffundit lumine terras,</l>
+                <milestone unit="absent" n="1025"/>
                 <l>Sol cui vernanti tellus respirat odorem,</l>
                 <l>Sol cui picta virent fecundo gramine prata,</l>
                 <l>Sol speculum caeli, divini numinis instar,</l>
@@ -9092,9 +9090,9 @@
                 <l>Sol Liber, Sol alma Ceres, Sol Iuppiter ipse,</l>
                 <l>Sol frater Triviae, insunt cui numina mille,</l>
                 <l>Sol qui quadriiugo difundit lumina curru,</l>
-                <l>Sol et Hlyperboreo fulget matutinus in ortu,</l>
+                <l>Sol et Hyperboreo fulget matutinus in ortu,</l>
                 <l>Sol reddit cum luce diem, Sol pingit Olympum.</l>
-                <l>Sol aestas, autumnus, hiems, Sol ver quoque gratum, 4</l>
+                <l n="49">Sol aestas, autumnus, hiems, Sol ver quoque gratum,</l>
                 <l n="51">Sol saeclum mensisque, dies Sol, annus et hora,</l>
                 <l>Sol globus aethereus, Sol est lux aurea mundi.</l>
                 <l>Sol bonus agricolis, nautis quoque prosper in undis,</l>
@@ -9105,16 +9103,16 @@
                 <pb type="image" n="0298"/>
                 <fw>CODICIS PARISINI 8071.</fw>
                 <pb type="page" n="303"/>
-                <l cert="low">9 Sol cui surgenti resonat levis unda canorem,</l>
+                <l n="59">Sol cui surgenti resonat levis unda canorem,</l>
                 <l n="50">Sol cui mergenti servat maris unda teporem,</l>
-                <l n="5S">Sol mundi caelique decus, Sol omnibus idem,</l>
-                <l>C0 Sol noctis lucisque decus, Sol finis et ortus.</l>
+                <l n="58">Sol mundi caelique decus, Sol omnibus idem,</l>
+                <l n="60">Sol noctis lucisque decus, Sol finis et ortus.</l>
             </div>
             <div type="textpart" subtype="poem" n="390">
                 <note ana="Side note">B. V 133.</note>
                 <note ana="Side note">M. 385.</note>
-                <head>EVCIIERIAE</head>
-                <note ana="Notes">fl. 58 r.</note>
+                <head>EVCHERIAE</head>
+                <note ana="Notes">fol. 58 r.</note>
                 <note ana="Side note">B. V 361.</note>
                 <l>Aurea concordi quae fulgent fila metallo</l>
                 <l>Setarum cumulis consociare volo:</l>
@@ -9139,8 +9137,8 @@
                 <l>Limacem pariter nunc sibi tructa petat:</l>
                 <l>Altaque iungatur vili cum vulpe leaena,</l>
                 <l>Perspicuam lyncem simius accipiat:</l>
-                <l cert="low">lungatur nunc cerva asino, nunc tigris onagro,</l>
-                <l cert="low">lungatur fesso concita damma bovi:</l>
+                <l>Iungatur nunc cerva asino, nunc tigris onagro,</l>
+                <l>Iungatur fesso concita damma bovi:</l>
                 <l>Nectareum vitient nunc lasera tetra rosatum</l>
                 <l>Mellaque cum fellis sint modo mixta malis:</l>
                 <l n="25">Gemmantem sociemus aquam luteumque barathrum,</l>
@@ -9162,17 +9160,17 @@
                 <l>Cervus aper coluber non cursu dente veneno</l>
                 <l>Vitarunt ictus, Maioriane, tuos.</l>
                 <pb type="image" n="0301"/>
+            </div>
+            <div type="textpart" subtype="poem" n="392">
                 <fw>CARMINA</fw>
-                <head>CODICIS VOSSIANI Q. 86</head>
+                <fw>CODICIS VOSSIANI Q. 86</fw>
                 <note ana="Side note">B. II 258.</note>
                 <note ana="Notes">Co. 3V</note>
                 <note ana="Side note">M. 210.</note>
-            </div>
-            <div type="textpart" subtype="poem" n="392">
                 <note ana="Notes">fol. 92 r.</note>
                 <note ana="Side note">B. IV 111.</note>
                 <l>Vt belli sonuere tubae, violenta peremit</l>
-                <l cert="low">lippolyte Teuthranta, Lyce Clonon, Oebalon Alce,</l>
+                <l>Hippolyte Teuthranta, Lyce Clonon, Oebalon Alce,</l>
                 <l>Oebalon ense, Clonon iaculo, Teuthranta sagitta.</l>
                 <l>Oebalus ibat equo, curru Clonus, at pede Teuthras,</l>
                 <l n="5">Plus puero Teuthras, puer Oebalus, at Clouus heros.</l>
@@ -9182,9 +9180,9 @@
                 <pb type="page" n="307"/>
                 <l>Iphicli Teuthras, Dorycli Clonus, Oebalus ldae;</l>
                 <l>Argolicus Teuthras, Moesus Clonus, Oebalus Arcas.</l>
-                <note ana="Side note">B. II 257.</note>
             </div>
             <div type="textpart" subtype="poem" n="393">
+                <note ana="Side note">B. II 257.</note>
                 <note ana="Side note">M. 253.</note>
                 <note ana="Side note">B. IV 112.</note>
                 <l>Almo Theon Thyrsis orti sub colle Pelori</l>
@@ -9198,9 +9196,8 @@
                 <note ana="Notes">fol. 92 u.</note>
             </div>
             <div type="textpart" subtype="poem" n="394">
-                <l>Versu de †numero dierum ingulorum [</l>
+                <head>Versus de †numero dierum ingulorum mensium</head>
                 <note ana="Side note">M. 1037.</note>
-                <l cert="low">menium</l>
                 <note ana="Side note">B. I 205.</note>
                 <l>Dira patet Iani Romanis ianua bellis.</l>
                 <l>Vota deo Diti Februa mensis habet.</l>
@@ -9222,74 +9219,73 @@
             </div>
             <div type="textpart" subtype="poem" n="395">
                 <note ana="Side Note">M. 10</note>
-                <l cert="low">singulis mensibus</l>
-                <l>Ianuarius</l>
-                <l cert="low">lic Hani mensis sacer est (en aspice ut aris</l>
+                <head>Tetrastichon authenticum singulis mensibus</head>
+                <div><head>Ianuarius</head>
+                <l cert="low">hic Hani mensis sacer est (en aspice ut aris</l>
                 <l>Tura micent, sumant ut pia iura Lares),</l>
                 <l>Annorum saeclique caput, natalis honorum,</l>
-                <l>Purpureos fastis qui numerat proceres.</l>
-                <l>Februariusfol.93r</l>
+                <l>Purpureos fastis qui numerat proceres.</l></div>
+                <div><head>Februarius</head>
+                <milestone n="93r" unit="folio" />
                 <l>At quem caeruleus nodo constringit amictus</l>
                 <l>Quique paludicolam prendere gaudet avem,</l>
                 <l>Daedala quem iactu pluvio circumvenit Iris,</l>
-                <l>Romuleo ritu Februa mensis habet.</l>
-                <l>Martius</l>
+                <l>Romuleo ritu Februa mensis habet.</l></div>
+                <div><head>Martius</head>
                 <l>Cinctum pelle lupae promptum est cognoscere mensem:</l>
                 <l>Mars olli nomen, Mars dedit exuvias.</l>
                 <l>Tempus ver[num] aedus petulans et garrula hirundo</l>
-                <l>Indicat et sinus lactis et herba virens.</l>
-                <l>Aprilis</l>
+                <l>Indicat et sinus lactis et herba virens.</l></div>
+                <div><head>Aprilis</head>
                 <l>Contectam myrto Venerem veneratur Aprilis:</l>
                 <l>Lumen veris habet, quo nitet alma Thetis.</l>
                 <pb type="image" n="0305"/>
-            </div>
-            <div type="textpart" subtype="poem">
-                <head>CARMNA</head>
+                <fw>CARMNA</fw>
                 <l>Cereus et dexra flammas diffundit odoras,</l>
                 <l>Balsama nec desunt, quis redolet Paphie.</l>
-                <l>Maius</l>
+                </div><div><head>Maius</head>
                 <l>Cunctas veris opes et picta rosaria gemmis</l>
                 <l>Liniger in calathis, aspice, Maius habet,</l>
                 <l>Mensis Atlantigenae dictus cognomine Maiae,</l>
-                <l>Quem merito multum diligit Vranie.</l>
-                <l>Iunius</l>
+                <l>Quem merito multum diligit Vranie.</l></div>
+                <div><head>Iunius</head>
                 <l>Nudus membra dehinc solares respicit horas</l>
                 <l>Iunius ac Phoebum flectere monstrat iter.</l>
                 <l>Lampas maturas Cereris designat aristas</l>
                 <l>Floralisque fugas lilia fusa docent.</l>
-                <l>Iulius</l>
+                </div><div><head>Iulius</head>
                 <l>Ecce coloratos ostentat Iulius artus,</l>
                 <l>Crines cui rutilos spicea serta ligat.</l>
                 <l>Morus sanguineos praebet gravidata racemos,</l>
-                <l>Quae medio Cancri sidere laeta viret.</l>
-                <l>Augustus</l>
+                <l>Quae medio Cancri sidere laeta viret.</l></div>
+                <div><head>Augustus</head>
                 <l>Fontanos latices et lucida pocula vitro</l>
                 <l>Cerne ut demerso torridus ore bibat</l>
                 <l>Aeterno regni signatus nomine mensis,</l>
                 <l>Latona genitam quo perhibent Hecaten.</l>
-                <pb type="image" n="0306"/>
+                </div><pb type="image" n="0306"/>
                 <fw>CODICIS VOSSIANI Q. 86.</fw>
                 <pb type="page" n="311"/>
-                <l>September</l>
+                <div><head>September</head>
                 <l>Turgentes acinos varias et praesecat uvas</l>
                 <l>September, sub quo mitia poma iacent,</l>
                 <l>Captivam filo gandens religasse lacertam,</l>
                 <l>Quae suspensa manu mobile ludit opus.</l>
-                <l>Oetob s.</l>
-                <l>Dat prensum leporem cumque†ipso palite fetus</l>
-                <l>O0cober; piois dat ubi ru aes ?. 7 3</l>
-                <l>Iam Bromios spumare lacus et musta sonare t.†</l>
-                <l n="40">Apparet: vino vas calet ecce novo.</l>
-                <l>November</l>
+                </div><div><head>October</head>
+                <l>Dat prensum leporem cumque ipso palmite fetus</l>
+                <l>October; pinguisdat ubi ruris aves.</l>
+                <l>Iam Bromios spumare lacus et musta sonare</l>
+                <l n="40">Apparet: vino vas calet ecce novo.</l></div>
+                <div><head>November</head>
                 <l>Carbaseos post hunc artus indutus amictus</l>
                 <l>Memphidos antiquae sacra deamque colit,</l>
-                <l cert="low">quo vix avidus sistro compescitur anser</l>
-                <l>Devotusque satis incola Memphideis.</l>
-                <l>December</l>
+                <l>A quo vix avidus sistro compescitur anser</l>
+                <l>Devotusque satis incola Memphideis.</l></div>
+                <div><head>December</head>
                 <l n="45">Annua sulcatae †coniecti semina terrae</l>
                 <l>Pascit hiems; Pluvio de Iove cuncta madent.</l>
                 <l>Aurea nunc revocet Saturno festa December:</l>
-                <l>Nunc tibi cum domino ludere, verna, licet.</l>
+                <l>Nunc tibi cum domino ludere, verna, licet.</l></div>
                 <pb type="image" n="0307"/>
                 <fw>CARMINA</fw>
                 <pb type="page" n="312"/>
@@ -9297,15 +9293,17 @@
             <div type="textpart" subtype="poem" n="396">
                 <note ana="Side note">B. III 151.</note>
                 <note ana="Side note">M. 134.</note>
-                <l>Parcendum misero</l>
+                <head>Parcendum misero</head>
                 <note ana="Side note">B. IV 57.</note>
                 <l>Occisum iugulum quisquis scrutaris †amici,</l>
                 <l>Tu miserum necdum me satis esse putas?</l>
                 <l>Desere confossum victori vulnus iniquo</l>
                 <l>Mortiferum impressit mortua saepe manus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="397">
                 <note ana="Side note">B. II 48.</note>
                 <note ana="Side note">M. 744.</note>
-                <l>Mors Catonis</l>
+                <head>Mors Catonis</head>
                 <note ana="Notes">fol. 93 u.</note>
                 <note ana="Side note">B. IV 58.</note>
                 <l>Invictum victis in partibus, omnia Caesar</l>
@@ -9314,7 +9312,7 @@
             <div type="textpart" subtype="poem" n="398">
                 <note ana="Side note">B. II 49.</note>
                 <note ana="Side note">M. 745.</note>
-                <l>[Iteml</l>
+                <head>[Item]</head>
                 <note ana="Side note">B. IV 58.</note>
                 <l>Ictu non potuit primo Cato solvere vitam:</l>
                 <l>Defecit tanto vulnere victa manus.</l>
@@ -9328,7 +9326,7 @@
             <div type="textpart" subtype="poem" n="399">
                 <note ana="Side note">B. II 50. 51.</note>
                 <note ana="Side note">M. 746.</note>
-                <l>[Iteml</l>
+                <head>[Item]</head>
                 <note ana="Side note">B. IV 58.</note>
                 <l>Iussa manus sacri pectus violare Catonis</l>
                 <l>Haesit et inceptum victa reliquit opus.</l>
@@ -9342,7 +9340,7 @@
             <div type="textpart" subtype="poem" n="400">
                 <note ana="Side note">B. II 26.</note>
                 <note ana="Side note">M. 732.</note>
-                <l>Epitaphion Pompeiorum</l>
+                <head>Epitaphion Pompeiorum</head>
                 <note ana="Side note">B. IV 59.</note>
                 <l>Magne, premis Libyam; fortes tua pignera nati</l>
                 <l>Europam atque Asiam. nomina tanta iacent!</l>
@@ -9350,7 +9348,7 @@
             <div type="textpart" subtype="poem" n="401">
                 <note ana="Notes">B. II 27.</note>
                 <note ana="Notes">M. 733.</note>
-                <l>[Item]</l>
+                <head>[Item]</head>
                 <note ana="Side note">B. b.</note>
                 <l>Quam late vestros duxit Fortuna triumphos,</l>
                 <l>Tam late sparsit funera, Magne, tua.</l>
